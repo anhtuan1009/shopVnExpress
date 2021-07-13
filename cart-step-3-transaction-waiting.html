@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<base href="" />
+	<title>Shop Vnexpress version 2</title>
+	<meta name="robots" content="index, follow">
+	<meta name="description" content="">
+	<link rel="shortcut icon" href="https://s.vnecdn.net/shop/i/v3/manifest/favicon-32x32.png">
+	<link type="text/css" rel="stylesheet" href="theme/frontend/css/normalize.min.css" />
+	<link type="text/css" rel="stylesheet" href="theme/frontend/css/bootstrap.min.css" />
+	<link type="text/css" rel="stylesheet" href="theme/frontend/css/animate.css" />
+	<link type="text/css" rel="stylesheet" href="theme/frontend/css/swiper.min.css" />
+	<link type="text/css" rel="stylesheet" href="theme/frontend/css/style-pc.css" />
+	<link type="text/css" rel="stylesheet" href="theme/frontend/css/fontawesomepro531.css" />
+	<link type="text/css" rel="stylesheet" href="theme/frontend/jquery-ui-1.12.1.custom/jquery-ui.min.css">
+	<script src="theme/frontend/js/jquery-2.2.1.min.js"></script>
+	<script src="theme/frontend/js/bootstrap.min.js"></script>
+	<script src="theme/frontend/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+</head>
+<body class="view_pc" itemscope itemtype="http://schema.org/WebPage">
+	<div class="load"><span class="loading"></span></div>
+
+	<header class="box header header-cart">
+		<div class="container">
+			<div class="row">
+					
+				<div class="col-left brand">
+					<a href="index.html" title="Shop VnExpress" class="m-logo">
+						<img src="theme/frontend/images/m_home_shovne_05.png" alt="Logo Shop VnExpress" class="">
+					</a>
+				</div>
+
+				<div class="col-step-cart">
+					<section class="box-step-buy" id="box-step-buy">
+						<ul class="list-step">
+							<li class="item-step"><a href="cart.html" class="box">Giỏ hàng</a></li>
+							<li class="item-step"><a href="cart-step-1.html" class="box">Thông tin giao hàng</a></li>
+							<li class="item-step"><a href="cart-step-2.html" class="box">Thanh toán</a></li>
+							<li class="item-step active"><a href="cart-step-3-transaction-failed.html" class="box">Xác nhận</a></li>
+						</ul>
+					</section>				  
+				</div>
+			</div>
+		</div>
+		
+	</header>
+
+	<div class="container">
+		<div class="row">
+			<div class="wrap-btn-goback clearfix visibility-hidden">
+				<a href="index.html" class="goback"> <span class="fal fa-reply"></span> Quay lại</a>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="container" id="container_category_2">
+		<div class="row">
+
+
+			<div class="pc-cart-step-3">
+				<div class="col-left-cart">
+
+					<section class="box notification clearfix">
+						<div class="content-box">
+							<br>
+							<div style="text-align: center; margin-bottom: 15px;">
+								<div class="icon-waiting">
+									<div class="up">
+										<div class="innera"></div>
+									</div>
+									<div class="down">
+										<div class="innerb"></div>
+									</div>
+								</div>
+							</div>
+							<p style="text-align: center;font-size: 18px; color: #242424; line-height: 32px;">CHỜ THANH TOÁN!</p>
+
+							<p class="text-center">Đơn hàng <strong>DH123456 ; DH3455534 ; DH39393</strong> của quý khách thanh toán không thành công, vui lòng thanh toán lại.</p>
+
+							<p style="text-align: center; margin-bottom: 30px;">Hỗ trợ ngay : <strong>1900.633.376</strong> </p>
+							
+							<a href="cart-step-3-transaction-successful.html" title="" class="btn-checkout" style="max-width: 250px; margin: 0 auto;">THANH TOÁN LẠI</a>
+						</div>
+					</section>
+
+					<br>
+					<div class="wrap-total-checkout">
+						<div id="wrapper_cart" style="max-height: 0; overflow: hidden;">
+							<section class="box wrap-orders clearfix">
+								<form action="" method="post" class="box form-order clearfix">
+									<div class="box scroll_box clearfix">
+
+										<table class="table table-order" id="cart">
+											<thead class="cf">
+												<tr>
+													<th colspan="3">Thông tin đơn hàng</th>
+													<th style="width: 100px;">Đơn giá</th>
+													<th style="width: 96px;">Số lượng</th>
+													<th style="width: 110px;text-align: right;">Thành tiền</th>
+												</tr>
+											</thead>
+										</table>
+										<table class="table table-order" id="cart">
+											<tbody>
+													<tr>
+														<td colspan="5" class="group-cart-name">
+															<div class="title-order">
+																<span class="title">Đơn hàng 1 (Apple)</span>
+																<span class="time-oder">- Giao tiêu chuẩn ; dự kiến 25/4/2019</span>
+																<span class="btn-unset-cart" data-toggle="modal" data-target="#popup_unset_cart">Hủy đơn hàng</span>
+															</div>
+														</td>
+													</tr>
+													<tr>
+														<td style="width: 120px;">
+															<div class="wrap-img">
+																<a href="" title="" class="img-item-cart">
+																	<img src="theme/frontend/images/preview/preview_cart.png" alt="" class="">
+																</a>
+															</div>
+														</td>
+														<td> 
+															<a href="" title="" class="name-product"> AQUA AQF-R320 210L</a>
+														</td>
+														<td style="width: 100px;">
+															<p class="unit-price">36.250.000đ</p>
+														</td>
+														<td style="width: 96px;">
+															<p class="show-selected-quantity">2</p>
+														</td>
+														<td style="width: 110px;text-align: right;"><p class="amount">36.250.000đ</p></td>
+													</tr>
+													<tr>
+														<td>
+															<div class="wrap-img">
+																<a href="" title="" class="img-item-cart">
+															  		<img src="theme/frontend/images/preview/preview_cart.png" alt="" class="">
+																</a>
+															</div>
+														</td>
+														<td> 
+															<a href="" title="" class="name-product"> AQUA AQF-R520 365L </a>
+														</td>
+														<td>
+															<p class="unit-price">28.150.000đ</p>
+														</td>
+														<td>
+															<p class="show-selected-quantity">1</p>
+														</td>
+														<td style="text-align: right;"><p class="amount">28.150.000đ</p></td>
+													</tr>
+													<tr class="no-boder">
+														<td colspan="5" style="padding-top: 0; ">
+															<div class="group-attach-sales">
+																<div class="item-sale">
+																	<div class="info">
+																		<div class="box-img-attach">
+																			<img src="theme/frontend/images/preview/pro_attach.png" alt="">
+																		</div>
+																		<a href="#" title="" class="name">Bao da cao cấp Galaxy Note 8</a>
+																		<p class="i">(khuyến mại đi kèm)</p>
+																	</div>
+																	<div class="price">
+																		<p>Miễn phí</p>
+																	</div>
+																</div>
+																<div class="item-sale">
+																	<div class="info">
+																		<div class="box-img-attach">
+																			<img src="theme/frontend/images/preview/pro_attach.png" alt="">
+																		</div>
+																		<a href="#" title="" class="name">Bao da cao cấp Galaxy Note 8</a>
+																		<p class="i">(khuyến mại đi kèm)</p>
+																	</div>
+																	<div class="price">
+																		<p>Miễn phí</p>
+																	</div>
+																</div>
+															</div>
+														</td>
+													</tr>
+													<tr>
+														<td colspan="5" style="padding-left: 15px; ">
+															<div class="wrap-note-order">
+																<div class="label-box">Ghi chú:</div>
+																<div class="area-box">
+																	Tôi muốn nhận hàng trước 20/11, nếu sau 20/11 xin được hủy đơn hàng. Thank!
+																</div>
+															</div>
+														</td>
+													</tr>
+											</tbody>
+										</table>
+										<table class="table table-order" id="cart">
+											<tbody>
+
+													<tr>
+														<td colspan="5" class="group-cart-name">
+															<div class="title-order">
+																<span class="title">Đơn hàng 2 (Apple)</span>
+																<span class="time-oder">- Giao tiêu chuẩn ; dự kiến 25/4/2019</span>
+																<span class="btn-unset-cart" data-toggle="modal" data-target="#popup_unset_cart">Hủy đơn hàng</span>
+															</div>
+														</td>
+													</tr>
+													<tr>
+														<td style="width: 120px;">
+															<div class="wrap-img">
+																<a href="" title="" class="img-item-cart">
+															  		<img src="theme/frontend/images/preview/preview_cart.png" alt="" class="">
+																</a>
+															</div>
+														</td>
+														<td> 
+															<a href="" title="" class="name-product"> Sanyo EM-G2133V </a>
+														</td>
+														<td style="width: 100px;">
+															<p class="unit-price">2.330.000đ</p>
+														</td>
+														<td style="width: 96px;">
+															<!-- <div class="input-quantity" data-toggle="tooltip" title="Nhập số lượng bạn muốn mua">
+																<input type="number" min="1" max="100" value="1" class="choose-quantity">
+																<span class="up_num" title="Tăng số lượng"></span>
+																<span class="down_num" title="Giảm số lượng"></span>
+															</div> -->
+															<p class="bao-het-hang">Hết hàng</p>
+														</td>
+														<td style="width: 110px;text-align: right;"><p class="amount">2.330.000đ</p></td>
+													</tr>
+													<tr>
+														<td colspan="5" style="padding-left: 15px; ">
+															<div class="wrap-note-order">
+																<div class="label-box">Ghi chú:</div>
+																<div class="area-box">
+																	Tôi muốn nhận hàng trước 20/11, nếu sau 20/11 xin được hủy đơn hàng. Thank!
+																</div>
+															</div>
+														</td>
+													</tr>
+											</tbody>
+										</table>
+										
+									</div>
+								</form>
+							</section>
+						</div>
+
+						<div class="group-btn-click">
+							<span class="btn-show-more">Xem chi tiết đơn hàng <i class="fal fa-angle-down"></i></span>
+							<span class="btn-hide-more">Thu gọn <i class="fal fa-angle-up"></i></span>
+						</div>
+
+					</div>
+
+				</div>
+				<div class="col-right-cart">
+
+					<box class="box-inner amount-fixed">
+						<section class="col-right-trans">
+							<div class="title-box">
+								<h3>Thông tin giao hàng</h3>
+							</div>
+							<div class="box-content">
+								<div class="item-info customer-name"><p class="trans-cell">Họ tên khách hàng: </p> <p class="trans-cell">Đinh Thị Phương Anh</p></div>
+								<div class="item-info customer-phone"><p class="trans-cell">Số điện thoại: </p> <p class="trans-cell">0979843527</p></div>
+								<div class="item-info customer-address"><p class="trans-cell">Địa chỉ: </p> <p class="trans-cell">17 Duy Tân, P Dịch Vọng Hâu, Q. Cầu Giấy,Hà Nội</p></div>
+							</div>
+						</section>
+
+						<section class="total-checkout-step-2">
+							<div class="title-box">
+								<h3>Hóa đơn</h3>
+							</div>
+							<div class="box-content">
+								<p class="total-amount">Tiền hàng : <span>40.500.000đ</span></p>
+								<p>Mã giảm giá : <span>-300.000đ</span></p>
+								<p>Phí vận chuyển : <span>20.000đ</span></p>
+								<div class="hr"></div>
+								<div class="total-invoice">
+									<p>Tổng tiền: <span class="value">40.220.000đ</span></p>
+								</div>
+							</div>
+
+							<a href="#" class="export-invoice active" data-toggle="modal" data-target="#popup_export_invoice">
+								<span class="cell-checkbox"></span>
+								<span class="title">Xuất hóa đơn</span>
+							</a>
+						</section>
+
+					</box>
+
+				</div>
+				
+			</div>
+
+
+		</div>
+
+	</div>
+	<!--#container_landing @tuanla60-->
+
+	<footer class="box clearfix">
+
+		<div class="footer-middle">
+			<div class="container">
+				<div class="row">
+					<div class="ft-middle-inner menu-bottom">
+						<div class="item-col">
+							<span class="title">Chăm sóc khách hàng</span>
+							<ul class="list-menu-bottom">
+								<li class="item-menu-bottom">
+									<a href="huong-dan-mua-hang.html" class="link" title="Hướng dẫn mua hàng">Hướng dẫn mua hàng</a>
+								</li>
+								<li class="item-menu-bottom">
+									<a href="chinh-sach-giao-hang.html" class="link" title="Giao và nhận hàng">Giao và nhận hàng</a>
+								</li>
+								<li class="item-menu-bottom">
+									<a href="https://shop.vnexpress.net/page/chinh-sach-bao-hanh.html" class="link" title="Chính sách bảo hành & đổi trả">Chính sách bảo hành & đổi trả</a>
+								</li>
+								<li class="item-menu-bottom">
+									<a href="Q-A.html" class="link" title="Câu hỏi thường gặp">Câu hỏi thường gặp</a>
+								</li>
+								<li class="item-menu-bottom">
+									<a href="Q-A-form-support.html" class="link" title="Gửi yêu cầu hỗ trợ">Gửi yêu cầu hỗ trợ</a>
+								</li>
+							</ul>
+						</div>
+						<div class="item-col">
+							<span class="title">Hợp tác đối tác</span>
+							<ul class="list-menu-bottom">
+								<li class="item-menu-bottom">
+									<a href="hop-tac-ban-hang.html" class="link" title="Tư vấn hợp tác bán hàng">Tư vấn hợp tác bán hàng</a>
+								</li>
+								<li class="item-menu-bottom">
+									<a href="#" class="link" title="Quy định mở shop">Quy định mở shop</a>
+								</li>
+								<li class="item-menu-bottom">
+									<a href="#" class="link" title="Ưu đãi mở shop">Ưu đãi mở shop</a>
+								</li>
+								<li class="item-menu-bottom">
+									<a href="#" class="link" title="Truyền thông kết hợp bán hàng">Truyền thông kết hợp bán hàng</a>
+								</li>
+							</ul>
+						</div>
+						<div class="item-col">
+							<span class="title">Về chúng tôi</span>
+							<ul class="list-menu-bottom">
+								<li class="item-menu-bottom">
+									<a href="gioi-thieu.html" class="link" title="Giới thiệu Shop VnExpress">Giới thiệu Shop VnExpress</a>
+								</li>
+								<li class="item-menu-bottom">
+									<a href="quy-che-hoat-dong.html" class="link" title="Quy chế hoạt động">Quy chế hoạt động</a>
+								</li>
+								<li class="item-menu-bottom">
+									<a href="#" class="link" title="Điều khoản và cam kết">Điều khoản và cam kết</a>
+								</li>
+							</ul>
+						</div>
+						<div class="item-col">
+							<span class="title">PHƯƠNG THỨC THANH TOÁN</span>
+							<div class="content-col mgbt30">
+								<img src="theme/frontend/images/payments.png" alt="">
+							</div>
+							<span class="title">ĐƠN VỊ VẬN CHUYỂN</span>
+							<div class="content-col">
+								<img src="theme/frontend/images/transport.png" alt="">
+							</div>
+						</div>
+						<div class="item-col">
+							<span class="title">KẾT NỐI VỚI CHÚNG TÔI</span>
+							<div class="link-facebook">
+								<a href="https://www.facebook.com/shop.vnexpress.net/" target="_blank" title="Kết nối Shop VnExpress trên facebook">
+									<img src="theme/frontend/images/fanpage-shopvne.jpg" alt="Fanpage facebook Shop VnExpress">
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer-intro">
+			<div class="container">
+				<div class="row">
+					<div class="ft-intro-inner wrap-tag-footer">
+						<h6 class="name-company"><strong>Shop VnExpress – Sàn TMĐT trực thuộc báo VnExpress.net</strong> – Báo Tiếng Việt nhiều người xem nhất.</h6>
+
+						<p>Shop VnExpress là Sàn giao dịch Thương mại điện tử đầu tiên trực thuộc Báo VnExpress. Hướng đến giá trị cốt lõi là mang sản phẩm, dịch vụ có thương hiệu, xuất xứ rõ ràng đến tay người tiêu dùng như <i class="underline"><a href="https://shop.vnexpress.net/retail/oppo" title="Oppo">Oppo</a>, <a href="https://shop.vnexpress.net/retail/kymdan" title="Kymdan">Kymdan</a>, <a href="https://shop.vnexpress.net/retail/dien-quang" title="Điện quang">Điện quang</a>, <a href="https://shop.vnexpress.net/retail/sunhouse" title="Sunhouse">Sunhouse</a>, <a href="https://shop.vnexpress.net/retail/beurer" title="Beurer">Beurer</a>, <a href="https://shop.vnexpress.net/retail/ibie" title="IBIE">IBIE</a>, <a href="https://shop.vnexpress.net/retail/venuco-madrid" title="Venuco Madrid">Venuco Madrid</a>, <a href="https://shop.vnexpress.net/retail/aristino-official" title="Aristino">Aristino</a>, <a href="https://shop.vnexpress.net/retail/timex-viet-nam" title="Timex">Timex</a>,...</i></p>
+
+						<p>Chỉ cần truy cập shop.vnexpress.net, bạn sẽ tìm thấy cho mình và người thân yêu tất cả các mặt hàng <i class="underline"> <a href="https://shop.vnexpress.net/gia-dung" title="gia dụng">gia dụng</a>, <a href="https://shop.vnexpress.net/nha-cua-doi-song" title="Nhà cửa đời sống">nhà cửa & đời sống</a>, thời trang nam nữ, <a href="https://shop.vnexpress.net/suc-khoe-lam-dep" title="Sức khỏe làm đẹp">sức khỏe & làm đẹp</a> cho đến công nghệ, <a href="https://shop.vnexpress.net/noi-that" title="Nội Thất">nội thất</a>, thiết bị thể thao… </i> </p>
+						<p>Đặc biệt, khách hàng sẽ được thỏa thích mua sắm với nhiều chương trình ưu đãi độc quyền, flash sale giá sốc, miễn phí giao hàng toàn quốc.</p>
+						<p style="margin-bottom: 15px;">Với đội ngũ trẻ năng động, nhiệt huyết, chúng tôi luôn sẵn sàng hỗ trợ khách hàng để mỗi lượt mua hàng của bạn trở nên đơn giản, nhanh chóng và thuận tiện.</p>
+
+						<p><strong>SẢN PHẨM ĐA DẠNG PHONG PHÚ:</strong></p>
+						<p>Từ điện tử công nghệ như <i class="underline"><a href="https://shop.vnexpress.net/tivi" title="Tivi">Tivi</a>, <a href="https://shop.vnexpress.net/dien-thoai" title="Điện thoại">Điện thoại</a>, smartphone</i> đến các sản phẩm gia dụng hữu ích cho người dùng như <i class="underline"><a href="https://shop.vnexpress.net/may-hut-mui-nha-bep" title="Máy hút mùi">máy hút mùi</a>, lò nướng, <a href="https://shop.vnexpress.net/bep-dien-tu" title="Bếp điện từ">Bếp điện từ</a>, <a href="https://shop.vnexpress.net/quat-dieu-hoa" title="Quạt điều hoà">Quạt điều hoà</a>,...</i> Shop VnExpress luôn lựa chọn những sản phẩm chính hãng, có chính sách đổi trả rõ ràng để giúp khách hàng mua sắm thuận tiện và an tâm hơn.</p>
+						<p>Các sản phẩm nội thất gia đình theo đúng tiêu chuẩn của gia đình Việt được sản xuất và gia công từ chính những doanh nghiệp nội thất hàng đầu trong nước. Với thiết kế đơn giản nhưng không thiếu đi sự tinh tế sẽ giúp bạn tìm được sản phẩm phù hợp với gia đình của mình.</p>
+						<p>Mua sắm nhanh chóng dễ dàng cùng đội ngũ chăm sóc khách hàng ân cần chu đáo, sẽ giúp bạn yên tâm khi lưa chọn Shop VnExpress là nơi giao dịch của mình. Hãy tìm những sản phẩm mà đang cần và trải nghiệm mua sắm online cùng Shop VnExpress.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer-bottom">
+			<div class="container">
+				<div class="row">
+					<div class="ft-bottom-inner">
+						<div class="info-company">
+							<div class="box">
+								<p><strong>Tên đăng ký:</strong> Công ty Cổ phần Dịch vụ trực tuyến FPT. <strong>Tên giao dịch:</strong> FPT Online JSC</p>
+								<p><strong>Địa chỉ trụ sở:</strong> Tầng 6, Tòa nhà Exchange Tower - số 1 Nam Kỳ Khởi Nghĩa, Phường Nguyễn Thái Bình, Quận 1, Tp.HCM.</p>
+								<p style="margin-bottom: 15px;"><strong>Điện thoại/ Fax:</strong> 1900.633.376 &nbsp;&nbsp;&nbsp;<strong>Email:</strong> shop@vnexpress.net</p>
+								<p><strong>Giấy chứng nhận đăng ký kinh doanh số 0305045911 do Sở Kế hoạch và Đầu tư Thành phố Hồ Chí Minh cấp ngày 22/12/2015</strong></p>
+							</div>
+							<div class="box-bct">
+								<img src="theme/frontend/images/label_dk.png" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	
+	<span class="back-to-top-badge back-to-top-small"><i class="fal fa-angle-up"></i>Back to Top</span>
+
+	<!-- Start #wrap-popup-group - Group popup page - Globe -->
+	<div id="wrap-popup-group">
+		
+		<!-- Start box-popup-invoice -->
+		<div class="box-popup-invoice" id="popup_unset_cart">
+			<div class="box-inner-popup divFadeInScale">
+				<div class="box-wrap-preview">
+					<div class="header-popup">
+						<p class="title-popup">Bạn muốn hủy đơn hàng:</p>
+					</div>
+					<div class="box-content-popup">
+
+						<form action="" method="post" class="" id="">
+							<fieldset>
+
+								<div class="form-group">
+									<label class="box control-label">Lý do hủy đơn hàng :</label>
+									<div class="box">
+										<select id="selectbasic" name="selectbasic" class="form-control">
+											<option value="0">-- Chọn lý do --</option>
+											<option value="1">Lý do 1</option>
+											<option value="2">Lý do 2</option>
+										</select>
+									</div>
+								</div>
+
+								<div class="form-group">
+									<label class="box control-label">Chi tiết hủy:</label>
+									<div class="box">
+										<textarea id="" name="" type="text" placeholder="Tại sao bạn lại hủy đơn hàng này?" rows="4" class="form-control input-md"></textarea>
+									</div>
+								</div>
+								<div class="popup-footer">
+									<div class="text-center"><button class="apply-btn">Hủy đơn</button></div>
+								</div>
+
+							</fieldset>
+						</form>
+
+					</div>
+				</div>
+
+				<div class="btn-close-warning" data-dismiss="modal">x</div>
+			</div>
+		</div>
+		<!-- End box-invoice -->
+
+	</div>
+	<!-- End #wrap-popup-group - Group popup page - Globe -->
+
+	<script src="theme/frontend/js/swiper.min.js" defer></script>
+	<script src="theme/frontend/js/script-pc.js" defer></script>
+	<!-- <script src="theme/frontend/js/fontawesome.js" defer></script> -->
+
+	<script>
+		$(document).ready(function() {
+			
+			if($('#wrapper_cart')[0]){
+				var max_height = 0;
+
+				$('.wrap-total-checkout .btn-show-more').click(function() {
+					$('.wrap-total-checkout').addClass('active');
+					$('#wrapper_cart').css('max-height','none');
+				});
+				$('.wrap-total-checkout .btn-hide-more').click(function() {
+					$('.wrap-total-checkout').removeClass('active');
+					$('#wrapper_cart').css('max-height',max_height);
+
+					$('html,body').animate({
+						scrollTop: $('.content-box').offset().top
+					});
+				});
+			}
+
+		})
+
+	</script>
+
+</body>
+</html>

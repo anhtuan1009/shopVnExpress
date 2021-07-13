@@ -1,0 +1,1262 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<base href="" />
+	<title>Shop Vnexpress version 2</title>
+	<meta name="robots" content="index, follow">
+	<meta name="description" content="">
+	<link rel="shortcut icon" href="https://s.vnecdn.net/shop/i/v3/manifest/favicon-32x32.png">
+	<link type="text/css" rel="stylesheet" href="theme/frontend/css/normalize.min.css" />
+	<link type="text/css" rel="stylesheet" href="theme/frontend/css/bootstrap.min.css" />
+	<link type="text/css" rel="stylesheet" href="theme/frontend/css/animate.css" />
+	<link type="text/css" rel="stylesheet" href="theme/frontend/css/swiper.min.css" />
+	<link type="text/css" rel="stylesheet" href="theme/frontend/css/style-pc.css" />
+	<link type="text/css" rel="stylesheet" href="theme/frontend/css/fontawesomepro531.css" />
+	<link type="text/css" rel="stylesheet" href="theme/frontend/jquery-ui-1.12.1.custom/jquery-ui.min.css">
+	<script src="theme/frontend/js/jquery-2.2.1.min.js"></script>
+	<script src="theme/frontend/js/bootstrap.min.js"></script>
+	<script src="theme/frontend/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+</head>
+<body class="view_pc" itemscope itemtype="http://schema.org/WebPage">
+	<div class="load"><span class="loading"></span></div>
+
+	<header class="box header header-cart">
+		<div class="container">
+			<div class="row">
+					
+				<div class="col-left brand">
+					<a href="index.html" title="Shop VnExpress" class="m-logo">
+						<img src="theme/frontend/images/m_home_shovne_05.png" alt="Logo Shop VnExpress" class="">
+					</a>
+				</div>
+
+				<div class="col-step-cart">
+					<section class="box-step-buy" id="box-step-buy">
+						<ul class="list-step">
+							<li class="item-step"><a href="cart.html" class="box">Giỏ hàng</a></li>
+							<li class="item-step active"><a href="cart-step-1.html" class="box">Thông tin giao hàng</a></li>
+							<li class="item-step"><a href="cart-step-2.html" class="box">Thanh toán</a></li>
+							<li class="item-step"><a href="cart-step-3-transaction-failed.html" class="box">Xác nhận</a></li>
+						</ul>
+					</section>				  
+				</div>
+			</div>
+		</div>
+		
+	</header>
+
+	<div class="container">
+		<div class="row">
+			<div class="wrap-btn-goback clearfix">
+				<a href="cart.html" class="goback"> <span class="fal fa-reply"></span> Quay lại giỏ hàng</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="container" id="container_category_2">
+		<div class="row">
+
+
+
+			<div class="pc-cart-step-2">
+				<div class="col-left-cart">
+
+					<section class="wrap-delivery-info clearfix">
+						<div class="title-box">
+							<h3>ĐỊA CHỈ GIAO HÀNG</h3>
+						</div>
+						<div class="content-box">
+							<div class="radio">
+								<!-- <label for="radios-delivery-0">
+									<input type="radio" name="radios-delivery" id="radios-delivery-0" value="1">
+									Đăng nhập tài khoản
+								</label> -->
+
+								<!-- Trường hợp đã đăng nhập -->
+								<label for="radios-delivery-0" class="user-info">
+									<input type="radio" name="radios-delivery" id="radios-delivery-0" value="1" checked="checked">
+									Đinh Thị Phương Anh - 0979843527
+									<span class="user-address">17 Phố Duy Tân, Dịch Vọng Hậu, Cầu Giấy, Hà Nội, Vietnam</span>
+
+									<!-- Đã được xác minh: thêm class "address-success" -->
+									<!-- <span class="user-address address-success">17 Phố Duy Tân, Dịch Vọng Hậu, Cầu Giấy, Hà Nội, Vietnam</span> -->
+								</label>
+
+								<div class="verify-address">
+									<span class="text" data-toggle="modal" data-target="#popup_edit_address">Xác minh tài khoản</span> <span class="btn-help"></span>
+									<div class="popop-verify">
+										<p>Xác minh địa chỉ để dự trù phí giao hàng chính xác nhất, hỗ trợ giao hỏa tốc 6h</p>
+										<p class="bold">Ghi chú:</p>
+										<p><span class="not-verify">Chưa xác minh</span><span class="verified">Đã xác minh</span></p>
+									</div>
+								</div>
+
+								<div class="btn-edit-info">
+									<a href="#" data-toggle="modal" data-target="#popup_edit_address"><i class="fas fa-pencil" aria-hidden="true"></i> Chọn địa chỉ khác</a>
+								</div>
+							</div>
+							<div class="radio">
+								<label for="radios-delivery-1">
+									<input type="radio" name="radios-delivery" id="radios-delivery-1" value="2">
+									Mua hàng không cần đăng nhập
+								</label>
+							</div>
+						</div>
+						<div class="box-no-login-buy" style="display: none;">
+							<form action="" method="post" class="" id="">
+								<fieldset>
+
+									<legend class="hidden">Mua hàng không cần đăng nhập</legend>
+
+									<div class="form-group clearfix">
+										<div class="col-xs-6">
+										  	<label class="box control-label" for="textinput">Họ và tên <span>(*)</span></label>  
+										  	<div class="box">
+											  	<input id="textinput" name="" type="text" placeholder="Nhập tên của bạn" class="form-control input-md" required>
+											  	<span class="err"></span>
+										  	</div>
+										</div>
+
+										<div class="col-xs-6">
+										  	<label class="box control-label" for="textinput">Số điện thoại <span>(*)</span></label>  
+										  	<div class="box">
+											  	<input id="textinput" name="" type="text" placeholder="Nhập số điện thoại" class="form-control input-md" required>
+											  	<span class="err"></span>
+										  	</div>
+										</div>
+									</div>
+
+									<div class="form-group clearfix">
+										<div class="col-xs-12">
+										  	<label class="box control-label" for="textinput">Email <span>(*)</span></label>  
+										  	<div class="box">
+											  	<input id="textinput" name="" type="email" placeholder="Nhập Email" class="form-control input-md" required>
+											  	<span class="err"></span>
+										  	</div>
+										</div>
+									</div>
+
+									<div class="form-group clearfix">
+										<div class="col-xs-6">
+										  	<label class="box control-label" for="selectbasic">Tỉnh / Thành phố <span>(*)</span></label>
+										  	<div class="box">
+												<select id="selectbasic" name="selectbasic" class="form-control" required>
+												  	<option value="0" disabled>Chọn tỉnh thành</option>
+												  	<option value="1">Option one</option>
+												  	<option value="2">Option two</option>
+												</select>
+											  	<span class="err"></span>
+										  	</div>
+										</div>
+
+										<div class="col-xs-6">
+										  	<label class="box control-label" for="selectbasic">Quận / Huyện <span>(*)</span></label>
+										  	<div class="box">
+												<select id="selectbasic" name="selectbasic" class="form-control" required>
+												  	<option value="0" disabled>Chọn quận huyện</option>
+												  	<option value="1">Option one</option>
+												  	<option value="2">Option two</option>
+												</select>
+											  	<span class="err"></span>
+										  	</div>
+										</div>
+									</div>
+
+									<div class="form-group clearfix">
+										<div class="col-xs-12">
+										  	<label class="box control-label" for="textinput">Đường phố <span>(*)</span><span class="verify-address">Vui lòng xác minh địa chỉ</span></label>
+										  	<div class="box box-autocomplete address-success">
+											  	<input id="click_demo" name="" type="text" placeholder="Nhập địa chỉ nhận hàng" class="form-control input-md">
+												<div class="wrap-list-address">
+													<div class="list-address">
+														<div class="item-address">Số 69, Hàm Nghi</div>
+														<div class="item-address">Số 69, Hàm Nghi</div>
+														<div class="item-address">Số 69, Hàm Nghi</div>
+														<div class="item-address">Số 69, Hàm Nghi</div>
+														<div class="item-address">Số 69, Hàm Nghi</div>
+														<div class="item-address">Số 69, Hàm Nghi</div>
+														<div class="item-address">Số 69, Hàm Nghi</div>
+														<div class="item-address">Số 69, Hàm Nghi</div>
+														<div class="item-address">Số 69, Hàm Nghi</div>
+														<div class="item-address">Số 69, Hàm Nghi</div>
+														<div class="item-address">Số 69, Hàm Nghi</div>
+														<div class="item-address">Số 69, Hàm Nghi</div>
+													</div>
+												</div>
+
+	<!-- <ul class="ui-autocomplete ui-front ui-menu ui-widget ui-widget-content ui-corner-all" id="ui-id-1" tabindex="0" style="display: block; position: absolute; top: 34px; left: 0; width: 100%;"><li class="ui-menu-item" role="presentation"><a id="ui-id-51" class="ui-corner-all" tabindex="-1">17 Ngõ 12B Lý Nam Đế, P, Hoàn Kiếm, Hà Nội, Vietnam</a></li><li class="ui-menu-item" role="presentation"><a id="ui-id-52" class="ui-corner-all" tabindex="-1">17 Tống Duy Tân, Hàng Bông, Hoàn Kiếm, Hà Nội, Vietnam</a></li><li class="ui-menu-item" role="presentation"><a id="ui-id-53" class="ui-corner-all" tabindex="-1">17 Phố Duy Tân, Dịch Vọng Hậu, Cầu Giấy, Hà Nội, Vietnam</a></li><li class="ui-menu-item" role="presentation"><a id="ui-id-54" class="ui-corner-all" tabindex="-1">Vũ Hữu Lợi, Nguyễn Du, Hai Bà Trưng, Hà Nội, Vietnam</a></li><li class="ui-menu-item" role="presentation"><a id="ui-id-55" class="ui-corner-all" tabindex="-1">9 Đào Duy Anh, Kim Liên, Đống Đa, Hà Nội, Vietnam</a></li></ul> -->
+												<script>
+												$(".box-no-login-buy #click_demo").click(function(e){
+													e.preventDefault();
+													$(".box-no-login-buy .list-address").toggle();
+												});
+												</script>
+											  	<span class="err"></span>
+										  	</div>
+										</div>
+									</div>
+
+									<div class="form-group clearfix">
+										<div class="col-xs-12">						
+											<div class="box-save-info active btn_save_info">
+												<div class="cell-checkbox"></div>
+												<span class="title">Lưu lại thông tin cho lần mua hàng sau</span>
+											</div>
+										</div>
+									</div>
+
+								</fieldset>
+							</form>
+						</div>
+					</section>
+
+					<section class="form-of-transportation clearfix">
+						<div class="title-box">
+							<h3>Hình thức vận chuyển</h3>
+						</div>
+						<div class="content-box">
+							<div class="box wrap-orders-step-2 clearfix mgbt10 boxshadow" id="wrap_orders">
+								<div class="box clearfix">
+									<div class="table-order" id="cart">
+										<div class="list-item-cart">
+											<form class="box form-order clearfix" action="" method="post">
+
+
+
+												<div class="wrap-item-cart">
+													<div class="title-order">
+														<span class="title">Đơn hàng 1 (Apple)</span>
+													</div>
+
+													<div class="wrap-transportation">
+														<div class="list-transportation">
+
+															<div class="item-trans active">
+																<label class="item-trans_" for="rdo_001">
+																	<input type="radio" id="rdo_001" name="service[100]" value="" checked>
+
+																	<span class="inner-item">
+																		<span class="item-value">Miễn phí</span>
+																		<span class="item-content">
+																			<img class="item-logo" src="theme/frontend/images/icon_ghn.png" alt="">
+																			<span class="item-name">Giao tiêu chuẩn</span>
+																			<span class="item-time">Nhận hàng ngày 2/5 - 3/5</span>
+																		</span>
+																	</span>
+																</label>
+															</div>
+															<div class="item-trans">
+																<label class="item-trans_ " for="rdo_002">
+																	<input type="radio" id="rdo_002" name="service[100]" value="">
+
+																	<span class="inner-item">
+																		<span class="item-value">Dự kiến: 15.000Đ</span>
+																		<span class="item-content">
+																			<img class="item-logo" src="theme/frontend/images/icon_grab.png" alt="">
+																			<span class="item-name">Giao nhanh 6h</span>
+																			<span class="item-time">Nhận hàng ngày 2/5 - 3/5</span>
+																		</span>
+																	</span>
+																</label>
+															</div>
+															<div class="item-trans no-support">
+																<label class="item-trans_ " for="rdo_003">
+																	<input type="radio" id="rdo_003" name="service[100]" value="">
+
+																	<span class="inner-item">
+																		<span class="item-value">Chọn khác</span>
+																		<span class="item-content">
+																			<img class="item-logo" src="theme/frontend/images/icon_other.png" alt="">
+																		</span>
+																	</span>
+																</label>
+															</div>
+
+														</div>
+													</div>
+													<!-- <div class="duthongtin">Vui lòng điền đủ thông tin giao hàng</div> -->
+
+													<div class="wrap-th-order">
+														<p class="th-title-order">Chi tiết đơn hàng</p>
+														<p class="th-quantity">Số lượng</p>
+														<p class="th-into-money">Thành tiền</p>
+													</div>
+													<div class="item-cart clearfix">
+														<div class="img-item-cart">
+															<a href="#" title="" class="box fancybox-thumb" rel="gal">
+														  		<img src="theme/frontend/images/preview/preview_07.png" alt="" class="">
+															</a>
+														</div>
+														<div class="info-item"> 
+															<a href="#" title="" class="name-product">Điện Thoại iPhone X 256GB - Hàng Nhập Khẩu</a>
+															<div class="list-inline">
+																<div class="input-quantity">
+																	<input type="number" min="1" max="100" value="1" class="choose-quantity" data-toggle="tooltip" data-original-title="Nhập số lượng bạn muốn mua" aria-describedby="tooltip933446">
+																	<span class="up_num" title="Tăng số lượng"></span>
+																	<span class="down_num" title="Giảm số lượng"></span>
+																</div>
+																<div class="amount-item">8,500,000đ</div>
+															</div>
+															<a href="#" class="btn-delete" data-toggle="modal" data-target="#box_popup_warning"><span class="fal fa-trash-alt"></span> Xóa</a>
+														</div>
+													</div>
+													<div class="wrap-note-order">
+														<div class="label-box">Ghi chú:</div>
+														<div class="area-box">
+															<textarea name="" id="" rows="1" placeholder="Nhập ghi chú đơn hàng"></textarea>
+														</div>
+													</div>
+												</div>
+
+
+
+												<div class="border-dot"></div>
+
+
+
+												<div class="wrap-item-cart">
+													<div class="title-order">
+														<span class="title">Đơn hàng 2 (Apple)</span>
+													</div>
+
+													<div class="wrap-transportation">
+														<div class="list-transportation">
+
+															<div class="item-trans active">
+																<label class="item-trans_" for="rdo_004">
+																	<input type="radio" id="rdo_004" name="service[101]" value="" checked>
+																	
+																	<span class="inner-item">
+																		<span class="item-value">Miễn phí</span>
+																		<span class="item-content">
+																			<img class="item-logo" src="theme/frontend/images/icon_ghn.png" alt="">
+																			<span class="item-name">Giao tiêu chuẩn</span>
+																			<span class="item-time">Nhận hàng ngày 2/5 - 3/5</span>
+																		</span>
+																	</span>
+																</label>
+															</div>
+															<div class="item-trans">
+																<label class="item-trans_ " for="rdo_005">
+																	<input type="radio" id="rdo_005" name="service[101]" value="">
+																	
+																	<span class="inner-item">
+																		<span class="item-value">Dự kiến: 15.000Đ</span>
+																		<span class="item-content">
+																			<img class="item-logo" src="theme/frontend/images/icon_grab.png" alt="">
+																			<span class="item-name">Giao nhanh 6h</span>
+																			<span class="item-time">Nhận hàng ngày 2/5 - 3/5</span>
+																		</span>
+																	</span>
+																</label>
+															</div>
+															<div class="item-trans">
+																<label class="item-trans_ " for="rdo_006">
+																	<input type="radio" id="rdo_006" name="service[101]" value="">
+																	
+																	<span class="inner-item">
+																		<span class="item-value">Chọn khác</span>
+																		<span class="item-content">
+																			<img class="item-logo" src="theme/frontend/images/icon_other.png" alt="">
+																		</span>
+																	</span>
+																</label>
+															</div>
+
+														</div>
+													</div>
+
+													<div class="wrap-th-order">
+														<p class="th-title-order">Chi tiết đơn hàng</p>
+														<p class="th-quantity">Số lượng</p>
+														<p class="th-into-money">Thành tiền</p>
+													</div>
+													<div class="item-cart clearfix">
+														<div class="img-item-cart">
+															<a href="#" title="" class="box fancybox-thumb" rel="gal">
+														  		<img src="theme/frontend/images/preview/preview_07.png" alt="" class="">
+															</a>
+														</div>
+														<div class="info-item"> 
+															<a href="#" title="" class="name-product">AQUA AQF-R320 210L</a>
+															<div class="list-inline">
+																<div class="input-quantity">
+																	<input type="number" min="1" max="100" value="1" class="choose-quantity" data-toggle="tooltip" data-original-title="Nhập số lượng bạn muốn mua" aria-describedby="tooltip933446">
+																	<span class="up_num" title="Tăng số lượng"></span>
+																	<span class="down_num" title="Giảm số lượng"></span>
+																</div>
+																<div class="amount-item">14,000,000đ</div>
+															</div>
+															<a href="#" class="btn-delete" data-toggle="modal" data-target="#box_popup_warning"><span class="fal fa-trash-alt"></span> Xóa</a>
+														</div>
+														<div class="group-attach-sales clearfix">
+															<div class="item-sale">
+																<div class="box-img-attach">
+																	<img src="theme/frontend/images/preview/pro_attach.png" alt="">
+																</div>
+																<div class="info">
+																	<a href="#" title="" class="name">Bao da cao cấp Galaxy Note 8</a>
+																	<p class="i">(khuyến mại đi kèm)</p>
+																</div>
+															</div>
+															<div class="item-sale">
+																<div class="box-img-attach">
+																	<img src="theme/frontend/images/preview/pro_attach.png" alt="">
+																</div>
+																<div class="info">
+																	<a href="#" title="" class="name">Bao da cao cấp Galaxy Note 8</a>
+																	<p class="i">(khuyến mại đi kèm)</p>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="wrap-note-order">
+														<div class="label-box">Ghi chú:</div>
+														<div class="area-box">
+															<textarea name="" id="" rows="1" placeholder="Nhập ghi chú đơn hàng"></textarea>
+														</div>
+													</div>
+												</div>
+
+
+
+												<div class="border-dot"></div>
+
+
+
+												<div class="wrap-item-cart">
+													<div class="title-order">
+														<span class="title">Đơn hàng 3 (Apple)</span>
+													</div>
+
+													<div class="wrap-transportation">
+														<div class="list-transportation">
+
+															<div class="item-trans active">
+																<label class="item-trans_" for="rdo_007">
+																	<input type="radio" id="rdo_007" name="service[102]" value="" checked>
+																	
+																	<span class="inner-item">
+																		<span class="item-value">Nhà cung cấp tự giao hàng (phí vận chuyển tính sau)</span>
+																	</span>
+																</label>
+															</div>
+
+														</div>
+													</div>
+
+													<div class="wrap-th-order">
+														<p class="th-title-order">Chi tiết đơn hàng</p>
+														<p class="th-quantity">Số lượng</p>
+														<p class="th-into-money">Thành tiền</p>
+													</div>
+													<div class="item-cart clearfix">
+														<div class="img-item-cart">
+															<a href="#" title="" class="box fancybox-thumb" rel="gal">
+														  		<img src="theme/frontend/images/preview/preview_07.png" alt="" class="">
+															</a>
+														</div>
+														<div class="info-item"> 
+															<a href="#" title="" class="name-product">Điện Thoại iPhone X 256GB - Hàng Nhập Khẩu</a>
+															<div class="list-inline">
+																<div class="input-quantity" data-toggle="tooltip" title="" data-original-title="Nhập số lượng bạn muốn mua" aria-describedby="tooltip933446">
+																	<input type="number" min="1" max="100" value="1" class="choose-quantity">
+																	<span class="up_num" title="Tăng số lượng"></span>
+																	<span class="down_num" title="Giảm số lượng"></span>
+																</div>
+																<div class="amount-item">8,500,000đ</div>
+															</div>
+															<a href="#" class="btn-delete" data-toggle="modal" data-target="#box_popup_warning"><span class="fal fa-trash-alt"></span> Xóa</a>
+														</div>
+													</div>
+													<div class="wrap-note-order">
+														<div class="label-box">Ghi chú:</div>
+														<div class="area-box">
+															<textarea name="" id="" rows="1" placeholder="Nhập ghi chú đơn hàng"></textarea>
+														</div>
+													</div>
+												</div>
+
+
+
+												<div class="border-dot"></div>
+
+
+
+												<div class="wrap-item-cart">
+													<div class="title-order">
+														<span class="title">Đơn hàng 4 (Apple)</span>
+													</div>
+
+													<div class="duthongtin">Vui lòng điền đủ thông tin giao hàng</div>
+
+													<div class="wrap-th-order">
+														<p class="th-title-order">Chi tiết đơn hàng</p>
+														<p class="th-quantity">Số lượng</p>
+														<p class="th-into-money">Thành tiền</p>
+													</div>
+													<div class="item-cart clearfix">
+														<div class="img-item-cart">
+															<a href="#" title="" class="box fancybox-thumb" rel="gal">
+														  		<img src="theme/frontend/images/preview/preview_07.png" alt="" class="">
+															</a>
+														</div>
+														<div class="info-item"> 
+															<a href="#" title="" class="name-product">Điện Thoại iPhone X 256GB - Hàng Nhập Khẩu</a>
+															<div class="list-inline">
+																<!-- <div class="input-quantity" data-toggle="tooltip" title="" data-original-title="Nhập số lượng bạn muốn mua" aria-describedby="tooltip933446">
+																	<input type="number" min="1" max="100" value="1" class="choose-quantity">
+																	<span class="up_num" title="Tăng số lượng"></span>
+																	<span class="down_num" title="Giảm số lượng"></span>
+																</div> -->
+																<p class="bao-het-hang">Hết hàng</p>
+																<div class="amount-item">8,500,000đ</div>
+															</div>
+															<a href="#" class="btn-delete" data-toggle="modal" data-target="#box_popup_warning"><span class="fal fa-trash-alt"></span> Xóa</a>
+														</div>
+													</div>
+													<div class="wrap-note-order">
+														<div class="label-box">Ghi chú:</div>
+														<div class="area-box">
+															<textarea name="" id="" rows="1" placeholder="Nhập ghi chú đơn hàng"></textarea>
+														</div>
+													</div>
+												</div>
+
+
+
+											</form>
+										</div>
+
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+
+				</div>
+				<div class="col-right-cart">
+
+					<box class="box-inner amount-fixed">
+						<section class="total-checkout-step-2">
+							<div class="box-content">
+								<p class="total-amount">Tiền hàng : <span>40.500.000đ</span></p>
+								<p>Mã giảm giá : <span>-300.000đ</span></p>
+								<p>Phí vận chuyển : <span>20.000đ</span></p>
+								<div class="hr"></div>
+								<div class="total-invoice">
+									<p>Tổng tiền: <span class="value">40.220.000đ</span></p>
+								</div>
+							</div>
+
+							<a href="#" class="export-invoice" data-toggle="modal" data-target="#popup_export_invoice">
+								<span class="cell-checkbox"></span>
+								<span class="title">Xuất hóa đơn</span>
+							</a>
+						</section>
+						
+						<a href="cart-step-2.html" title="" class="btn-checkout">Thanh toán đơn hàng</a>
+
+
+						<div class="box-tip-highlight">
+							<p>Nhấn vào mã bên dưới để hưởng ưu đãi.</p>
+						</div>
+
+						<div class="box-incentives" id="box_incentives">
+
+							<p class="title-box-incentives"><strong>Hỗ trợ phí vận chuyển:</strong></p>
+
+							<div class="list-item-incentives">
+								<div class="item-incentives active">
+									<div class="deal-value">GIẢM 300.000Đ</div>
+									<div class="deal-code">Mã: <strong>SHOPVNSN001</strong></div>
+									<div class="deal-description">Áp dụng: Đơn hàng <strong>Thời trang</strong> từ <strong>999.000đ</strong></div>
+									<div class="deal-time">Hạn sử dụng: 04/01 - 12/01</div>
+									<span class="btn-use active"></span>
+								</div>
+								<div class="item-incentives no-select">
+									<div class="deal-value">GIẢM 99.000Đ</div>
+									<div class="deal-code">Mã: <strong>TET19</strong></div>
+									<div class="deal-description">Áp dụng: Đơn hàng <strong>Thời trang</strong> từ <strong>999.000đ</strong></div>
+									<div class="deal-time">Hạn sử dụng: 04/01 - 12/01</div>
+									<span class="btn-use"></span>
+								</div>
+								<a href="#" class="btn-choose-other">Xem thêm <span class="far fa-chevron-down"></span></a>
+							</div>
+						</div>
+
+						<div class="box-incentives" id="box_incentives">
+
+							<p class="title-box-incentives"><strong>Mã giảm giá:</strong></p>
+							<p class="not-title">(Lưu ý: Chỉ sử dụng 01 mã cho một lần đặt hàng)</p>
+
+							<div class="box-check-code">
+								<form action="" method="post" class="box box_coupon">
+									<input type="text" name="" value="SHOPVNSN001">
+									<button class="btn-check-code">Xóa</button>
+								</form>
+								<div class="condition">Tổng tiền của bạn phải có giá trị từ <strong>700.000VND</strong></div>
+							</div>
+							<div class="list-item-incentives">
+								<div class="item-incentives active">
+									<div class="deal-value">GIẢM 300.000Đ</div>
+									<div class="deal-code">Mã: <strong>SHOPVNSN001</strong></div>
+									<div class="deal-description">Áp dụng: Đơn hàng <strong>Thời trang</strong> từ <strong>999.000đ</strong></div>
+									<div class="deal-time">Hạn sử dụng: 04/01 - 12/01</div>
+									<span class="btn-use active"></span>
+								</div>
+								<div class="item-incentives no-select">
+									<div class="deal-value">GIẢM 99.000Đ</div>
+									<div class="deal-code">Mã: <strong>TET19</strong></div>
+									<div class="deal-description">Áp dụng: Đơn hàng <strong>Thời trang</strong> từ <strong>999.000đ</strong></div>
+									<div class="deal-time">Hạn sử dụng: 04/01 - 12/01</div>
+									<span class="btn-use"></span>
+								</div>
+								<a href="#" class="btn-choose-other">Xem thêm <span class="far fa-chevron-down"></span></a>
+							</div>
+						</div>
+
+					</box>
+
+				</div>
+				
+			</div>
+
+
+			<section class="box box-new clearfix mgbt30">
+				<a class="box btn" href="javascript:;" data-toggle="modal" data-target="#popup_event_notify">Popup Mỗi Khách chỉ mua n sản phẩm...</a>
+			</section>
+
+
+		</div>
+
+	</div>
+	<!--#container_landing @tuanla60-->
+
+	<footer class="box clearfix">
+
+		<div class="footer-middle">
+			<div class="container">
+				<div class="row">
+					<div class="ft-middle-inner menu-bottom">
+						<div class="item-col">
+							<span class="title">Chăm sóc khách hàng</span>
+							<ul class="list-menu-bottom">
+								<li class="item-menu-bottom">
+									<a href="huong-dan-mua-hang.html" class="link" title="Hướng dẫn mua hàng">Hướng dẫn mua hàng</a>
+								</li>
+								<li class="item-menu-bottom">
+									<a href="chinh-sach-giao-hang.html" class="link" title="Giao và nhận hàng">Giao và nhận hàng</a>
+								</li>
+								<li class="item-menu-bottom">
+									<a href="https://shop.vnexpress.net/page/chinh-sach-bao-hanh.html" class="link" title="Chính sách bảo hành & đổi trả">Chính sách bảo hành & đổi trả</a>
+								</li>
+								<li class="item-menu-bottom">
+									<a href="Q-A.html" class="link" title="Câu hỏi thường gặp">Câu hỏi thường gặp</a>
+								</li>
+								<li class="item-menu-bottom">
+									<a href="Q-A-form-support.html" class="link" title="Gửi yêu cầu hỗ trợ">Gửi yêu cầu hỗ trợ</a>
+								</li>
+							</ul>
+						</div>
+						<div class="item-col">
+							<span class="title">Hợp tác đối tác</span>
+							<ul class="list-menu-bottom">
+								<li class="item-menu-bottom">
+									<a href="hop-tac-ban-hang.html" class="link" title="Tư vấn hợp tác bán hàng">Tư vấn hợp tác bán hàng</a>
+								</li>
+								<li class="item-menu-bottom">
+									<a href="#" class="link" title="Quy định mở shop">Quy định mở shop</a>
+								</li>
+								<li class="item-menu-bottom">
+									<a href="#" class="link" title="Ưu đãi mở shop">Ưu đãi mở shop</a>
+								</li>
+								<li class="item-menu-bottom">
+									<a href="#" class="link" title="Truyền thông kết hợp bán hàng">Truyền thông kết hợp bán hàng</a>
+								</li>
+							</ul>
+						</div>
+						<div class="item-col">
+							<span class="title">Về chúng tôi</span>
+							<ul class="list-menu-bottom">
+								<li class="item-menu-bottom">
+									<a href="gioi-thieu.html" class="link" title="Giới thiệu Shop VnExpress">Giới thiệu Shop VnExpress</a>
+								</li>
+								<li class="item-menu-bottom">
+									<a href="quy-che-hoat-dong.html" class="link" title="Quy chế hoạt động">Quy chế hoạt động</a>
+								</li>
+								<li class="item-menu-bottom">
+									<a href="#" class="link" title="Điều khoản và cam kết">Điều khoản và cam kết</a>
+								</li>
+							</ul>
+						</div>
+						<div class="item-col">
+							<span class="title">PHƯƠNG THỨC THANH TOÁN</span>
+							<div class="content-col mgbt30">
+								<img src="theme/frontend/images/payments.png" alt="">
+							</div>
+							<span class="title">ĐƠN VỊ VẬN CHUYỂN</span>
+							<div class="content-col">
+								<img src="theme/frontend/images/transport.png" alt="">
+							</div>
+						</div>
+						<div class="item-col">
+							<span class="title">KẾT NỐI VỚI CHÚNG TÔI</span>
+							<div class="link-facebook">
+								<a href="https://www.facebook.com/shop.vnexpress.net/" target="_blank" title="Kết nối Shop VnExpress trên facebook">
+									<img src="theme/frontend/images/fanpage-shopvne.jpg" alt="Fanpage facebook Shop VnExpress">
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer-intro">
+			<div class="container">
+				<div class="row">
+					<div class="ft-intro-inner wrap-tag-footer">
+						<h6 class="name-company"><strong>Shop VnExpress – Sàn TMĐT trực thuộc báo VnExpress.net</strong> – Báo Tiếng Việt nhiều người xem nhất.</h6>
+
+						<p>Shop VnExpress là Sàn giao dịch Thương mại điện tử đầu tiên trực thuộc Báo VnExpress. Hướng đến giá trị cốt lõi là mang sản phẩm, dịch vụ có thương hiệu, xuất xứ rõ ràng đến tay người tiêu dùng như <i class="underline"><a href="https://shop.vnexpress.net/retail/oppo" title="Oppo">Oppo</a>, <a href="https://shop.vnexpress.net/retail/kymdan" title="Kymdan">Kymdan</a>, <a href="https://shop.vnexpress.net/retail/dien-quang" title="Điện quang">Điện quang</a>, <a href="https://shop.vnexpress.net/retail/sunhouse" title="Sunhouse">Sunhouse</a>, <a href="https://shop.vnexpress.net/retail/beurer" title="Beurer">Beurer</a>, <a href="https://shop.vnexpress.net/retail/ibie" title="IBIE">IBIE</a>, <a href="https://shop.vnexpress.net/retail/venuco-madrid" title="Venuco Madrid">Venuco Madrid</a>, <a href="https://shop.vnexpress.net/retail/aristino-official" title="Aristino">Aristino</a>, <a href="https://shop.vnexpress.net/retail/timex-viet-nam" title="Timex">Timex</a>,...</i></p>
+
+						<p>Chỉ cần truy cập shop.vnexpress.net, bạn sẽ tìm thấy cho mình và người thân yêu tất cả các mặt hàng <i class="underline"> <a href="https://shop.vnexpress.net/gia-dung" title="gia dụng">gia dụng</a>, <a href="https://shop.vnexpress.net/nha-cua-doi-song" title="Nhà cửa đời sống">nhà cửa & đời sống</a>, thời trang nam nữ, <a href="https://shop.vnexpress.net/suc-khoe-lam-dep" title="Sức khỏe làm đẹp">sức khỏe & làm đẹp</a> cho đến công nghệ, <a href="https://shop.vnexpress.net/noi-that" title="Nội Thất">nội thất</a>, thiết bị thể thao… </i> </p>
+						<p>Đặc biệt, khách hàng sẽ được thỏa thích mua sắm với nhiều chương trình ưu đãi độc quyền, flash sale giá sốc, miễn phí giao hàng toàn quốc.</p>
+						<p style="margin-bottom: 15px;">Với đội ngũ trẻ năng động, nhiệt huyết, chúng tôi luôn sẵn sàng hỗ trợ khách hàng để mỗi lượt mua hàng của bạn trở nên đơn giản, nhanh chóng và thuận tiện.</p>
+
+						<p><strong>SẢN PHẨM ĐA DẠNG PHONG PHÚ:</strong></p>
+						<p>Từ điện tử công nghệ như <i class="underline"><a href="https://shop.vnexpress.net/tivi" title="Tivi">Tivi</a>, <a href="https://shop.vnexpress.net/dien-thoai" title="Điện thoại">Điện thoại</a>, smartphone</i> đến các sản phẩm gia dụng hữu ích cho người dùng như <i class="underline"><a href="https://shop.vnexpress.net/may-hut-mui-nha-bep" title="Máy hút mùi">máy hút mùi</a>, lò nướng, <a href="https://shop.vnexpress.net/bep-dien-tu" title="Bếp điện từ">Bếp điện từ</a>, <a href="https://shop.vnexpress.net/quat-dieu-hoa" title="Quạt điều hoà">Quạt điều hoà</a>,...</i> Shop VnExpress luôn lựa chọn những sản phẩm chính hãng, có chính sách đổi trả rõ ràng để giúp khách hàng mua sắm thuận tiện và an tâm hơn.</p>
+						<p>Các sản phẩm nội thất gia đình theo đúng tiêu chuẩn của gia đình Việt được sản xuất và gia công từ chính những doanh nghiệp nội thất hàng đầu trong nước. Với thiết kế đơn giản nhưng không thiếu đi sự tinh tế sẽ giúp bạn tìm được sản phẩm phù hợp với gia đình của mình.</p>
+						<p>Mua sắm nhanh chóng dễ dàng cùng đội ngũ chăm sóc khách hàng ân cần chu đáo, sẽ giúp bạn yên tâm khi lưa chọn Shop VnExpress là nơi giao dịch của mình. Hãy tìm những sản phẩm mà đang cần và trải nghiệm mua sắm online cùng Shop VnExpress.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer-bottom">
+			<div class="container">
+				<div class="row">
+					<div class="ft-bottom-inner">
+						<div class="info-company">
+							<div class="box">
+								<p><strong>Tên đăng ký:</strong> Công ty Cổ phần Dịch vụ trực tuyến FPT. <strong>Tên giao dịch:</strong> FPT Online JSC</p>
+								<p><strong>Địa chỉ trụ sở:</strong> Tầng 6, Tòa nhà Exchange Tower - số 1 Nam Kỳ Khởi Nghĩa, Phường Nguyễn Thái Bình, Quận 1, Tp.HCM.</p>
+								<p style="margin-bottom: 15px;"><strong>Điện thoại/ Fax:</strong> 1900.633.376 &nbsp;&nbsp;&nbsp;<strong>Email:</strong> shop@vnexpress.net</p>
+								<p><strong>Giấy chứng nhận đăng ký kinh doanh số 0305045911 do Sở Kế hoạch và Đầu tư Thành phố Hồ Chí Minh cấp ngày 22/12/2015</strong></p>
+							</div>
+							<div class="box-bct">
+								<img src="theme/frontend/images/label_dk.png" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	
+	<span class="back-to-top-badge back-to-top-small"><i class="fal fa-angle-up"></i>Back to Top</span>
+
+
+	<!-- Start #wrap-popup-group - Group popup page - Globe -->
+	<div id="wrap-popup-group">
+
+		<div class="box_popup_warning" id="box_popup_warning">
+			<div class="box-inner-popup divFadeInScale">
+				<div class="box-wrap-preview">
+					<div class="header-popup">
+						<p>THÔNG BÁO</p>
+					</div>
+					<div class="box-content-popup">
+						<p>Bạn có muốn xóa sản phẩm <strong> AQUA AQF-R320 210L</strong> ra khỏi giỏ hàng không?</p>
+						<p><span class="no" data-dismiss="modal">Không</span> <span class="yes">Có</span> </p>
+					</div>
+				</div>
+
+				<div class="btn-close-warning" data-dismiss="modal">x</div>
+			</div>
+		</div>
+
+
+		<!-- Start box-edit-address -->
+		<div class="box-popup-edit-address" id="popup_edit_address">
+			<div class="box-inner-popup divFadeInScale">
+				<div class="box-wrap-preview">
+					<div class="header-popup">
+						<p class="title-popup">Cập nhật thông tin giao hàng</p>
+						<span class="btn-creat-address">Tạo địa chỉ mới</span>
+					</div>
+					<div class="box-content-popup">
+						<div class="box-edit-address">
+
+
+							<!--Make sure the form has the autocomplete function switched off:-->
+							<form name="form-delivery-popup" autocomplete="off" action="/action_page.php" method="post" class="" id="">
+								<fieldset>
+
+									<div class="location-list">
+										<div class="radio location-item">
+											<label for="radios-popup-delivery-1" class="user-info">
+												<input type="radio" name="radios-popup-delivery" id="radios-popup-delivery-1" value="1" checked="checked">
+												Đinh Thị Phương Anh - 0979843527
+												<span class="user-address address-success">17 Phố Duy Tân, Dịch Vọng Hậu, Cầu Giấy, Hà Nội, Vietnam</span>
+												<span class="address-defaul">Địa chỉ mặc định</span>
+											</label>
+
+											<div class="btn-edit-info">
+												<a href="#" data-toggle="modal" data-target="#popup_edit_address">Chỉnh sửa</a>
+											</div>
+										</div>
+										<div class="radio location-item">
+											<label for="radios-popup-delivery-2" class="user-info">
+												<input type="radio" name="radios-popup-delivery" id="radios-popup-delivery-2" value="2" checked="checked">
+												Đinh Thị Phương Anh - 0979843527
+												<span class="user-address address-success">17 Phố Duy Tân, Dịch Vọng Hậu, Cầu Giấy, Hà Nội, Vietnam</span>
+											</label>
+
+											<div class="btn-edit-info">
+												<a href="#" data-toggle="modal" data-target="#popup_edit_address" title="">Chỉnh sửa</a>
+												<a href="#" title="">Xóa</a>
+											</div>
+										</div>
+										<div class="radio location-item">
+											<label for="radios-popup-delivery-3" class="user-info">
+												<input type="radio" name="radios-popup-delivery" id="radios-popup-delivery-3" value="3" checked="checked">
+												Đinh Thị Phương Anh - 0979843527
+												<span class="user-address address-success">17 Phố Duy Tân, Dịch Vọng Hậu, Cầu Giấy, Hà Nội, Vietnam</span>
+											</label>
+
+											<div class="btn-edit-info">
+												<a href="#" data-toggle="modal" data-target="#popup_edit_address" title="">Chỉnh sửa</a>
+												<a href="#" title="">Xóa</a>
+											</div>
+										</div>
+									</div>
+
+
+
+									<div class="wrap-form-delivery clearfix">
+										<div class="title-form">Chỉnh sửa thông tin</div>
+										<div class="form-group clearfix">
+											<div class="col-xs-12 col-sm-6">
+											  	<label class="box control-label" for="textinput">Họ và tên <span>(*)</span></label>
+											  	<div class="box clearfix">
+												  	<input id="textinput" name="" type="text" placeholder="Nhập tên của bạn" class="form-control input-md" required>
+												  	<span class="err"></span>
+											  	</div>
+											</div>
+
+											<div class="col-xs-12 col-sm-6">
+											  	<label class="box control-label" for="textinput">Số điện thoại <span>(*)</span></label>  
+											  	<div class="box">
+												  	<input id="textinput" name="" type="text" placeholder="Nhập số điện thoại" class="form-control input-md" required>
+												  	<span class="err"></span>
+											  	</div>
+											</div>
+										</div>
+
+										<div class="form-group clearfix">
+											<div class="col-xs-12">
+											  	<label class="box control-label" for="textinput">Email (*)</label>  
+											  	<div class="box clearfix">
+												  	<input id="textinput" name="" type="email" placeholder="Nhập Email" class="form-control input-md" required>
+												  	<span class="err"></span>
+											  	</div>
+											</div>
+										</div>
+
+										<div class="form-group clearfix">
+											<div class="col-xs-12 col-sm-6">
+											  	<label class="box control-label" for="selectbasic">Tỉnh / Thành phố <span>(*)</span></label>
+											  	<div class="box clearfix">
+													<select id="selectbasic" name="selectbasic" class="form-control" required>
+													  	<option value="0" disabled>Chọn tỉnh thành</option>
+													  	<option value="1">Option one</option>
+													  	<option value="2">Option two</option>
+													</select>
+												  	<span class="err"></span>
+											  	</div>
+											</div>
+
+											<div class="col-xs-12 col-sm-6">
+											  	<label class="box control-label" for="selectbasic">Quận / Huyện <span>(*)</span></label>
+											  	<div class="box clearfix">
+													<select id="selectbasic" name="selectbasic" class="form-control" required>
+													  	<option value="0" disabled>Chọn quận huyện</option>
+													  	<option value="1">Option one</option>
+													  	<option value="2">Option two</option>
+													</select>
+												  	<span class="err"></span>
+											  	</div>
+											</div>
+										</div>
+
+										<div class="form-group clearfix">
+											<div class="col-xs-12">
+											  	<label class="box control-label" for="textinput">Đường phố <span>(*)</span> <span class="verify-address">Vui lòng xác minh địa chỉ</span></label>  
+											  	<div class="box box-autocomplete address-success">
+												  	<input id="click_demo2" name="address" type="text" placeholder="Nhập địa chỉ nhận hàng" class="form-control input-md">
+												  	<span class="err"></span>
+											  	</div>
+											</div>
+										</div>
+
+										<div class="form-group clearfix">
+											<div class="col-xs-12">
+												<label class="box-choose-default " for="checkbox-default">
+													<input type="checkbox" name="checkboxes" id="checkbox-default" checked="checked">
+													<span class="cell-checkbox"></span>
+													<span class="cell-text">Địa chỉ mặc định</span>
+												</label>
+											</div>
+										</div>
+
+									</div>
+
+								</fieldset>
+							</form>
+						</div>
+					</div>
+					<div class="footer-popup">
+						<a href="#" class="apply-btn" onclick="showWarningTransportation()">Lưu thông tin</a>
+					</div>
+				</div>
+
+				<div class="btn-close-warning" data-dismiss="modal">x</div>
+			</div>
+		</div>
+		<!-- End box-edit-address -->
+
+		<!-- Start box_popup_transportation -->
+		<div class="box-popup-transportation" id="box_popup_transportation">
+			<div class="box-inner-popup divFadeInScale">
+				<div class="box-wrap-preview">
+					<div class="box-content-popup">
+						<div class="box-incentives">
+							<table class="table table-transportation" id="table-transportation">					
+						        <thead class="cf">
+						            <tr>
+						                <th>Đơn vị giao hàng</th>
+						                <th>Thời gian</th>
+						                <th>Phí vận chuyển</th>
+						            </tr>
+						        </thead>
+						        <tbody class="wrapper-body">
+						            <tr>
+						                <td>
+											<div class="radio">
+												<label for="radios-transportation-0">
+												  	<input type="radio" name="radios-transportation" id="radios-transportation-0" value="1" checked="checked">
+												  	GHN (chuẩn)
+												</label>
+											</div>
+						                </td>
+						                <td>
+						                	<p class="transportation-value">2 ngày</p>
+						                </td>
+						                <td>
+						                	<p class="transportation-value">30.000đ</p>
+						                </td>
+						            </tr>
+						            <tr>
+						                <td>
+											<div class="radio">
+												<label for="radios-transportation-1">
+												  	<input type="radio" name="radios-transportation" id="radios-transportation-1" value="2">
+												   	GHN (đặc biệt)
+												</label>
+											</div>
+						                </td>
+						                <td>
+						                	<p class="transportation-value">2 ngày</p>
+						                </td>
+						                <td>
+						                	<p class="transportation-value">30.000đ</p>
+						                </td>
+						            </tr>
+						            <tr>
+						                <td>
+											<div class="radio">
+												<label for="radios-transportation-2">
+												  	<input type="radio" name="radios-transportation" id="radios-transportation-2" value="3">
+												   	VNPost (chuẩn)
+												</label>
+											</div>
+						                </td>
+						                <td>
+						                	<p class="transportation-value">2 ngày</p>
+						                </td>
+						                <td>
+						                	<p class="transportation-value">30.000đ</p>
+						                </td>
+						            </tr>
+						            <tr>
+						                <td>
+											<div class="radio">
+												<label for="radios-transportation-3">
+												  	<input type="radio" name="radios-transportation" id="radios-transportation-3" value="4">
+												   	VNPost (chuẩn)
+												</label>
+											</div>
+						                </td>
+						                <td>
+						                	<p class="transportation-value">2 ngày</p>
+						                </td>
+						                <td>
+						                	<p class="transportation-value">30.000đ</p>
+						                </td>
+						            </tr>
+						            <tr>
+						                <td>
+											<div class="radio">
+												<label for="radios-transportation-4">
+												  	<input type="radio" name="radios-transportation" id="radios-transportation-4" value="5">
+												   	VNPost (chuẩn)
+												</label>
+											</div>
+						                </td>
+						                <td>
+						                	<p class="transportation-value">2 ngày</p>
+						                </td>
+						                <td>
+						                	<p class="transportation-value">30.000đ</p>
+						                </td>
+						            </tr>
+						    	</tbody>
+							</table>
+
+						</div>
+						<div class="hr"></div>
+
+					</div>
+				</div>
+
+				<div class="btn-close-warning" onclick="showTransportation();">x</div>
+			</div>
+			<div class="bg-popup-transportation" onclick="showTransportation();"></div>
+		</div>
+		<!-- End box_popup_transportation -->
+
+		<!-- Start box_popup_warning_transportation -->
+		<div class="box-popup-warning-transportation" id="box_popup_warning_transportation">
+			<div class="box-inner-popup divFadeInScale">
+				<div class="box-wrap-preview">
+					<div class="box-content-popup">
+						<p><img src="theme/frontend/images/icon_success_trans.png" alt=""></p>
+						<p>Cập nhật thông tin thành công</p>
+					</div>
+				</div>
+
+				<div class="btn-close-warning" data-dismiss="modal">x</div>
+			</div>
+		</div>
+		<!-- End box_popup_warning_transportation -->
+
+		<!-- Start box-popup-invoice -->
+		<div class="box-popup-invoice" id="popup_export_invoice">
+			<div class="box-inner-popup divFadeInScale">
+				<div class="box-wrap-preview">
+					<div class="header-popup">
+						<p class="title-popup">Thông tin xuất hóa đơn</p>
+					</div>
+					<div class="box-content-popup">
+						<div class="box-incentives">
+
+
+							<form action="" method="post" class="" id="">
+								<fieldset>
+
+									<div class="form-group clearfix">
+										<label class="box control-label" for="textinput">Tên công ty <span>(*)</span></label>  
+										<div class="box">
+											<input id="textinput" name="textinput" type="text" placeholder="Nhập tên công ty" class="form-control input-md">
+										</div>
+									</div>
+
+									<div class="form-group clearfix">
+										<label class="box control-label" for="textinput">Địa chỉ công ty <span>(*)</span></label>  
+										<div class="box">
+											<input id="textinput" name="textinput" type="text" placeholder="Nhập địa chỉ công ty" class="form-control input-md">
+										</div>
+									</div>
+
+									<div class="form-group clearfix">
+										<label class="box control-label" for="textinput">Mã số thuế <span>(*)</span></label>  
+										<div class="box">
+											<input id="textinput" name="textinput" type="text" placeholder="Nhập mã số thuế" class="form-control input-md">
+										</div>
+									</div>
+									<div class="popup-footer clearfix">
+										<div class="text-center">
+											<span class="apply-btn">Lưu thay đổi</span>
+											<span class="exit-btn" data-dismiss="modal">Đóng</span>
+										</div>
+									</div>
+
+								</fieldset>
+							</form>
+
+						</div>
+						<div class="hr"></div>
+
+					</div>
+				</div>
+
+				<span class="btn-close-warning" data-dismiss="modal">x</span>
+			</div>
+		</div>
+		<!-- End box-invoice -->
+
+		<!-- Start box-popup-incentives -->
+		<div class="box-popup-incentives" id="popup_incentives">
+			<div class="box-inner-popup divFadeInScale">
+				<div class="box-wrap-preview">
+					<div class="header-popup">
+						<p class="title-popup">Mã ưu đãi</p>
+						<p class="note">Chọn được ở mã vận chuyển và mã giảm giá</p>
+					</div>
+					<div class="box-content-popup">
+						<div class="box-incentives">
+
+							<ul class="tab-incentives-area">
+								<li>
+									<a class="tab-a active-a" href="#" data-id="tab1">Hỗ trợ phí vận chuyển</a>
+								</li>
+								<li>
+									<a class="tab-a" href="#" data-id="tab2">Mã giảm giá</a>
+								</li>
+							</ul>
+
+							<div class="list-item-incentives tab-item tab-item-active" data-id="tab1">
+								<div class="item-incentives active">
+									<div class="deal-value">Miễn phí vận chuyển</div>
+									<div class="deal-description">Sunhouse hỗ trợ phí ship 30.000đ</div>
+									<div class="deal-time">Thời gian: 04/01 - 12/01</div>
+									<span class="btn-use"></span>
+								</div>
+								<!-- <div class="item-incentives no-select">
+									<div class="deal-value">Miễn phí vận chuyển</div>
+									<div class="deal-description">Sunhouse hỗ trợ phí ship 50.000đ</div>
+									<div class="deal-time">Thời gian: 04/01 - 12/01</div>
+									<span class="btn-use"></span>
+								</div> -->								
+								<!-- <span class="btn-show-more-incentives" id="">Xem thêm</span> -->
+								<div class="hr"></div>
+							</div>
+
+							<div class="list-item-incentives tab-item" data-id="tab2">
+								<div class="item-incentives active">
+									<div class="deal-value">GIẢM 99.000Đ</div>
+									<div class="deal-code">Mã: <strong>TET19</strong></div>
+									<div class="deal-description">Áp dụng: Đơn hàng <strong>Thời trang</strong> từ <strong>999.000đ</strong></div>
+									<div class="deal-time">Hạn sử dụng: 04/01 - 12/01</div>
+									<span class="btn-use"></span>
+								</div>
+								<div class="item-incentives">
+									<div class="deal-value">GIẢM 99.000Đ</div>
+									<div class="deal-code">Mã: <strong>TET19</strong></div>
+									<div class="deal-description">Áp dụng: Đơn hàng <strong>Thời trang</strong> từ <strong>999.000đ</strong></div>
+									<div class="deal-time">Hạn sử dụng: 04/01 - 12/01</div>
+									<span class="btn-use"></span>
+								</div>
+								<div class="item-incentives no-select">
+									<div class="deal-value">GIẢM 99.000Đ</div>
+									<div class="deal-code">Mã: <strong>TET19</strong></div>
+									<div class="deal-description">Áp dụng: Đơn hàng <strong>Thời trang</strong> từ <strong>999.000đ</strong></div>
+									<div class="deal-time">Hạn sử dụng: 04/01 - 12/01</div>
+									<span class="btn-use"></span>
+								</div>
+								<!-- <span class="btn-show-more-incentives" id="">Xem thêm</span> -->
+								<div class="hr"></div>
+							</div>
+							<p class="group-btn"><span class="yes">Áp dụng</span> </p>
+
+						</div>
+						<div class="hr"></div>
+
+					</div>
+				</div>
+
+				<div class="btn-close-warning" data-dismiss="modal">x</div>
+			</div>
+		</div>
+		<!-- End box-popup-incentives -->
+
+
+		<!-- Start box-popup-notify -->
+		<div class="box-popup-notify" id="popup_event_notify">
+			<div class="box-inner-popup divFadeInScale">
+				<div class="box-wrap-preview">
+					<div class="header-popup">
+						<p>Thông báo</p>
+					</div>
+					<div class="box-content-popup">
+						<p>Chương trình chỉ áp dụng cho mỗi khách hàng mua n sản phẩm.</p>
+						<p>Vui lòng quay lại tham gia chương trình sau!</p>
+						<p><span class="yes" data-dismiss="modal">Đã hiểu</span> </p>
+					</div>
+				</div>
+
+				<div class="btn-close-warning" data-dismiss="modal">x</div>
+			</div>
+		</div>
+		<!-- End box-popup-notify -->
+
+	</div>
+	<!-- End #wrap-popup-group - Group popup page - Globe -->
+
+
+	<script src="theme/frontend/js/swiper.min.js" defer></script>
+	<script src="theme/frontend/js/script-pc.js" defer></script>
+	<!-- <script src="theme/frontend/js/fontawesome.js" defer></script> -->
+
+
+	<script>
+
+		function showTransportation() {
+			var x = document.getElementById("box_popup_transportation");
+			if (x.className.indexOf("show") == -1) {
+				x.className += " show";
+			} else { 
+				x.className = x.className.replace(" show", "");
+			}
+		};
+		function showWarningTransportation() {
+			$('#box_popup_warning_transportation').modal('show');
+			$('#popup_edit_address').modal('hide');
+		};
+
+
+		jQuery(function($) {
+
+			$('.btn_save_info').click(function(){
+				if (this.className.indexOf("active") == -1) {
+					this.className += " active";
+				} else { 
+					this.className = this.className.replace(" active", "");
+				}
+			});
+			$('.btn_export_invoice').click(function(){
+				if (this.className.indexOf("active") == -1) {
+					this.className += " active";
+				} else { 
+					this.className = this.className.replace(" active", "");
+				}
+			});
+
+		});
+	</script>
+	<script>
+		$(document).ready(function(){ 
+			$('.tab-a').click(function(){  
+				$(".tab-item").removeClass('tab-item-active');
+				$(".tab-item[data-id='"+$(this).attr('data-id')+"']").addClass("tab-item-active");
+				$(".tab-a").removeClass('active-a');
+				$(this).parent().find(".tab-a").addClass('active-a');
+			});
+		});
+	</script>
+
+</body>
+</html>

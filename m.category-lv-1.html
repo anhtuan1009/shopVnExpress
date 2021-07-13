@@ -1,0 +1,874 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<base href="" />
+	<title>Shop Vnexpress version 2</title>
+	<meta name="robots" content="index, follow">
+	<meta name="description" content="">
+	<link rel="shortcut icon" href="https://s.vnecdn.net/shop/i/v3/manifest/favicon-32x32.png">
+	<link type="text/css" rel="stylesheet" href="theme/frontend/css/normalize.min.css" />
+	<link type="text/css" rel="stylesheet" href="theme/frontend/css/bootstrap.min.css" />
+	<link type="text/css" rel="stylesheet" href="theme/frontend/css/animate.css" />
+	<link type="text/css" rel="stylesheet" href="theme/frontend/css/swiper.min.css" />
+	<link type="text/css" rel="stylesheet" href="theme/frontend/css/style-mb.css" />
+	<link type="text/css" rel="stylesheet" href="theme/frontend/css/fontawesomepro531.css" />
+	<link type="text/css" rel="stylesheet" href="theme/frontend/jquery-ui-1.12.1.custom/jquery-ui.min.css">
+	<script src="theme/frontend/js/jquery-2.2.1.min.js"></script>
+	<script src="theme/frontend/js/bootstrap.min.js"></script>
+	<script src="theme/frontend/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+</head>
+<body class="view_mb" itemscope itemtype="http://schema.org/WebPage">
+	<div class="wrap-top-header">
+		<div class="address">
+			<a href="javascript:void(0)" class="btn-localtion white" title="Chọn địa chỉ giao hàng của bạn" rel="nofollow" data-toggle="modal" data-target="#box_popup_choose_localtion"><i class="fal fa-map-marker-alt"> </i>
+			<span class="text">Địa chỉ giao hàng của bạn?</span></a>
+		</div>
+	</div>
+	<div class="space-header-fixed"></div>
+	<header class="header header-scroll">
+		<div class="btn-nav-menu-option-1">
+			<div class="toggle-btn" data-toggle="modal" data-target="#showNavSideMenu">
+				<span class="fal fa-bars"></span>
+			</div>
+			<div class="brand">
+				<a href="m.index.html" title="Shop VnExpress" class="m-logo">
+					<img src="theme/frontend/images/m_home_shovne_05.png" alt="Logo Store Star" class="contain">
+				</a>
+			</div>
+			<div class="toggle-btn-search" onclick="showSearch();">
+				<span class="fal fa-search"></span>
+			</div>
+			<div class="toggle-btn-cart" onclick="showMiniCart();">
+				<span class="fal fa-shopping-cart"><i class="number_qty">18</i></span>
+			</div>
+		</div>
+
+		<!-- Start popup gio hang -->
+		<div class="popup-mini-cart" id="popup-mini-cart">
+			<div class="box mini-cart-inner">
+
+
+				<div class="wrap_cart">
+				  <div class="miniCart-body">
+					<ul class="miniCartItem">
+					  <li>
+						  <figure>
+							  <a class="miniCartItemImg" href="m.product-detail.html" target="_blank">
+								<img src="theme/frontend/images/pro-detail/pro_related_01.png" alt="">
+							  </a>
+						  </figure>
+						  <div>   
+							<p><a title="" href="m.product-detail.html">Quần kaki nam Aligro ALGK028</a></p>
+							<p><b>SL: 1 x </b><b>Liên hệ</b><i class="removeCartItem fal fa-trash-alt" data-product="649237" title="Xóa sản phẩm"></i></p>
+						  </div>	
+					  </li>
+					  <li>
+						  <figure>
+							  <a class="miniCartItemImg" href="m.product-detail.html" target="_blank">
+								  <img src="theme/frontend/images/pro-detail/pro_related_03.png" alt="">
+							  </a>
+						  </figure>
+						  <div>   
+							<p><a title="" href="m.product-detail.html">Quần kaki nam Aligro ALGK031</a></p>
+							<p><b>SL: 1 x </b><b>120.000đ</b><i class="removeCartItem fal fa-trash-alt" data-product="649230" title=""></i></p>
+						  </div>	
+					  </li>
+					  <li>
+						  <figure>
+							  <a class="miniCartItemImg" href="m.product-detail.html" target="_blank">
+								  <img src="theme/frontend/images/pro-detail/pro_related_04.png" alt="">
+							  </a>
+						  </figure>
+						  <div>   
+							  <p><a title="" href="m.product-detail.html">Quần kaki nam Aligro ALGK033</a></p>
+							  <p><b>SL: 2 x </b><b>230.000đ</b><i class="removeCartItem fal fa-trash-alt" data-product="649238" title="Xóa sản phẩm"></i></p>
+						  </div>	
+					  </li>
+					</ul>
+					<p class="minicartItemTotal">
+					  <b>Tổng tiền:</b><b>580.000 đ</b>
+					</p>
+					<p class="minicartItemPay">
+					  <a href="m.cart-step-1.html" id="payment" class="btnRed">Tiến hành đặt hàng</a>
+					</p>
+				  </div>
+				</div>
+
+			</div>
+		</div>
+		<!-- End popup gio hang -->
+		
+	</header>
+
+	<!-- Start box Quạt trần -->
+	<div class="header-bottom">
+		<div class="header-bottom-inner">
+			<div class="header-bt-left">
+				<a href="#" title="Tên chương trình" class="title-menu">
+					<img src="https://i-shop.vnecdn.net/images/2020/07/20/5f153d180925d-bg-xu-huong.png" alt="Tên chương trình">
+				</a>
+			</div>
+			<div class="header-bt-right">
+
+				<div class="slide-marquee" id="slide_marquee">
+					<div class="swiper-wrapper">
+
+						<!-- Get random 10 item sp instock & uses thumbnai img -->
+						<div class="swiper-slide">
+							<a href="https://shop.vnexpress.net/quat-tran-luxaire-strong-orb-121662.html" title="" class="item-product">
+								<span class="item-img">
+									<img src="https://i-shop.vnecdn.net/crop/560/560/images/2019/07/26/5d3a700976389-Luxaire-Strong-ORB-copy.jpg" alt="">
+								</span>
+								<h3 class="item-info">
+									<span class="info-title">Quạt trần LuxAire Curve DK</span>
+									<span class="info-price"> - 4.800.000đ</span>
+								</h3>
+							</a>
+						</div><!-- End item slide -->
+						<div class="swiper-slide">
+							<a href="https://shop.vnexpress.net/quat-tran-hunter-santorini-50648-ob-120569.html" title="" class="item-product">
+								<span class="item-img">
+									<img src="https://i-shop.vnecdn.net/crop/560/560/images/2019/07/23/5d36c54908aa1-50648-3-light-natural-iron-black-willow-1024x1024.jpg" alt="">
+								</span>
+								<h3 class="item-info">
+									<span class="info-title">Quạt trần Hunter Santorini 50648 OB</span>
+									<span class="info-price"> - 7.920.000đ</span>
+								</h3>
+							</a>
+						</div><!-- End item slide -->
+						<div class="swiper-slide">
+							<a href="https://shop.vnexpress.net/quat-tran-hunter-savoy-24520-120592.html" title="" class="item-product">
+								<span class="item-img">
+									<img src="https://i-shop.vnecdn.net/crop/560/560/images/2019/07/23/5d36cd060d7ad-24520.jpg" alt="">
+								</span>
+								<h3 class="item-info">
+									<span class="info-title">Quạt trần Hunter Savoy 24520</span>
+									<span class="info-price"> - 5.344.000đ</span>
+								</h3>
+							</a>
+						</div><!-- End item slide -->
+						<div class="swiper-slide">
+							<a href="https://shop.vnexpress.net/quat-tran-hunter-arcot-50646-bs-120581.html" title="" class="item-product">
+								<span class="item-img">
+									<img src="https://i-shop.vnecdn.net/crop/560/560/images/2019/07/23/5d36c9c6b0034-50646-1024x1024.jpg" alt="">
+								</span>
+								<h3 class="item-info">
+									<span class="info-title">Quạt trần Hunter Arcot 50646 bs</span>
+									<span class="info-price"> - 4.720.000đ</span>
+								</h3>
+							</a>
+						</div><!-- End item slide -->
+
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+		<!-- End box Quạt trần -->
+
+	<!-- Start popup search -->
+	<div class="popup-search fadeInLeft" id="popup-search">
+		<div class="box box_search_top">
+			<div class="btn-close-search" onclick="showSearch()">
+				<span class="fal fa-times"></span>
+			</div>
+			<form name="search" action="m.search.html" method="post" class="box form-search">
+				<input type="search" name="q" placeholder="Nhập tên sản phẩm cần tìm..." required class="input-search">
+				<button type="submit" class="btn-search">
+					<span class="fal fa-search"></span>
+				</button>
+				<ul class="wrap-show-result search_load" style="display: block;">
+					<li class="item search_item" data-type="text" data-search="điện thoại ">
+						<div class="title">điện thoại </div>
+					</li>
+					<li class="item search_item_product" data-type="product" data-url="m.product-detail.html">
+						<a href="m.product-detail.html">
+							<img src="theme/frontend/images/dien-thoai.jpg" alt="">
+							<div class="warp">
+								<div class="title">Điện thoại Nokia 8110 vàng</div>
+								<div class="price">1.680.000đ</div>
+							</div>
+						</a>
+					</li>
+					<li class="item search_item_product" data-type="product" data-url="m.product-detail.html">
+						<a href="m.product-detail.html">
+							<img src="theme/frontend/images/dien-thoai.jpg" alt="">
+							<div class="warp">
+								<div class="title">Điện thoại Nokia 8110 Black</div>
+								<div class="price">1.680.000đ</div>
+							</div>
+						</a>
+					</li>
+					<li class="item search_item_product" data-type="product" data-url="m.product-detail.html">
+						<a href="m.product-detail.html">
+							<img src="theme/frontend/images/dien-thoai.jpg" alt="">
+							<div class="warp">
+								<div class="title">Điện thoại Nokia 1 (Red)</div>
+								<div class="price">1.800.000đ</div>
+							</div>
+						</a>
+					</li>
+					<li class="item search_item_product" data-type="product" data-url="m.product-detail.html">
+						<a href="m.product-detail.html">
+							<img src="theme/frontend/images/dien-thoai.jpg" alt="">
+							<div class="warp">
+								<div class="title">Túi điện thoại Verchini màu đen 007234</div>
+								<div class="price">99.000đ</div>
+							</div>
+						</a>
+					</li>
+					<li class="item search_item_trend"><span class="bold">Từ khóa hot</span></li>
+					<li class="item search_item_trend" data-keyword="Ví nữ hàng hiệu Venuco Madrid">
+						<div class="title">Ví nữ hàng hiệu Venuco Madrid</div>
+					</li>
+					<li class="item search_item_trend" data-keyword="Balo/ túi đeo chéo thời trang Haras">
+						<div class="title">Balo/ túi đeo chéo thời trang Haras</div>
+					</li>
+					<li class="item search_item_trend" data-keyword="Đầm/váy thời trang nữ">
+						<div class="title">Đầm/váy thời trang nữ</div>
+					</li>
+					<li class="item search_item_trend" data-keyword="Đồng hồ nam">
+						<div class="title">Đồng hồ nam</div>
+					</li>
+					<li class="item search_item_history"><span class="bold">Lịch sử tìm kiếm</span><a class="clear" href="javascript:" aria-hidden="true" title="Xóa lịch sử tìm kiếm">Xóa</a></li>
+					<li class="item search_item_history" data-keyword="Đồng hồ nam">
+						<div class="title">Đồng hồ nam</div>
+					</li>
+					<li class="item search_item_history" data-keyword="Đồng hồ nữ">
+						<div class="title">Đồng hồ nữ</div>
+					</li>
+					<li class="item search_item_history" data-type="text" data-search="">
+						<div class="title">Điện thoại</div>
+					</li>
+				</ul>
+			</form>
+		</div>
+		<div class="bg-popup-search" onclick="showSearch()"></div>
+	</div>
+	<!-- End popup search -->
+
+	<!-- Start popup menu -->
+	<div id="showNavSideMenu" class="modal fade modal-nav-side-menu" role="dialog">
+		<div class="modal-dialog">
+
+			<nav class="nav-side-menu divFadeInLeft" id="nav-side-menu">
+				<span class="btn-close-nav" data-dismiss="modal">
+					<svg viewBox="0 0 40 40"><path d="M10,10 L30,30 M30,10 L10,30" /></svg>
+				</span>
+				<div class="box-user">
+					<div class="no-login" style="display: none;">
+						<span class="btn-sign-up" data-toggle="modal" data-target="#popup_signup">Đăng ký</span>
+						<span class="btn-sign-in" data-toggle="modal" data-target="#popup_signin">Đăng nhập</span>
+					</div>
+					<div class="logged">
+						<div class="img-user">
+							<a href="m.user.html" class="box" title="Tài khoản">
+								<img src="theme/frontend/images/logo_vne.jpg" alt="Ảnh đại diện" class="responsive">
+							</a>
+						</div>
+						<div class="user-info">
+							<a href="m.user.html" rel="nofollow" title="Đinh Thị Phương Anh" class="user-name">Đinh Thị Phương Anh</a>
+							<div class="user-address">
+								<p class="text">
+									<span class="fal fa-map-marker-alt"></span>
+									Đường Mỗ Lao - Phường Mỗ Lao - Quận Hà Đông - Hà Nội
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="menu-list">
+					<div class="group-menu">
+						<a href="m.index.html" title="Trang chủ" class="item-menu">
+							<span class="ic-menu fal fa-home"></span> TRANG CHỦ
+						</a>
+						<a href="m.category.html" title="" class="item-menu item-menu-cate">
+							<span class="ic-menu fas fa-th"></span> DANH MỤC NGÀNH HÀNG
+						</a>
+					</div>
+
+					<div class="group-menu">
+						<a href="m.user-notification.html" title="" class="item-menu">
+							<span class="ic-menu fal fa-bell"></span> Thông báo (<i>22</i>)
+						</a>
+						<a href="m.user-checking-order.html" title="" class="item-menu">
+							<span class="ic-menu fal fa-file-check"></span> Kiểm tra đơn hàng
+						</a>
+						<a href="m.Q-A.html" title="" class="item-menu">
+							<span class="ic-menu fal fa-life-ring"></span> Hỗ trợ khách hàng
+						</a>
+					</div>
+
+					<div class="group-menu">
+						<span class="title-group">Khuyến mãi</span>
+						<a href="m.gift.html" title="" class="item-menu">
+							<span class="ic-menu fal fa-gift"></span> Ưu đãi quà tặng
+						</a>
+						<a href="m.brand.html" title="" class="item-menu">
+							<span class="ic-menu fal fa-medal"></span> Thương hiệu nổi bật
+						</a>
+					</div>
+
+					<div class="group-menu">
+						<span class="title-group">ĐỐI TÁC BÁN HÀNG</span>
+						<a href="m.chinh-sach-quy-che-hoat-dong.html" title="" class="item-menu">
+							<span class="ic-menu fal fa-briefcase"></span> Quy chế & Điều khoản
+						</a>
+						<a href="m.hop-tac-ban-hang.html" title="" class="item-menu">
+							<span class="ic-menu fal fa-handshake"></span> Hợp tác bán hàng
+						</a>
+					</div>
+
+					<div class="group-menu">
+						<span class="title-group">HỖ TRỢ VÀ CÀI ĐẶT</span>
+						<a href="https://vnexpress.net" title="" class="item-menu">
+							<span class="ic-menu icon_bao_vne"></span> Đọc báo VNExpress
+						</a>
+						<a href="tel:1900633376" title="" class="item-menu">
+							<span class="ic-menu fal fa-phone"></span> Hotline : <strong>19001900</strong>
+						</a>
+						<a href="#" title="" class="item-menu" data-toggle="modal" data-target="#popup_signout">
+							<span class="ic-menu fal fa-sign-out"></span> Đăng xuất
+						</a>
+					</div>
+				</div>
+			</nav>
+		</div>
+	</div>
+	<!-- End popup menu -->
+
+	<!-- Start breadcrumb -->
+	<div class="nav-breadcrumb">
+		<a href="m.category.html" title="" class="btn-goback" rel="nofollow">
+			<span class="fal fa-angle-left icon-back-url"></span>
+		</a>
+		<div class="box-title-page">
+			<h1 class="name-page">Điện tử - Điện thoại</h1>
+			<span class="count-item"> (345 sản phẩm)</span>
+		</div>
+	</div>
+	<!-- End breadcrumb -->
+
+
+	<div class="view_mobile m-category" id="container_lv2">
+
+		<section class="list-cate-folder clearfix">
+			<div class="box box-cate-wrapper" id="slide_list_cate_folder">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<div class="box item-cate">
+							<div class="box box-inner">
+								<a href="m.category-lv-2.html" class="box-img animate-radia" title="">
+									<img src="theme/frontend/images/search_trend_01.png" alt="" class="responsive">
+								</a>
+								<a href="m.category-lv-2.html" title="" class="box title-cate">Váy đầm hè 2018</a>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="box item-cate">
+							<div class="box box-inner">
+								<a href="m.category-lv-2.html" class="box-img animate-radia" title="">
+									<img src="theme/frontend/images/search_trend_02.png" alt="" class="responsive">
+								</a>
+								<a href="m.category-lv-2.html" title="" class="box title-cate">Sơ mi nam trẻ trung</a>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="box item-cate">
+							<div class="box box-inner">
+								<a href="m.category-lv-2.html" class="box-img animate-radia" title="">
+									<img src="theme/frontend/images/search_trend_03.png" alt="" class="responsive">
+								</a>
+								<a href="m.category-lv-2.html" title="" class="box title-cate">Kính thời trang</a>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="box item-cate">
+							<div class="box box-inner">
+								<a href="m.category-lv-2.html" class="box-img animate-radia" title="">
+									<img src="theme/frontend/images/search_trend_04.png" alt="" class="responsive">
+								</a>
+								<a href="m.category-lv-2.html" title="" class="box title-cate">Sơ mi nam quyến rũ</a>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide">						
+						<div class="box item-cate">
+							<div class="box box-inner">
+								<a href="m.category-lv-2.html" class="box-img animate-radia" title="">
+									<img src="theme/frontend/images/search_trend_05.png" alt="" class="responsive">
+								</a>
+								<a href="m.category-lv-2.html" title="" class="box title-cate">Túi xách</a>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="box item-cate">
+							<div class="box box-inner">
+								<a href="m.category-lv-2.html" class="box-img animate-radia" title="">
+									<img src="theme/frontend/images/search_trend_06.png" alt="" class="responsive">
+								</a>
+								<a href="m.category-lv-2.html" title="" class="box title-cate">Dép quai hậu</a>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="box item-cate">
+							<div class="box box-inner">
+								<a href="m.category-lv-2.html" class="box-img animate-radia" title="">
+									<img src="theme/frontend/images/search_trend_07.png" alt="" class="responsive">
+								</a>
+								<a href="m.category-lv-2.html" title="" class="box title-cate">Ví nữ</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Add Arrows -->
+				<div class="swiper-pagination-sub-menu"></div>
+			</div>
+		</section>
+
+		<!-- Start box filter -->
+		<section class="cate-filler" id="cate-filler">
+
+			<div class="nav navbar-nav list-btn-filter">
+				<div class="dropdown">
+					<a data-toggle="dropdown" href="#" class="dropdown-toggle btn-filter"> <span class="fal fa-sort-amount-down"></span> Sắp xếp</a>
+					<div class="dropdown-menu">
+						<form class="form-filter form-filter-sap-xep" name="form-filter-sap-xep" action="" method="get">
+							<div class="list-option-filter" id="option-sap-xep">
+								<div class="label-group">
+									<label class="list-group-item" for="radios-sap-xep-0"> <input type="radio" name="radios" id="radios-sap-xep-0" value="1" checked="checked"> Mua nhiều nhất</label>
+									<label class="list-group-item" for="radios-sap-xep-1"> <input type="radio" name="radios" id="radios-sap-xep-1" value="2"> Khuyến mại cao nhất</label>
+									<label class="list-group-item" for="radios-sap-xep-2"> <input type="radio" name="radios" id="radios-sap-xep-2" value="3"> Giá tăng dần</label>
+									<label class="list-group-item" for="radios-sap-xep-3"> <input type="radio" name="radios" id="radios-sap-xep-3" value="4"> Giá giảm dần</label>
+								</div>
+								<button type="submit" class="btn-filter">Xác nhận</button>
+							</div>
+						</form>
+					</div>
+				</div>
+				<div class="dropdown">
+					<a data-toggle="dropdown" href="#" class="dropdown-toggle btn-filter"> <span class="fal fa-bars"></span> Danh mục</a>
+					<div class="dropdown-menu">
+						<ul class="content">
+							<li>
+								<a href="#" title="" rel="nofollow">Điện thoại</a>
+								<span class="fal fa-chevron-right icon-dropdown btn-show-submenu"></span>
+								<ul>
+									<li><a href="#" title="">Điện thoại Iphone</a></li>
+									<li><a href="#" title="">Điện thoại Samsung</a></li>
+									<li><a href="#" title="">Điện thoại OPPO</a></li>
+								</ul>
+							</li>
+							<li><a href="#" title="">Laptop</a></li>
+							<li><a href="#" title="">Máy tính bảng</a></li>
+							<li><a href="#" title="">Camera</a></li>
+							<li><a href="#" title="">Phụ kiện điện thoại</a></li>
+							<li>
+								<a class="parent" href="#" title="" rel="nofollow">Điện lạnh</a>
+								<span class="fal fa-chevron-right icon-dropdown btn-show-submenu"></span>
+								<ul>
+									<li>
+										<a class="parent" href="#" title="" rel="nofollow">Điều hòa</a>
+										<span class="fal fa-chevron-right icon-dropdown btn-show-submenu"></span>
+										<ul>
+											<li><a href="#" title="" rel="nofollow">Điều hòa LG</a></li>
+											<li><a href="#" title="">Điều hòa Samsung</a></li>
+											<li><a href="#" title="">Điều hòa TOSIBA</a></li>
+										</ul>
+									</li>
+									<li><a href="#" title="">Tủ lạnh</a></li>
+									<li><a href="#" title="">Quạt làm mát</a></li>
+								</ul>
+							</li>
+							<li><a href="#" title="">Thiết bị an ninh</a></li>
+							<li><a href="#" title="">Phụ kiện khác</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+		</section>
+		<!-- End box filter -->
+
+		<section class="list-cate-lv2 clearfix">
+
+			<div class="wrapper-list clearfix">
+				<div class="list-pro clearfix">
+
+					<div class="item-pro" itemscope itemtype="http://schema.org/Product">
+						<div class="box-image">
+							<a href="m.product-detail.html" title="" class="box" itemprop="url">
+								<img src="theme/frontend/images/product_home_02.png" alt="" class="responsive" itemprop="image">
+							</a>
+							<span class="gift-label"></span>
+							<span class="grab-6h"></span>
+							<span class="icon-genuine"></span>
+						</div>
+						<div class="box box-title-item">
+							<h3 class="box mg0" itemprop="name">
+								<a href="m.product-detail.html" class="box title-post-item" title="" itemprop="url"><span class="icon-deal-hot">Deal Hot</span>Điện Thoại iPhone X 256GB - Hàng Nhập Khẩu</a>
+							</h3>
+							<div class="box-price">
+								<p class="box" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+									<span class="price-sale" itemprop="price" content="45520000">45.520.000đ</span>
+									<span class="price-old">56.900.000đ</span>
+									<span class="percent-discount">(-20%)</span>
+									<meta itemprop="priceCurrency" content="VND">
+								</p>
+							</div>
+						</div>
+					</div><!-- End item product -->
+					<div class="item-pro" itemscope itemtype="http://schema.org/Product">
+						<div class="box-image">
+							<a href="m.product-detail.html" title="" class="box" itemprop="url">
+								<img src="theme/frontend/images/product_home_02.png" alt="" class="responsive" itemprop="image">
+							</a>
+							<span class="gift-label"></span>
+							<span class="freeship-label"></span>
+							<span class="icon-tra-gop-0"></span>
+						</div>
+						<div class="box box-title-item">
+							<h3 class="box mg0" itemprop="name">
+								<a href="m.product-detail.html" class="box title-post-item" title="" itemprop="url"><span class="icon-deal-hot">Deal Hot</span>Điện Thoại iPhone X 256GB - Hàng Nhập Khẩu</a>
+							</h3>
+							<div class="box-price">
+								<p class="box" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+									<span class="price-sale" itemprop="price" content="45520000">45.520.000đ</span>
+									<span class="price-old">56.900.000đ</span>
+									<span class="percent-discount">(-20%)</span>
+									<meta itemprop="priceCurrency" content="VND">
+								</p>
+							</div>
+						</div>
+					</div><!-- End item product -->
+					<div class="item-pro" itemscope itemtype="http://schema.org/Product">
+						<div class="box-image">
+							<a href="m.product-detail.html" title="" class="box" itemprop="url">
+								<img src="theme/frontend/images/product_home_02.png" alt="" class="responsive" itemprop="image">
+							</a>
+						</div>
+						<div class="box box-title-item">
+							<h3 class="box mg0" itemprop="name">
+								<a href="m.product-detail.html" class="box title-post-item" title="" itemprop="url">Điện Thoại iPhone X 256GB - Hàng Nhập Khẩu</a>
+							</h3>
+							<div class="box-price">
+								<p class="box" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+									<span class="price-sale" itemprop="price" content="45520000">45.520.000đ</span>
+									<span class="price-old">56.900.000đ</span>
+									<span class="percent-discount">(-20%)</span>
+									<meta itemprop="priceCurrency" content="VND">
+								</p>
+							</div>
+						</div>
+					</div><!-- End item product -->
+					<div class="item-pro" itemscope itemtype="http://schema.org/Product">
+						<div class="box-image">
+							<a href="m.product-detail.html" title="" class="box" itemprop="url">
+								<img src="theme/frontend/images/product_home_02.png" alt="" class="responsive" itemprop="image">
+							</a>
+						</div>
+						<div class="box box-title-item">
+							<h3 class="box mg0" itemprop="name">
+								<a href="m.product-detail.html" class="box title-post-item" title="" itemprop="url">Điện Thoại iPhone X 256GB - Hàng Nhập Khẩu</a>
+							</h3>
+							<div class="box-price">
+								<p class="box" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+									<span class="price-sale" itemprop="price" content="45520000">45.520.000đ</span>
+									<span class="price-old">56.900.000đ</span>
+									<span class="percent-discount">(-20%)</span>
+									<meta itemprop="priceCurrency" content="VND">
+								</p>
+							</div>
+						</div>
+					</div><!-- End item product -->
+
+					<div class="item-pro" itemscope itemtype="http://schema.org/Product">
+						<div class="box-image">
+							<a href="m.product-detail.html" title="" class="box" itemprop="url">
+								<img src="theme/frontend/images/product_home_02.png" alt="" class="responsive" itemprop="image">
+							</a>
+						</div>
+						<div class="box box-title-item">
+							<h3 class="box mg0" itemprop="name">
+								<a href="m.product-detail.html" class="box title-post-item" title="" itemprop="url">Điện Thoại iPhone X 256GB - Hàng Nhập Khẩu</a>
+							</h3>
+							<div class="box-price">
+								<p class="box" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+									<span class="price-sale" itemprop="price" content="45520000">45.520.000đ</span>
+									<span class="price-old">56.900.000đ</span>
+									<span class="percent-discount">(-20%)</span>
+									<meta itemprop="priceCurrency" content="VND">
+								</p>
+							</div>
+						</div>
+					</div><!-- End item product -->
+					<div class="item-pro" itemscope itemtype="http://schema.org/Product">
+						<div class="box-image">
+							<a href="m.product-detail.html" title="" class="box" itemprop="url">
+								<img src="theme/frontend/images/product_home_02.png" alt="" class="responsive" itemprop="image">
+							</a>
+						</div>
+						<div class="box box-title-item">
+							<h3 class="box mg0" itemprop="name">
+								<a href="m.product-detail.html" class="box title-post-item" title="" itemprop="url">Điện Thoại iPhone X 256GB - Hàng Nhập Khẩu</a>
+							</h3>
+							<div class="box-price">
+								<p class="box" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+									<span class="price-sale" itemprop="price" content="45520000">45.520.000đ</span>
+									<span class="price-old">56.900.000đ</span>
+									<span class="percent-discount">(-20%)</span>
+									<meta itemprop="priceCurrency" content="VND">
+								</p>
+							</div>
+						</div>
+					</div><!-- End item product -->
+					<div class="item-pro" itemscope itemtype="http://schema.org/Product">
+						<div class="box-image">
+							<a href="m.product-detail.html" title="" class="box" itemprop="url">
+								<img src="theme/frontend/images/product_home_02.png" alt="" class="responsive" itemprop="image">
+							</a>
+						</div>
+						<div class="box box-title-item">
+							<h3 class="box mg0" itemprop="name">
+								<a href="m.product-detail.html" class="box title-post-item" title="" itemprop="url">Điện Thoại iPhone X 256GB - Hàng Nhập Khẩu</a>
+							</h3>
+							<div class="box-price">
+								<p class="box" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+									<span class="price-sale" itemprop="price" content="45520000">45.520.000đ</span>
+									<span class="price-old">56.900.000đ</span>
+									<span class="percent-discount">(-20%)</span>
+									<meta itemprop="priceCurrency" content="VND">
+								</p>
+							</div>
+						</div>
+					</div><!-- End item product -->
+					<div class="item-pro" itemscope itemtype="http://schema.org/Product">
+						<div class="box-image">
+							<a href="m.product-detail.html" title="" class="box" itemprop="url">
+								<img src="theme/frontend/images/product_home_02.png" alt="" class="responsive" itemprop="image">
+							</a>
+						</div>
+						<div class="box box-title-item">
+							<h3 class="box mg0" itemprop="name">
+								<a href="m.product-detail.html" class="box title-post-item" title="" itemprop="url">Điện Thoại iPhone X 256GB - Hàng Nhập Khẩu</a>
+							</h3>
+							<div class="box-price">
+								<p class="box" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+									<span class="price-sale" itemprop="price" content="45520000">45.520.000đ</span>
+									<span class="price-old">56.900.000đ</span>
+									<span class="percent-discount">(-20%)</span>
+									<meta itemprop="priceCurrency" content="VND">
+								</p>
+							</div>
+						</div>
+					</div><!-- End item product -->
+
+				</div>
+
+				<div class="box box-readmore clearfix">
+					<a href="#" class="box btn-readmore" title="" rel="nofollow">Xem thêm <span class="fal fa-chevron-down"></span></a>
+				</div>
+
+			</div>
+		</section>
+
+	</div>
+	<!--#container_landing @tuanla60-->
+
+	<footer class="box clearfix">
+		<div class="box footer-mobile">
+			<ul class="box list-item">
+
+				<li class="box item">
+					<a href="#" title="" class="icon-img">
+						<span class="fal fa-box-check"></span>
+					</a>
+					<a href="#" title="" class="box title-item"><pre>Sản phẩm</pre> <pre>chính hãng</pre></a>
+				</li>
+				<li class="box item">
+					<a href="#" title="" class="icon-img">
+						<span class="fal fa-credit-card"></span>
+					</a>
+					<a href="#" title="" class="box title-item"><pre>Thanh toán</pre> <pre>tiện lợi</pre></a>
+				</li>
+				<li class="box item">
+					<a href="#" title="" class="icon-img">
+						<span class="fal fa-shipping-fast"></span>
+					</a>
+					<a href="#" title="" class="box title-item"><pre>Giao hàng</pre> <pre>nhanh chóng</pre></a>
+				</li>
+				<li class="box item">
+					<a href="#" title="" class="icon-img">
+						<span class="fal fa-headset"></span>
+					</a>
+					<a href="#" title="" class="box title-item"><pre>Hỗ trợ 24/7</pre></a>
+				</li>
+
+			</ul>
+		</div>
+	</footer>
+	
+	
+
+	<div class="group-action-control-bottom">
+		<span class="btn-control btn-go-top">Top</span>
+		<span class="btn-control btn-chat-messege"><i class="icon-messeger"></i></span>
+		<a href="m.index.html" title="" class="btn-control btn-go-home">Home</a>
+	</div>
+
+
+	<!-- Start #mb-wrap-popup-group - Group popup page - Globe -->
+	<div id="mb-wrap-popup-group">
+
+		<!-- Start box_popup_choose_localtion -->
+		<div class="box-popup-choose-localtion" id="box_popup_choose_localtion">
+			<div class="box-inner-popup divFadeInScale">
+				<div class="box-wrap-localtion">
+					<div class="header-popup">
+						<p>Địa chỉ giao hàng</p>
+					</div>
+					<div class="box-content-popup">
+						<p class="helper-text">Hãy chọn địa chỉ nhận hàng để được dự báo thời gian giao hàng cùng phí đóng gói, vận chuyển một cách chính xác nhất.</p>
+						<div class="text-center">
+							<button class="btn login-btn" data-toggle="modal" data-target="#popup_signin" data-dismiss="modal">Đăng nhập để chọn địa chỉ giao hàng</button>
+							<div class="or"></div>
+						</div>
+						<form action="." method="post" class="form-horizontal form-choose-localtion">
+
+							<fieldset>
+								<div class="location-list">
+									<div class="location-item">
+										<div class="checkbox-wrap">
+											<div class="radio-box">
+												<div class="icon">
+													<span class="icon-localtion"></span>
+												</div>
+												<span class="text">Phường Mỹ Đình 2, Quận Nam Từ Liêm, Hà Nội</span>
+											</div>
+										</div>
+									</div>
+									<div class="location-item">
+										<div class="checkbox-wrap">
+											<div class="radio-box">
+												<div class="icon">
+													<span class="icon-localtion"></span>
+												</div>
+												<span class="text">Phường Dịch Vọng Hậu, Quận Cầu Giấy, Hà Nội</span>
+											</div>
+										</div>
+									</div>
+									<div class="location-item active">
+										<div class="checkbox-wrap">
+											<div class="radio-box">
+												<div class="icon">
+													<span class="icon-localtion"></span>
+												</div>
+												<span class="text">Chọn khu vực giao hàng khác</span>
+											</div>
+										</div>
+									</div>
+									<div class="create-location-form">
+										<div class="form-horizontal">
+											<div class="form-group">
+												<label class="col-xs-12 col-sm-4 control-label">Tỉnh/ Thành phố</label>
+												<div class="col-xs-12 col-sm-7">
+													<select class="form-control">
+														<option value="">Vui lòng chọn tỉnh/ thành phố</option>
+														<option value="294">Hồ Chí Minh</option>
+														<option value="297">Hà Nội</option>
+														<option value="291">Đà Nẵng</option>
+														<option value="278">An Giang</option>
+														<option value="280">Bà Rịa - Vũng Tàu</option>
+													</select>
+												</div>
+											</div>
+											<div class="form-group">
+												<label class="col-xs-12 col-sm-4 control-label">Quận/ Huyện</label>
+												<div class="col-xs-12 col-sm-7">
+													<select class="form-control">
+														<option value="">Vui lòng chọn quận/huyện</option>
+													</select>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="modal-footer">
+									<div class="text-center"><button class="apply-btn">GIAO ĐẾN ĐỊA CHỈ NÀY</button></div>
+								</div>
+
+							</fieldset>
+
+						</form>
+					</div>
+				</div>
+
+				<div class="btn-close-warning" data-dismiss="modal">x</div>
+			</div>
+		</div>
+		<!-- End box_popup_choose_localtion -->
+
+		<!-- Start box-popup-warning-logout -->
+		<div class="box-popup-warning-logout" id="popup_signout">
+			<div class="box-inner-popup divFadeInScale">
+				<div class="box-wrap-preview">
+					<div class="header-popup">
+						<p>THÔNG BÁO</p>
+					</div>
+					<div class="box-content-popup">
+						<p>Bạn có muốn đăng xuất không ?</p>
+						<p><span class="no" data-dismiss="modal">Không</span> <span class="yes">Có</span> </p>
+					</div>
+				</div>
+
+				<div class="btn-close-warning" data-dismiss="modal">x</div>
+			</div>
+		</div>
+		<!-- End box-popup-warning-logout -->
+
+	</div>
+	
+	<script src="theme/frontend/js/swiper.min.js" defer></script>
+	<script src="theme/frontend/js/script-mb.js" defer></script>
+	<!-- <script src="theme/frontend/js/fontawesome.js" defer></script> -->
+		
+
+	<script>		
+		$(document).ready(function() {
+			checkScroll2();
+			$(window).scroll(checkScroll2);
+		});
+
+		function checkScroll2(){
+
+			var total_scroll_height = document.body.scrollHeight;
+			var inside_header = ($(this).scrollTop() <= 400);
+			var passed_header = ($(this).scrollTop() >= 0);
+			if (inside_header === true) {
+				$('.btn-go-top').removeClass('show');
+			} else if (passed_header === true) {
+			$('.btn-go-top').addClass('show');
+			}
+		}
+
+		jQuery(function($) {
+			$('.btn-go-top').on("click", function(e) {
+				e.preventDefault();
+				$('html, body').animate({
+					scrollTop: 0
+				}, 1000);
+			});
+		})
+	</script>
+
+</body>
+</html>

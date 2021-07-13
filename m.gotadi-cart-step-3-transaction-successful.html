@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<base href="" />
+	<title>Shop Vnexpress version 2</title>
+	<meta name="robots" content="index, follow">
+	<meta name="description" content="">
+	<link rel="shortcut icon" href="https://s.vnecdn.net/shop/i/v3/manifest/favicon-32x32.png">
+	<link type="text/css" rel="stylesheet" href="theme/frontend/css/normalize.min.css" />
+	<link type="text/css" rel="stylesheet" href="theme/frontend/css/bootstrap.min.css" />
+	<link type="text/css" rel="stylesheet" href="theme/frontend/css/animate.css" />
+	<link type="text/css" rel="stylesheet" href="theme/frontend/css/swiper.min.css" />
+	<link type="text/css" rel="stylesheet" href="theme/frontend/css/style-cart-mb.css" />
+	<link type="text/css" rel="stylesheet" href="theme/frontend/css/fontawesomepro531.css" />
+	<link type="text/css" rel="stylesheet" href="theme/frontend/jquery-ui-1.12.1.custom/jquery-ui.min.css">
+	<script src="theme/frontend/js/jquery-2.2.1.min.js"></script>
+	<script src="theme/frontend/js/bootstrap.min.js"></script>
+	<script src="theme/frontend/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+</head>
+<body class="view_mb" itemscope itemtype="http://schema.org/WebPage">
+	<header class="box header">
+		<div class="btn-nav-menu-option-3">
+			<div class="nav-page" aria-label="breadcrumb">
+				<a href="m.index.html" title="Shop VnExpress" class="btn-return">
+					<span class="fal fa-angle-left"></span>
+				</a>
+				<span class="title-page-curent">Xác nhận</span>
+			</div>
+			<div class="toggle-btn" data-toggle="modal" data-target="#showNavSideMenu">
+				<span class="fal fa-bars"></span>
+			</div>
+			<div class="toggle-btn-search" onclick="showSearch();">
+				<span class="fal fa-search"></span>
+			</div>
+			<div class="toggle-btn-cart">
+				<span class="fal fa-shopping-cart"><i class="number_qty">18</i></span>
+			</div>
+		  
+		</div>
+
+	</header>
+
+	<!-- Start popup search -->
+	<div class="popup-search fadeInLeft" id="popup-search">
+		<div class="box box_search_top">
+			<div class="btn-close-search" onclick="showSearch()">
+				<span class="fal fa-times"></span>
+			</div>
+			<form name="search" action="m.search.html" method="post" class="box form-search">
+				<input type="search" name="q" placeholder="Nhập tên sản phẩm cần tìm..." required class="input-search">
+				<button type="submit" class="btn-search">
+					<span class="fal fa-search"></span>
+				</button>
+				<ul class="wrap-show-result search_load" style="display: block;">
+					<li class="item search_item" data-type="text" data-search="điện thoại ">
+						<div class="title">điện thoại </div>
+					</li>
+					<li class="item search_item_product" data-type="product" data-url="m.product-detail.html">
+						<a href="m.product-detail.html">
+							<img src="theme/frontend/images/dien-thoai.jpg" alt="">
+							<div class="warp">
+								<div class="title">Điện thoại Nokia 8110 vàng</div>
+								<div class="price">1.680.000đ</div>
+							</div>
+						</a>
+					</li>
+					<li class="item search_item_product" data-type="product" data-url="m.product-detail.html">
+						<a href="m.product-detail.html">
+							<img src="theme/frontend/images/dien-thoai.jpg" alt="">
+							<div class="warp">
+								<div class="title">Điện thoại Nokia 8110 Black</div>
+								<div class="price">1.680.000đ</div>
+							</div>
+						</a>
+					</li>
+					<li class="item search_item_product" data-type="product" data-url="m.product-detail.html">
+						<a href="m.product-detail.html">
+							<img src="theme/frontend/images/dien-thoai.jpg" alt="">
+							<div class="warp">
+								<div class="title">Điện thoại Nokia 1 (Red)</div>
+								<div class="price">1.800.000đ</div>
+							</div>
+						</a>
+					</li>
+					<li class="item search_item_product" data-type="product" data-url="m.product-detail.html">
+						<a href="m.product-detail.html">
+							<img src="theme/frontend/images/dien-thoai.jpg" alt="">
+							<div class="warp">
+								<div class="title">Túi điện thoại Verchini màu đen 007234</div>
+								<div class="price">99.000đ</div>
+							</div>
+						</a>
+					</li>
+					<li class="item search_item_trend"><span class="bold">Từ khóa hot</span></li>
+					<li class="item search_item_trend" data-keyword="Ví nữ hàng hiệu Venuco Madrid">
+						<div class="title">Ví nữ hàng hiệu Venuco Madrid</div>
+					</li>
+					<li class="item search_item_trend" data-keyword="Balo/ túi đeo chéo thời trang Haras">
+						<div class="title">Balo/ túi đeo chéo thời trang Haras</div>
+					</li>
+					<li class="item search_item_trend" data-keyword="Đầm/váy thời trang nữ">
+						<div class="title">Đầm/váy thời trang nữ</div>
+					</li>
+					<li class="item search_item_trend" data-keyword="Đồng hồ nam">
+						<div class="title">Đồng hồ nam</div>
+					</li>
+					<li class="item search_item_history"><span class="bold">Lịch sử tìm kiếm</span><a class="clear" href="javascript:" aria-hidden="true" title="Xóa lịch sử tìm kiếm">Xóa</a></li>
+					<li class="item search_item_history" data-keyword="Đồng hồ nam">
+						<div class="title">Đồng hồ nam</div>
+					</li>
+					<li class="item search_item_history" data-keyword="Đồng hồ nữ">
+						<div class="title">Đồng hồ nữ</div>
+					</li>
+					<li class="item search_item_history" data-type="text" data-search="">
+						<div class="title">Điện thoại</div>
+					</li>
+				</ul>
+			</form>
+		</div>
+		<div class="bg-popup-search" onclick="showSearch()"></div>
+	</div>
+	<!-- End popup search -->
+
+	<!-- Start popup menu -->
+	<div id="showNavSideMenu" class="modal fade modal-nav-side-menu" role="dialog">
+		<div class="modal-dialog">
+
+			<nav class="nav-side-menu divFadeInLeft" id="nav-side-menu">
+				<span class="btn-close-nav" data-dismiss="modal">
+					<svg viewBox="0 0 40 40"><path d="M10,10 L30,30 M30,10 L10,30" /></svg>
+				</span>
+				<div class="box-user">
+					<div class="no-login" style="display: none;">
+						<span class="btn-sign-up" data-toggle="modal" data-target="#popup_signup">Đăng ký</span>
+						<span class="btn-sign-in" data-toggle="modal" data-target="#popup_signin">Đăng nhập</span>
+					</div>
+					<div class="logged">
+						<div class="img-user">
+							<a href="m.user.html" class="box" title="Tài khoản">
+								<img src="theme/frontend/images/logo_vne.jpg" alt="Ảnh đại diện" class="responsive">
+							</a>
+						</div>
+						<div class="user-info">
+							<a href="m.user.html" rel="nofollow" title="Đinh Thị Phương Anh" class="user-name">Đinh Thị Phương Anh</a>
+							<div class="user-address">
+								<p class="text">
+									<span class="fal fa-map-marker-alt"></span>
+									Đường Mỗ Lao - Phường Mỗ Lao - Quận Hà Đông - Hà Nội
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="menu-list">
+					<div class="group-menu">
+						<a href="m.index.html" title="Trang chủ" class="item-menu">
+							<span class="ic-menu fal fa-home"></span> TRANG CHỦ
+						</a>
+						<a href="m.category.html" title="" class="item-menu item-menu-cate">
+							<span class="ic-menu fas fa-th"></span> DANH MỤC NGÀNH HÀNG
+						</a>
+					</div>
+
+					<div class="group-menu">
+						<a href="m.user-notification.html" title="" class="item-menu">
+							<span class="ic-menu fal fa-bell"></span> Thông báo (<i>22</i>)
+						</a>
+						<a href="m.user-checking-order.html" title="" class="item-menu">
+							<span class="ic-menu fal fa-file-check"></span> Kiểm tra đơn hàng
+						</a>
+						<a href="m.Q-A.html" title="" class="item-menu">
+							<span class="ic-menu fal fa-life-ring"></span> Hỗ trợ khách hàng
+						</a>
+					</div>
+
+					<div class="group-menu">
+						<span class="title-group">Khuyến mãi</span>
+						<a href="m.gift.html" title="" class="item-menu">
+							<span class="ic-menu fal fa-gift"></span> Ưu đãi quà tặng
+						</a>
+						<a href="m.brand.html" title="" class="item-menu">
+							<span class="ic-menu fal fa-medal"></span> Thương hiệu nổi bật
+						</a>
+					</div>
+
+					<div class="group-menu">
+						<span class="title-group">ĐỐI TÁC BÁN HÀNG</span>
+						<a href="m.chinh-sach-quy-che-hoat-dong.html" title="" class="item-menu">
+							<span class="ic-menu fal fa-briefcase"></span> Quy chế & Điều khoản
+						</a>
+						<a href="m.hop-tac-ban-hang.html" title="" class="item-menu">
+							<span class="ic-menu fal fa-handshake"></span> Hợp tác bán hàng
+						</a>
+					</div>
+
+					<div class="group-menu">
+						<span class="title-group">HỖ TRỢ VÀ CÀI ĐẶT</span>
+						<a href="https://vnexpress.net" title="" class="item-menu">
+							<span class="ic-menu icon_bao_vne"></span> Đọc báo VNExpress
+						</a>
+						<a href="tel:1900633376" title="" class="item-menu">
+							<span class="ic-menu fal fa-phone"></span> Hotline : <strong>19001900</strong>
+						</a>
+						<a href="#" title="" class="item-menu" data-toggle="modal" data-target="#popup_signout">
+							<span class="ic-menu fal fa-sign-out"></span> Đăng xuất
+						</a>
+					</div>
+				</div>
+			</nav>
+		</div>
+	</div>
+	<!-- End popup menu -->
+	
+	<section class="box-step-buy" id="box-step-buy">
+		<ul class="list-step">
+			<li class="item-step active"><a href="m.cart-step-1.html" class="box">1. Thông tin</a></li>
+			<li class="item-step active"><a href="m.cart-step-2.html" class="box">2. Thanh toán</a></li>
+			<li class="item-step active"><a href="m.cart-step-3-transaction-failed.html" class="box">3. Xác nhận</a></li>
+		</ul>
+	</section>
+
+	<div class="view_mobile m-carts m-xacnhan">
+
+		<section class="confirm-order clearfix">
+			<div class="title-box">
+				<h3><span class="icon-clipboards"></span> THÔNG Báo</h3>
+			</div>
+			<div class="content-box">
+				<br>
+				<p style="text-align: center; margin-bottom: 15px;"><img src="theme/frontend/images/icon_success.png" alt=""></p>
+				<p style="text-align: center;font-size: 18px; color: #242424; line-height: 32px;">THANH TOÁN THÀNH CÔNG</p>
+				<br>
+				<p>Bạn đã đặt hàng thành công.</p>
+				<p>• Mã đơn hàng : <strong>DH8362204201983792(JVJ Digital)</strong></p>
+				<p>• Hình thức thanh toán : <strong>Thanh toán tiền mặt khi nhận hàng (COD)</strong></p>
+				<p>• Đơn vị giao hàng : <strong>GHN, thời gian dự kiến giao từ 2 - 3 ngày tiếp theo</strong></p>
+				<br>
+
+				<p>Thông tin chi tiết đơn hàng đã được gửi đến địa chỉ email <span style="color: #174ddb; text-decoration: underline;">huyenlengoc1995@gmail.com</span>.</p>
+				<p>Nếu không tìm thấy vui lòng kiểm tra trong hộp thư <strong>Spam</strong> hoặc <strong>Junk Folder</strong></p>
+
+				<p style="display: flex;padding: 6px 15px;background: #F0FAFF; border: 1px solid #E4E4E4; border-radius: 3px;margin: 10px 0; line-height: 1.6;">
+					<span class="far fa-exclamation-circle" style="color: #0aa06e; font-size: 18px; display: inline-block; float: left; padding-right: 10px;"></span> 
+					<span>Nhằm giúp việc xử lý đơn hàng nhanh hơn, bắt đầu từ ngày <strong>7/2/2020</strong>, phía Shop VnExpress sẽ không gọi điện cho bạn để xác nhận đơn hàng.</span>
+				</p>
+
+				<p>Mọi thắc mắc cần được hỗ trợ xin vui lòng liên hệ hotline: <strong>1900.633.376</strong></p>
+				<p>Thời gian làm việc từ <strong>thứ 2 đến thứ 6</strong> (8h00 - 18h00), <strong>thứ 7</strong> (8h00 - 17h30)</p>
+				<br>
+
+				<p>Cảm ơn quý khách,</p>
+				<p><strong>ShopVnExpress.</strong></p>
+			</div>
+
+			<div class="wrap-btn-cart">
+				<a href="m.index.html" class="continue-shoping">Tiếp tục mua sắm</a>
+			</div>
+		</section>
+
+		<div class="wrap-total-checkout-gotadi">
+			<div class="box total-checkout clearfix" id="wrapper_cart">
+
+				<section class="box-invoice clearfix">
+					<div class="title-box">
+						<h3>Hóa đơn</h3>
+					</div>
+
+					<div class="content-box">
+
+						<div class="content-invoice clearfix">
+							<div class="col-right">
+								<p class="tien-hang">Tiền hàng: <span>32.000.000đ</span></p>
+								<p>Mã giảm giá: <span>-300.000đ</span></p>
+								<p>Phí vận chuyển (dự kiến): <span>20.000đ</span></p>
+							</div>
+						</div>
+
+						<a href="#" class="export-invoice active" data-toggle="modal" data-target="#popup_export_invoice">
+							<span class="cell-checkbox"></span>
+							<span class="title">Xuất hóa đơn</span>
+						</a>
+
+					</div>
+				</section>
+
+				<section class="box-invoice-gotadi clearfix">
+
+					<div class="title-box">
+						<h3>Chi tiết đặt chỗ</h3>
+					</div>
+
+					<div class="content-box">
+						<div class="flight-information">
+							<p><strong>Hà Nội(HAN) - Hồ Chí Minh(SGN)</strong></p>
+							<p>12:40 Saturday, 19/12/2020</p>
+							<p>Mã đặt chỗ(PNR): <b style="color:#0aa06e;">7BYP6U</b></p>
+						</div>
+					</div>
+
+					<div class="title-box">
+						<h3>Thông tin khách hàng</h3>
+					</div>
+
+					<div class="content-box">
+						<div class="table-list">
+							<p class="table-tr"><span class="table-td">Tên :</span> <span class="table-td">TRAN VAN TUAN</span></p>
+						</div>
+					</div>
+
+					<div class="title-box">
+						<h3>Thông tin liên hệ</h3>
+					</div>
+
+					<div class="content-box">
+						<div class="table-list">
+							<p class="table-tr">
+								<span class="table-td">Họ và tên:</span> 
+								<span class="table-td">TRAN VAN TUAN</span>
+							</p>
+							<p class="table-tr">
+								<span class="table-td">Số điện thoại:</span> 
+								<span class="table-td">0357997234</span>
+							</p>
+							<p class="table-tr">
+								<span class="table-td">Email:</span> 
+								<span class="table-td">vantuant2@gmail.com</span>
+							</p>
+						</div>
+					</div>
+				</section>
+			</div>
+
+		</div>
+
+
+	</div>
+	<!--#container_landing @tuanla60-->
+
+
+	
+	<span class="back-to-top-badge back-to-top-small"><i class="fal fa-angle-up"></i>Lên đầu trang</span>
+	
+	<script src="theme/frontend/js/swiper.min.js" defer></script>
+	<script src="theme/frontend/js/script-mb.js" defer></script>
+	<!-- <script src="theme/frontend/js/fontawesome.js" defer></script> -->
+
+	<script>
+		$(document).ready(function() {
+			
+			if($('#wrapper_cart')[0]){
+				var max_height = 0;
+
+				$('.wrap-total-checkout .btn-show-more').click(function() {
+					$('.wrap-total-checkout').addClass('active');
+					$('#wrapper_cart').css('max-height','none');
+				});
+				$('.wrap-total-checkout .btn-hide-more').click(function() {
+					$('.wrap-total-checkout').removeClass('active');
+					$('#wrapper_cart').css('max-height',max_height);
+
+					$('html,body').animate({
+						scrollTop: $('.content-box').offset().top
+					});
+				});
+			}
+
+		})
+
+	</script>
+
+</body>
+</html>

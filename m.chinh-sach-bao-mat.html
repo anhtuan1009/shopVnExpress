@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<base href="" />
+	<title>Shop Vnexpress version 2</title>
+	<meta name="robots" content="index, follow">
+	<meta name="description" content="">
+	<link rel="shortcut icon" href="https://s.vnecdn.net/shop/i/v3/manifest/favicon-32x32.png">
+	<link type="text/css" rel="stylesheet" href="theme/frontend/css/normalize.min.css" />
+	<link type="text/css" rel="stylesheet" href="theme/frontend/css/bootstrap.min.css" />
+	<link type="text/css" rel="stylesheet" href="theme/frontend/css/animate.css" />
+	<link type="text/css" rel="stylesheet" href="theme/frontend/css/swiper.min.css" />
+	<link type="text/css" rel="stylesheet" href="theme/frontend/css/style-mb.css" />
+	<link type="text/css" rel="stylesheet" href="theme/frontend/css/fontawesomepro531.css" />
+	<link type="text/css" rel="stylesheet" href="theme/frontend/jquery-ui-1.12.1.custom/jquery-ui.min.css">
+	<script src="theme/frontend/js/jquery-2.2.1.min.js"></script>
+	<script src="theme/frontend/js/bootstrap.min.js"></script>
+	<script src="theme/frontend/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+</head>
+<body class="view_mb" itemscope itemtype="http://schema.org/WebPage">
+	<header class="header">
+		<div class="btn-nav-menu-option-2">
+			<div class="nav-page" aria-label="breadcrumb">
+				<a href="m.chinh-sach-quy-che-hoat-dong.html" title="Shop VnExpress" class="btn-return">
+					<span class="fal fa-long-arrow-left"></span>
+				</a>
+				<a href="m.chinh-sach-quy-che-hoat-dong.html" title="" class="title-page-curent" aria-current="page">Chính sách bảo mật</a>
+			</div>
+			<div class="toggle-btn" data-toggle="modal" data-target="#showNavSideMenu">
+				<span class="fal fa-bars"></span>
+			</div>
+			<div class="toggle-btn-search" onclick="showSearch();">
+				<span class="fal fa-search"></span>
+			</div>
+			<div class="toggle-btn-cart">
+				<span class="fal fa-shopping-cart"><i class="number_qty">18</i></span>
+			</div>
+		  
+		</div>
+
+	</header>
+
+	<!-- Start popup search -->
+	<div class="popup-search fadeInLeft" id="popup-search">
+		<div class="box box_search_top">
+			<div class="btn-close-search" onclick="showSearch()">
+				<span class="fal fa-times"></span>
+			</div>
+			<form name="search" action="m.search.html" method="post" class="box form-search">
+				<input type="search" name="q" placeholder="Nhập tên sản phẩm cần tìm..." required class="input-search">
+				<button type="submit" class="btn-search">
+					<span class="fal fa-search"></span>
+				</button>
+				<ul class="wrap-show-result search_load" style="display: block;">
+					<li class="item search_item" data-type="text" data-search="điện thoại ">
+						<div class="title">điện thoại </div>
+					</li>
+					<li class="item search_item_product" data-type="product" data-url="m.product-detail.html">
+						<a href="m.product-detail.html">
+							<img src="theme/frontend/images/dien-thoai.jpg" alt="">
+							<div class="warp">
+								<div class="title">Điện thoại Nokia 8110 vàng</div>
+								<div class="price">1.680.000đ</div>
+							</div>
+						</a>
+					</li>
+					<li class="item search_item_product" data-type="product" data-url="m.product-detail.html">
+						<a href="m.product-detail.html">
+							<img src="theme/frontend/images/dien-thoai.jpg" alt="">
+							<div class="warp">
+								<div class="title">Điện thoại Nokia 8110 Black</div>
+								<div class="price">1.680.000đ</div>
+							</div>
+						</a>
+					</li>
+					<li class="item search_item_product" data-type="product" data-url="m.product-detail.html">
+						<a href="m.product-detail.html">
+							<img src="theme/frontend/images/dien-thoai.jpg" alt="">
+							<div class="warp">
+								<div class="title">Điện thoại Nokia 1 (Red)</div>
+								<div class="price">1.800.000đ</div>
+							</div>
+						</a>
+					</li>
+					<li class="item search_item_product" data-type="product" data-url="m.product-detail.html">
+						<a href="m.product-detail.html">
+							<img src="theme/frontend/images/dien-thoai.jpg" alt="">
+							<div class="warp">
+								<div class="title">Túi điện thoại Verchini màu đen 007234</div>
+								<div class="price">99.000đ</div>
+							</div>
+						</a>
+					</li>
+					<li class="item search_item_trend"><span class="bold">Từ khóa hot</span></li>
+					<li class="item search_item_trend" data-keyword="Ví nữ hàng hiệu Venuco Madrid">
+						<div class="title">Ví nữ hàng hiệu Venuco Madrid</div>
+					</li>
+					<li class="item search_item_trend" data-keyword="Balo/ túi đeo chéo thời trang Haras">
+						<div class="title">Balo/ túi đeo chéo thời trang Haras</div>
+					</li>
+					<li class="item search_item_trend" data-keyword="Đầm/váy thời trang nữ">
+						<div class="title">Đầm/váy thời trang nữ</div>
+					</li>
+					<li class="item search_item_trend" data-keyword="Đồng hồ nam">
+						<div class="title">Đồng hồ nam</div>
+					</li>
+					<li class="item search_item_history"><span class="bold">Lịch sử tìm kiếm</span><a class="clear" href="javascript:" aria-hidden="true" title="Xóa lịch sử tìm kiếm">Xóa</a></li>
+					<li class="item search_item_history" data-keyword="Đồng hồ nam">
+						<div class="title">Đồng hồ nam</div>
+					</li>
+					<li class="item search_item_history" data-keyword="Đồng hồ nữ">
+						<div class="title">Đồng hồ nữ</div>
+					</li>
+					<li class="item search_item_history" data-type="text" data-search="">
+						<div class="title">Điện thoại</div>
+					</li>
+				</ul>
+			</form>
+		</div>
+		<div class="bg-popup-search" onclick="showSearch()"></div>
+	</div>
+	<!-- End popup search -->
+
+	<!-- Start popup menu -->
+	<div id="showNavSideMenu" class="modal fade modal-nav-side-menu" role="dialog">
+		<div class="modal-dialog">
+
+			<nav class="nav-side-menu divFadeInLeft" id="nav-side-menu">
+				<span class="btn-close-nav" data-dismiss="modal">
+					<svg viewBox="0 0 40 40"><path d="M10,10 L30,30 M30,10 L10,30" /></svg>
+				</span>
+				<div class="box-user">
+					<div class="no-login" style="display: none;">
+						<span class="btn-sign-up" data-toggle="modal" data-target="#popup_signup">Đăng ký</span>
+						<span class="btn-sign-in" data-toggle="modal" data-target="#popup_signin">Đăng nhập</span>
+					</div>
+					<div class="logged">
+						<div class="img-user">
+							<a href="m.user.html" class="box" title="Tài khoản">
+								<img src="theme/frontend/images/logo_vne.jpg" alt="Ảnh đại diện" class="responsive">
+							</a>
+						</div>
+						<div class="user-info">
+							<a href="m.user.html" rel="nofollow" title="Đinh Thị Phương Anh" class="user-name">Đinh Thị Phương Anh</a>
+							<div class="user-address">
+								<p class="text">
+									<span class="fal fa-map-marker-alt"></span>
+									Đường Mỗ Lao - Phường Mỗ Lao - Quận Hà Đông - Hà Nội
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="menu-list">
+					<div class="group-menu">
+						<a href="m.index.html" title="Trang chủ" class="item-menu">
+							<span class="ic-menu fal fa-home"></span> TRANG CHỦ
+						</a>
+						<a href="m.category.html" title="" class="item-menu item-menu-cate">
+							<span class="ic-menu fas fa-th"></span> DANH MỤC NGÀNH HÀNG
+						</a>
+					</div>
+
+					<div class="group-menu">
+						<a href="m.user-notification.html" title="" class="item-menu">
+							<span class="ic-menu fal fa-bell"></span> Thông báo (<i>22</i>)
+						</a>
+						<a href="m.user-checking-order.html" title="" class="item-menu">
+							<span class="ic-menu fal fa-file-check"></span> Kiểm tra đơn hàng
+						</a>
+						<a href="m.Q-A.html" title="" class="item-menu">
+							<span class="ic-menu fal fa-life-ring"></span> Hỗ trợ khách hàng
+						</a>
+					</div>
+
+					<div class="group-menu">
+						<span class="title-group">Khuyến mãi</span>
+						<a href="m.gift.html" title="" class="item-menu">
+							<span class="ic-menu fal fa-gift"></span> Ưu đãi quà tặng
+						</a>
+						<a href="m.brand.html" title="" class="item-menu">
+							<span class="ic-menu fal fa-medal"></span> Thương hiệu nổi bật
+						</a>
+					</div>
+
+					<div class="group-menu">
+						<span class="title-group">ĐỐI TÁC BÁN HÀNG</span>
+						<a href="m.chinh-sach-quy-che-hoat-dong.html" title="" class="item-menu">
+							<span class="ic-menu fal fa-briefcase"></span> Quy chế & Điều khoản
+						</a>
+						<a href="m.hop-tac-ban-hang.html" title="" class="item-menu">
+							<span class="ic-menu fal fa-handshake"></span> Hợp tác bán hàng
+						</a>
+					</div>
+
+					<div class="group-menu">
+						<span class="title-group">HỖ TRỢ VÀ CÀI ĐẶT</span>
+						<a href="https://vnexpress.net" title="" class="item-menu">
+							<span class="ic-menu icon_bao_vne"></span> Đọc báo VNExpress
+						</a>
+						<a href="tel:1900633376" title="" class="item-menu">
+							<span class="ic-menu fal fa-phone"></span> Hotline : <strong>19001900</strong>
+						</a>
+						<a href="#" title="" class="item-menu" data-toggle="modal" data-target="#popup_signout">
+							<span class="ic-menu fal fa-sign-out"></span> Đăng xuất
+						</a>
+					</div>
+				</div>
+			</nav>
+		</div>
+	</div>
+	<!-- End popup menu -->
+
+	<div class="view_mobile m-wrapper-content-page-static">
+
+				<!-- Start col-page-primary -->
+				<section class="main-content">
+
+					<article class="box box-content clearfix">
+						<h1 class="title">CHÍNH SÁCH BẢO MẬT</h1>
+
+						<p>Chính sách bảo mật này nhằm đảm bảo an toàn thông tin liên quan đến các tổ chức, cá nhân tham gia truy cập, giao dịch trên website shop.vnexpress.net (thuộc quyền sở hữu của Công ty Cổ phần Dịch vụ trực tuyến FPT), sau đây gọi tắt là Shop VnExpress. Chính sách bao gồm mô tả cách mà Shop VnExpress tiếp nhận, lưu trữ, sử dụng và bảo vệ các thông tin này.<p>
+
+						<h2 id="menu_1">A. Bảo mật thông tin người dùng:</h2>
+
+						<p>1. Thu thập thông tin cá nhân<br>Trong quá trình cung cấp dịch vụ Shop.vnexpress.net sẽ nhận được thông tin của các thành viên khi đăng ký như sau:<br>- Thông tin của thành viên cung cấp khi đăng ký: Tên, địa chỉ, điện thoại, địa chỉ email, số điện thoại di động, tên công ty, địa chỉ công ty, ngày tháng năm sinh, giới tính...<br>- Thông tin nhận được khi thành viên sử dụng dịch vụ: Thông tin do thành viên đăng trên các bảng đánh giá, bình chọn, bình luận về sản phẩm. Thông tin khi các thành viên trả lời các bảng điều tra thông tin Shop.vnexpress.net đưa ra, bằng email hay trên website.<br>2. Mục đích sử dụng<br>Shop.vnexpress.net sẽ sử dụng thông tin cá nhân nhận được từ thành viên vào những mục đích như dưới đây, tuy nhiên về những thông tin của người thứ ba do thành viên cung cấp, nếu không có sự đồng ý của người đó thì chúng tôi chỉ sử dụng vào mục đích được nêu trong mục này.<br>- Sử dụng để xác nhận thành viên khi thành viên dùng thông tin để đăng nhập vào hệ thống của Shop.vnexpress.net.<br>- Dùng để giao dịch trong khi mua hàng hóa, dịch vụ của người bán trên Shop.vnexpress.net như dùng để đặt dịch vụ, mua hàng hóa, gửi hàng hóa, thanh toán tiền sau khi mua hàng hóa, dịch vụ...<br>- Dùng trong tuyên truyền quảng cáo các thông tin của Shop.vnexpress.net đến các thành viên, gửi email giới thiệu về các sản phẩm dịch vụ trên Shop.vnexpress.net.<br>- Cung cấp thông tin về dịch vụ bằng email, bưu điện, điện thoại...<br>- Dùng để cá nhân hóa nội dung mỗi khi khách hàng truy cập vào Shop.vnexpress.net, dựa theo giới tính, tuổi, nơi sinh sống, sở thích, lịch sử mua hàng, trang web thành viên đã xem.<br>- Dùng để phân tích xu hướng tiêu dùng của khách hàng, với mục đích xây dựng những dịch vụ mới hoặc cải thiện những dịch vụ cũ.<br>- Dùng để liên lạc với thành viên khi Shop.vnexpress.net điều tra thông tin khách hàng, tổ chức khuyến mại, trao đổi ý kiến thông tin trên bảng đánh giá, bình luận.<br>- Dùng để trả lời khi thành viên thắc mắc: công ty chúng tôi sẽ trả lời thành viên bằng email, điện thoại, hoặc gửi thư tới địa chỉ của thành viên, khi thành viên thắc mắc.<br>- Dùng trong các dịch vụ khác do Shop.vnexpress.net cung cấp.<br>- Dùng cung cấp thông tin cá nhân cho người bán theo mục 4 của chính sách này.<br>- Dùng cho những mục đích khác của Shop.vnexpress.net không ghi ở trên. Khi đó chúng tôi sẽ thông báo việc sử dụng đó trên http://shop.vnexpress.net<br>3. Sử dụng thông tin cá nhân<br>Shop.vnexpress.net sử dụng thông tin cá nhân của thành viên theo luật pháp của Việt Nam.<br>- Sử dụng thông tin cá nhân của thành viên để thực hiện các mục đích nêu tại điều 2 của quy định này.<br>- Shop.vnexpress.net sẽ cung cấp thông tin của thành viên ở mức độ nhất định cho người bán, để phục vụ việc giao dịch giữa thành viên và người bán, như khi thành viên đặt hàng, dịch vụ trên Shop.vnexpress.net. Sau khi bán hàng người bán có thể sử dụng thông tin của thành viên để dùng trong phân tích xu hướng tiêu dùng, gửi thông tin để quảng cáo, hoặc nâng cấp dịch vụ của người bán. Shop.vnexpress.net sẽ ràng buộc trách nhiệm của người bán trong việc tuân theo các điều luật về bảo hộ thông tin cá nhân và những chính sách sử dụng thông tin cá nhân trên Shop.vnexpress.net. Tuy nhiên chúng tôi không đảm bảo được 100% người bán thực hiện nghiêm túc chính sách trên, do vậy để biết rõ thông tin thành viên nên liên lạc với người bán.<br>4. Độ chính xác và tính an toàn của thông tin<br>Để luôn cập nhật thông tin của người bán phục vụ cho việc cải thiện các dịch vụ của Shop VnExpress, Shop.vnexpress.net có thể liên lạc tới người bán để thu thập thông tin mới nhất.<br>5. Xác nhận, chỉnh sửa thông tin cá nhân<br>- Thành viên có thể xác nhận, chỉnh sửa, thêm, xóa, hủy bỏ tài khoản của mình, yêu cầu Shop.vnexpress.net không cung cấp thông tin cho người bán trên Shop.vnexpress.net.<br>- Trong trường hợp thành viên không đăng nhập vào để xem thông tin của mình, thì thành viên tiến hành làm các thủ tục theo quy định của Shop.vnexpress.net để yêu cầu cấp lại thông tin về tài khoản.<br>6. Thời gian lưu trữ thông tin<br>Dữ liệu cá nhân của khách hàng sẽ được Shop.vnexpress.net lưu trữ cho đến khi có yêu cầu hủy bỏ hoặc tự khách hàng đăng nhập và thực hiện hủy bỏ. Còn lại trong mọi trường hợp thông tin cá nhân sẽ được bảo mật trên máy chủ của Shop.vnexpress.net.<br>7. Địa chỉ của đơn vị thu thập và quản lý thông tin cá nhân<br>Dữ liệu cá nhân của khách hàng sẽ được Công ty FPT Online thu thập, lưu trữ và quản lý trên máy chủ của Công ty tại: Tòa nhà FPT Tân Thuận, Lô 29B-31B-33B, Đường Tân Thuận, KCX Tân Thuận Đông, Phường Tân Thuận Đông, Quận 7, Tp.HCM.<br>8. Phương tiện và công cụ để người dùng tiếp cận và chỉnh sửa dữ liệu cá nhân của mình<br>Bất cứ khi nào khách hàng sử dụng dịch vụ của Shop.vnexpress.net, Shop.vnexpress.net cố gắng cung cấp cho bạn quyền truy cập thông tin cá nhân của khách hàng. Nếu thông tin đó không đúng, Shop.vnexpress.net cố gắng cung cấp cho khách các cách để cập nhật nhanh chóng hoặc xóa thông tin đó – trừ khi Shop.vnexpress.net phải giữ thông tin đó cho mục đích pháp lý hoặc kinh doanh hợp pháp. Khi cập nhật thông tin cá nhân của khách hàng, Shop.vnexpress.net có thể yêu cầu khách hàng xác minh danh tính của mình trước khi Shop.vnexpress.net xử lý yêu cầu của khách hàng.<br>Trong trường hợp Shop.vnexpress.net có thể cung cấp quyền truy cập và chỉnh sửa thông tin, Shop.vnexpress.net sẽ làm như vậy miễn phí. Shop.vnexpress.net cố gắng duy trì các dịch vụ của mình theo cách bảo vệ thông tin không bị phá hoại do vô tình hay cố ý. Do vậy, sau khi khách hàng xóa thông tin khỏi dịch vụ của Shop.vnexpress.net, Shop.vnexpress.net có thể không xóa ngay bản sao còn lại khỏi máy chủ đang hoạt động của mình và có thể không xóa thông tin khỏi hệ thống sao lưu của Shop.vnexpress.net.<br>9. Cam kết bảo mật thông tin cá nhân khách hàng<br>- Thông tin cá nhân của bạn sẽ được chúng tôi cam kết bảo mật tuyệt đối theo chính sách bảo vệ thông tin cá nhân. Việc thu thập và sử dụng thông tin của mỗi thành viên chỉ được thực hiện khi có sự đồng ý của người đó trừ những trường hợp pháp luật có quy định khác.<br>- Không sử dụng, không chuyển giao, cung cấp hay tiết lộ cho bên thứ 3 nào về thông tin cá nhân của bạn khi không có sự cho phép đồng ý.<br>- Trong trường hợp máy chủ lưu trữ thông tin bị hacker tấn công dẫn đến mất mát dữ liệu cá nhân bạn, chúng tôi sẽ có trách nhiệm thông báo vụ việc cho cơ quan chức năng điều tra xử lý kịp thời và thông báo cho bạn được biết.<br>Khi đăng ký thành viên, bạn phải cung cấp đầy đủ thông tin cá nhân có liên quan như: Họ và tên, địa chỉ liên lạc, email, điện thoại... và chịu trách nhiệm về tính pháp lý của những thông tin trên. Chúng tôi không chịu trách nhiệm cũng như không giải quyết mọi khiếu nại có liên quan đến quyền lợi của bạn nếu xét thấy tất cả thông tin cá nhân của thành viên đó cung cấp khi đăng ký ban đầu là không chính xác.</p>
+
+						<h2 id="menu_2">B. Bảo mật thanh toán:</h2>
+						<p>- Shop VnExpress có các tiêu chuẩn bảo mật thanh toán riêng đảm bảo thông tin thanh toán của khách hàng được lưu giữ tuyệt đối an toàn. Ngoài ra, hệ thống thanh toán trên shop.vnexpress.net được kết nối với các đối tác thứ ba như SenPay, NAPAS; theo đó, tuân theo toàn bộ các tiêu chuẩn bảo mật của các cổng thanh toán này như:<br>- Tiêu chuẩn bảo mật dữ liệu trên internet SSL (Secure Sockets Layer) do GlobalSign cấp<br>- Chứng nhận tiêu chuẩn bảo mật dữ liệu thông tin thanh toán PCI do Control Case cấp<br>- Thông tin thẻ ngân hàng của khách hàng không được lưu trên hệ thống của Shop VnExpress. Khi khách hàng sử dụng thẻ ngân hàng để thanh toán đơn hàng trên Shop VnExpress, thông tin thẻ sẽ được nhập trên website Cổng thanh toán SenPay và NAPAS.</p>
+						<br>
+
+					</article>
+
+				</section>
+				<!-- End col-page-primary -->
+
+				<!-- Start col-page-left -->
+				<div class="nav-link-bottom">
+					<ul class="nav-static ul-circle">
+						<li class="item-nav-static"><a class="link-static" href="m.gioi-thieu.html" title="Giới thiệu Shop VnExpress">Giới thiệu Shop VnExpress</a></li>
+						<li class="item-nav-static"><a class="link-static" href="m.quy-che-hoat-dong.html" title="Quy chế hoạt động">Quy chế hoạt động</a></li>
+						<li class="item-nav-static"><a class="link-static active" href="m.chinh-sach-bao-mat.html" title="Chính sách bảo mật">Chính sách bảo mật</a></li>
+						<li class="item-nav-static"><a class="link-static" href="m.chinh-sach-giao-hang.html" title="Chính sách giao hàng">Chính sách giao hàng</a></li>
+						<li class="item-nav-static"><a class="link-static" href="m.chinh-sach-thanh-toan.html" title="Chính sách thanh toán">Chính sách thanh toán</a></li>
+						<li class="item-nav-static"><a class="link-static" href="m.chinh-sach-bao-hanh.html" title="Chính sách bảo hành">Chính sách bảo hành</a></li>
+						<li class="item-nav-static"><a class="link-static" href="m.chinh-sach-doi-tra.html" title="Chính sách đổi trả">Chính sách đổi trả</a></li>
+						<li class="item-nav-static"><a class="link-static" href="m.giai-quyet-tranh-chap.html" title="Giải quyết tranh chấp">Giải quyết tranh chấp</a></li>
+					</ul>
+				</div>
+
+				<div class="nav-link-bottom">
+					<ul class="nav-static ul-circle">
+						<li class="item-nav-static"><a class="link-static" href="m.hop-tac-ban-hang.html" title="Tư vấn hợp tác bán hàng">Tư vấn hợp tác bán hàng</a></li>
+						<li class="item-nav-static"><a class="link-static" href="m.lien-he-hop-tac.html" title="Liên hệ hợp tác">Liên hệ hợp tác</a></li>
+						<li class="item-nav-static"><a class="link-static" href="https://vnexpress.net/lien-he-quang-cao" title="Liên hệ quảng cáo">Liên hệ quảng cáo</a></li>
+					</ul>
+				</div>
+
+				<div class="nav-link-bottom">
+					<ul class="nav-static ul-circle">
+						<li class="item-nav-static"><a class="link-static" href="m.Q-A.html" title="Câu hỏi thường gặp">Câu hỏi thường gặp</a></li>
+						<li class="item-nav-static"><a class="link-static" href="m.Q-A-form-support.html" title="Gửi yêu cầu hỗ trợ">Gửi yêu cầu hỗ trợ</a></li>
+					</ul>
+				</div>
+				<!-- End col-page-left -->
+
+	</div>
+	<!--#container_landing @tuanla60-->
+
+	<footer class="box clearfix">
+		<div class="box footer-mobile">
+			<ul class="box list-item">
+
+				<li class="box item">
+					<a href="#" title="" class="icon-img">
+						<span class="fal fa-box-check"></span>
+					</a>
+					<a href="#" title="" class="box title-item"><pre>Sản phẩm</pre> <pre>chính hãng</pre></a>
+				</li>
+				<li class="box item">
+					<a href="#" title="" class="icon-img">
+						<span class="fal fa-credit-card"></span>
+					</a>
+					<a href="#" title="" class="box title-item"><pre>Thanh toán</pre> <pre>tiện lợi</pre></a>
+				</li>
+				<li class="box item">
+					<a href="#" title="" class="icon-img">
+						<span class="fal fa-shipping-fast"></span>
+					</a>
+					<a href="#" title="" class="box title-item"><pre>Giao hàng</pre> <pre>nhanh chóng</pre></a>
+				</li>
+				<li class="box item">
+					<a href="#" title="" class="icon-img">
+						<span class="fal fa-headset"></span>
+					</a>
+					<a href="#" title="" class="box title-item"><pre>Hỗ trợ 24/7</pre></a>
+				</li>
+
+			</ul>
+		</div>
+	</footer>
+	
+	<span class="back-to-top-badge back-to-top-small"><i class="fal fa-angle-up"></i>Lên đầu trang</span>
+	
+	<script src="theme/frontend/js/swiper.min.js" defer></script>
+	<script src="theme/frontend/js/script-mb.js" defer></script>
+	<!-- <script src="theme/frontend/js/fontawesome.js" defer></script> -->
+
+</body>
+</html>

@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<base href="" />
+	<title>Shop Vnexpress version 2</title>
+	<meta name="robots" content="index, follow">
+	<meta name="description" content="">
+	<link rel="shortcut icon" href="https://s.vnecdn.net/shop/i/v3/manifest/favicon-32x32.png">
+	<link type="text/css" rel="stylesheet" href="theme/frontend/css/normalize.min.css" />
+	<link type="text/css" rel="stylesheet" href="theme/frontend/css/bootstrap.min.css" />
+	<link type="text/css" rel="stylesheet" href="theme/frontend/css/animate.css" />
+	<link type="text/css" rel="stylesheet" href="theme/frontend/css/swiper.min.css" />
+	<link type="text/css" rel="stylesheet" href="theme/frontend/css/style-mb.css" />
+	<link type="text/css" rel="stylesheet" href="theme/frontend/css/fontawesomepro531.css" />
+	<link type="text/css" rel="stylesheet" href="theme/frontend/jquery-ui-1.12.1.custom/jquery-ui.min.css">
+	<script src="theme/frontend/js/jquery-2.2.1.min.js"></script>
+	<script src="theme/frontend/js/bootstrap.min.js"></script>
+	<script src="theme/frontend/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+</head>
+<body class="view_mb" itemscope itemtype="http://schema.org/WebPage">
+	<header class="header">
+		<div class="btn-nav-menu-option-2">
+			<div class="nav-page" aria-label="breadcrumb">
+				<a href="m.chinh-sach-quy-che-hoat-dong.html" title="Shop VnExpress" class="btn-return">
+					<span class="fal fa-long-arrow-left"></span>
+				</a>
+				<a href="m.chinh-sach-quy-che-hoat-dong.html" title="" class="title-page-curent" aria-current="page">Chính sách giao hàng</a>
+			</div>
+			<div class="toggle-btn" data-toggle="modal" data-target="#showNavSideMenu">
+				<span class="fal fa-bars"></span>
+			</div>
+			<div class="toggle-btn-search" onclick="showSearch();">
+				<span class="fal fa-search"></span>
+			</div>
+			<div class="toggle-btn-cart">
+				<span class="fal fa-shopping-cart"><i class="number_qty">18</i></span>
+			</div>
+		  
+		</div>
+
+	</header>
+
+	<!-- Start popup search -->
+	<div class="popup-search fadeInLeft" id="popup-search">
+		<div class="box box_search_top">
+			<div class="btn-close-search" onclick="showSearch()">
+				<span class="fal fa-times"></span>
+			</div>
+			<form name="search" action="m.search.html" method="post" class="box form-search">
+				<input type="search" name="q" placeholder="Nhập tên sản phẩm cần tìm..." required class="input-search">
+				<button type="submit" class="btn-search">
+					<span class="fal fa-search"></span>
+				</button>
+				<ul class="wrap-show-result search_load" style="display: block;">
+					<li class="item search_item" data-type="text" data-search="điện thoại ">
+						<div class="title">điện thoại </div>
+					</li>
+					<li class="item search_item_product" data-type="product" data-url="m.product-detail.html">
+						<a href="m.product-detail.html">
+							<img src="theme/frontend/images/dien-thoai.jpg" alt="">
+							<div class="warp">
+								<div class="title">Điện thoại Nokia 8110 vàng</div>
+								<div class="price">1.680.000đ</div>
+							</div>
+						</a>
+					</li>
+					<li class="item search_item_product" data-type="product" data-url="m.product-detail.html">
+						<a href="m.product-detail.html">
+							<img src="theme/frontend/images/dien-thoai.jpg" alt="">
+							<div class="warp">
+								<div class="title">Điện thoại Nokia 8110 Black</div>
+								<div class="price">1.680.000đ</div>
+							</div>
+						</a>
+					</li>
+					<li class="item search_item_product" data-type="product" data-url="m.product-detail.html">
+						<a href="m.product-detail.html">
+							<img src="theme/frontend/images/dien-thoai.jpg" alt="">
+							<div class="warp">
+								<div class="title">Điện thoại Nokia 1 (Red)</div>
+								<div class="price">1.800.000đ</div>
+							</div>
+						</a>
+					</li>
+					<li class="item search_item_product" data-type="product" data-url="m.product-detail.html">
+						<a href="m.product-detail.html">
+							<img src="theme/frontend/images/dien-thoai.jpg" alt="">
+							<div class="warp">
+								<div class="title">Túi điện thoại Verchini màu đen 007234</div>
+								<div class="price">99.000đ</div>
+							</div>
+						</a>
+					</li>
+					<li class="item search_item_trend"><span class="bold">Từ khóa hot</span></li>
+					<li class="item search_item_trend" data-keyword="Ví nữ hàng hiệu Venuco Madrid">
+						<div class="title">Ví nữ hàng hiệu Venuco Madrid</div>
+					</li>
+					<li class="item search_item_trend" data-keyword="Balo/ túi đeo chéo thời trang Haras">
+						<div class="title">Balo/ túi đeo chéo thời trang Haras</div>
+					</li>
+					<li class="item search_item_trend" data-keyword="Đầm/váy thời trang nữ">
+						<div class="title">Đầm/váy thời trang nữ</div>
+					</li>
+					<li class="item search_item_trend" data-keyword="Đồng hồ nam">
+						<div class="title">Đồng hồ nam</div>
+					</li>
+					<li class="item search_item_history"><span class="bold">Lịch sử tìm kiếm</span><a class="clear" href="javascript:" aria-hidden="true" title="Xóa lịch sử tìm kiếm">Xóa</a></li>
+					<li class="item search_item_history" data-keyword="Đồng hồ nam">
+						<div class="title">Đồng hồ nam</div>
+					</li>
+					<li class="item search_item_history" data-keyword="Đồng hồ nữ">
+						<div class="title">Đồng hồ nữ</div>
+					</li>
+					<li class="item search_item_history" data-type="text" data-search="">
+						<div class="title">Điện thoại</div>
+					</li>
+				</ul>
+			</form>
+		</div>
+		<div class="bg-popup-search" onclick="showSearch()"></div>
+	</div>
+	<!-- End popup search -->
+
+	<!-- Start popup menu -->
+	<div id="showNavSideMenu" class="modal fade modal-nav-side-menu" role="dialog">
+		<div class="modal-dialog">
+
+			<nav class="nav-side-menu divFadeInLeft" id="nav-side-menu">
+				<span class="btn-close-nav" data-dismiss="modal">
+					<svg viewBox="0 0 40 40"><path d="M10,10 L30,30 M30,10 L10,30" /></svg>
+				</span>
+				<div class="box-user">
+					<div class="no-login" style="display: none;">
+						<span class="btn-sign-up" data-toggle="modal" data-target="#popup_signup">Đăng ký</span>
+						<span class="btn-sign-in" data-toggle="modal" data-target="#popup_signin">Đăng nhập</span>
+					</div>
+					<div class="logged">
+						<div class="img-user">
+							<a href="m.user.html" class="box" title="Tài khoản">
+								<img src="theme/frontend/images/logo_vne.jpg" alt="Ảnh đại diện" class="responsive">
+							</a>
+						</div>
+						<div class="user-info">
+							<a href="m.user.html" rel="nofollow" title="Đinh Thị Phương Anh" class="user-name">Đinh Thị Phương Anh</a>
+							<div class="user-address">
+								<p class="text">
+									<span class="fal fa-map-marker-alt"></span>
+									Đường Mỗ Lao - Phường Mỗ Lao - Quận Hà Đông - Hà Nội
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="menu-list">
+					<div class="group-menu">
+						<a href="m.index.html" title="Trang chủ" class="item-menu">
+							<span class="ic-menu fal fa-home"></span> TRANG CHỦ
+						</a>
+						<a href="m.category.html" title="" class="item-menu item-menu-cate">
+							<span class="ic-menu fas fa-th"></span> DANH MỤC NGÀNH HÀNG
+						</a>
+					</div>
+
+					<div class="group-menu">
+						<a href="m.user-notification.html" title="" class="item-menu">
+							<span class="ic-menu fal fa-bell"></span> Thông báo (<i>22</i>)
+						</a>
+						<a href="m.user-checking-order.html" title="" class="item-menu">
+							<span class="ic-menu fal fa-file-check"></span> Kiểm tra đơn hàng
+						</a>
+						<a href="m.Q-A.html" title="" class="item-menu">
+							<span class="ic-menu fal fa-life-ring"></span> Hỗ trợ khách hàng
+						</a>
+					</div>
+
+					<div class="group-menu">
+						<span class="title-group">Khuyến mãi</span>
+						<a href="m.gift.html" title="" class="item-menu">
+							<span class="ic-menu fal fa-gift"></span> Ưu đãi quà tặng
+						</a>
+						<a href="m.brand.html" title="" class="item-menu">
+							<span class="ic-menu fal fa-medal"></span> Thương hiệu nổi bật
+						</a>
+					</div>
+
+					<div class="group-menu">
+						<span class="title-group">ĐỐI TÁC BÁN HÀNG</span>
+						<a href="m.chinh-sach-quy-che-hoat-dong.html" title="" class="item-menu">
+							<span class="ic-menu fal fa-briefcase"></span> Quy chế & Điều khoản
+						</a>
+						<a href="m.hop-tac-ban-hang.html" title="" class="item-menu">
+							<span class="ic-menu fal fa-handshake"></span> Hợp tác bán hàng
+						</a>
+					</div>
+
+					<div class="group-menu">
+						<span class="title-group">HỖ TRỢ VÀ CÀI ĐẶT</span>
+						<a href="https://vnexpress.net" title="" class="item-menu">
+							<span class="ic-menu icon_bao_vne"></span> Đọc báo VNExpress
+						</a>
+						<a href="tel:1900633376" title="" class="item-menu">
+							<span class="ic-menu fal fa-phone"></span> Hotline : <strong>19001900</strong>
+						</a>
+						<a href="#" title="" class="item-menu" data-toggle="modal" data-target="#popup_signout">
+							<span class="ic-menu fal fa-sign-out"></span> Đăng xuất
+						</a>
+					</div>
+				</div>
+			</nav>
+		</div>
+	</div>
+	<!-- End popup menu -->
+
+	<div class="view_mobile m-wrapper-content-page-static">
+
+				<!-- Start col-page-primary -->
+				<section class="main-content">
+
+					<article class="box box-content clearfix">
+						<h1 class="title">CHÍNH SÁCH GIAO HÀNG</h1>
+
+						<h2 id="menu_1">1. Khi nào tôi nhận được hàng?</h2>
+
+						<p>Sau khi quý khách đã đặt hàng thành công, Shop VnExpress sẽ tiến hành xác minh đơn hàng qua điện thoại.<br>Sau khi quá trình xác minh thành công, đơn hàng sẽ được giao đến quý khách trong khoảng thời gian như sau:</p>
+
+						<table>
+							<tbody>
+							<tr>
+								<td>
+									<p><strong>Địa chỉ giao hàng</strong></p>
+								</td>
+								<td>
+									<p><strong>Thời gian giao hàng</strong></p>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<p>Địa chỉ gửi hàng của nhà cung cấp cùng tỉnh/thành phố với địa chỉ giao hàng của quý khách</p>
+								</td>
+								<td>
+									<p>Trong vòng 48 giờ làm việc</p>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<p>Địa chỉ gửi hàng của nhà cung cấp khác tỉnh/thành phố với địa chỉ giao hàng của quý khách</p>
+								</td>
+								<td>
+									<p>Trong vòng từ 2 đến 7 ngày làm việc</p>
+								</td>
+							</tr>
+							</tbody>
+						</table>
+
+						<p>Để biết thời gian giao hàng chính xác hơn cho đơn hàng của quý khách, vui lòng liên hệ hotline 1900.633.376 để được hỗ trợ.</p>
+
+						<h2 id="menu_2">2. Khi đặt hàng, làm sao để tôi biết được thời gian giao hàng dự kiến phù hợp với tôi?</h2>
+						<p>Shop VnExpress hỗ trợ giao hàng từ 7g30 đến 18g từ thứ 2 đến thứ 7. Quý khách có thể xem thời gian giao hàng dự kiến khi thực hiện đặt hàng, hoặc vui lòng liên hệ 1900.633.376 nếu cần hỗ trợ giao hàng ngoài khung giờ trên.</p>
+
+						<h2 id="menu_3">3. Làm sao để tôi biết được chính xác khi nào tôi nhận được hàng?</h2>
+						<p>Shop VnExpress cố gắng để quý khách có thể biết được chính xác thời gian giao hàng. Do nhiều yếu tố nên chúng tôi hiện chỉ cam kết thời gian giao hàng theo ngày. Trước thời gian giao hàng 30 phút, nhân viên giao hàng sẽ liên hệ để thông báo cho quý khách để quý khách chủ động trong việc nhận hàng.</p>
+
+						<h2 id="menu_4">4. Shop VnExpress có thể gọi cho tôi trước khi giao hàng không?</h2>
+						<p>Đơn vị vận chuyển sẽ liên hệ với quý khách qua điện thoại trước khi giao hàng.</p>
+
+						<h2 id="menu_5">5. Tôi có thể hủy đơn hàng sau khi đơn hàng đã được chuyển cho đơn vị vận chuyển không?</h2>
+						<p>Shop VnExpress sẽ hỗ trợ quý khách hủy đơn hàng tại bất kỳ thời điểm nào trước thời điểm quý khách đã nhận hàng. Tuy nhiên một số trường hợp đơn vị vận chuyển vẫn có thể liên hệ khách hàng sau khi đã hủy đơn hàng. Nếu đã xác nhận hủy đơn hàng với Shop VnExpress, quý khách vui lòng từ chối nhận hàng nếu đơn vị vận chuyển liên hệ.</p>
+
+						<h2 id="menu_6">6. Nếu tôi đi vắng lúc Shop VnExpress giao hàng đến thì làm thế nào?</h2>
+						<p>Quý khách có thể nhờ người khác nhận hàng giúp, tuy nhiên chúng tôi sẽ cần một thư ủy quyền với chữ ký xác nhận của quý khách, trong đó nêu rõ về người được ủy quyền nhận đơn hàng.<br>Quý khách cũng có thể thông báo cho chúng tôi việc thay đổi về người nhận hàng qua hotline 1900.633.376 ngay sau khi đặt hàng. Người nhận hàng sẽ cần xuất trình chứng minh thư nhân dân hợp lệ cùng với thư uỷ quyền của quý khách.</p>
+
+						<h2 id="menu_7">7. Có khu vực hạn chế nào mà Shop VnExpress không nhận giao hàng đến không?</h2>
+						<p>Shop VnExpress liên kết với các đối tác vận chuyển lớn như Viettel Post, Giao Hàng Nhanh... để đảm bảo việc giao hàng đến 64 tỉnh thành.<br>Tuy nhiên, một số sản phẩm có kích thước cồng kềnh như các sản phẩm điện lạnh (máy lạnh, tủ lạnh...) hoặc các sản phẩm gia dụng lớn (máy giặt, tủ, giường, kệ gỗ...) và các sản phẩm thuộc một số đối tác bán hàng nhất định có thể có chính sách giao hàng riêng.<br>Quý khách có thể kiểm tra vùng giao hàng cho sản phẩm quý khách đang quan tâm bằng cách liên hệ với chúng tôi qua hotline 1900.633.376.</p>
+
+						<h2 id="menu_8">8. Shop VnExpress có giao hàng đến địa chỉ làm việc của tôi không?</h2>
+						<p>Shop VnExpress sẽ giao hàng đến địa chỉ quý khách đã đăng ký tại trang thanh toán, không phân biệt đó là địa chỉ nhà riêng hay địa chỉ văn phòng làm việc.</p>
+
+						<h2 id="menu_9">9. Tôi có thể đến văn phòng của Shop VnExpress để nhận hàng không?</h2>
+						<p>Chúng tôi hiện chưa hỗ trợ quý khách nhận hàng tại văn phòng của Shop VnExpress. Tuy nhiên một số nhà cung cấp có hỗ trợ nhận hàng tại cửa hàng. Nếu cần nhận hàng tại cửa hàng của nhà cung cấp có hỗ trợ dịch vụ này, quý khách có thể lựa chọn trong danh sách địa chỉ nhận hàng.</p>
+
+						<h2 id="menu_10">10. Tôi có được kiểm tra hàng hóa khi nhận hàng không?</h2>
+						<p>Trước khi thanh toán cho một đơn hàng, quý khách có quyền yêu cầu được kiểm tra hàng bên trong có đúng với thông tin đặt hàng hay không, bao gồm: số lượng, chủng loại, màu sắc, hình thức, tính nguyên vẹn của hàng hóa. Ngoài trừ, một số sản phẩm có đặc thù riêng được niêm phong đảm bảo chất lượng do nhà cung cấp quy định (được thông tin công khai tại trang chi tiết sản phẩm).<br>Các bước kiểm tra sâu hơn như sử dụng thử sản phẩm có thể được tiến hành sau khi quý khách đã thanh toán cho đơn hàng.</p>
+
+						<h2 id="menu_11">11. Tôi phải làm gì khi yêu cầu đồng kiểm không được chấp nhận?</h2>
+						<p>- Với trường hợp hàng hóa đã được cho phép kiểm tra bởi nhà cung cấp (theo thông tin nêu rõ tại phần chi tiết sản phẩm). Quý khách yêu cầu nhân viên cho phép kiểm hàng hoặc từ chối nhận hàng nếu không được hỗ trợ.<br>- Với các hàng hóa không được phép kiểm tra khi chưa thanh toán do đảm bảo tính nguyên vẹn của sản phẩm (theo thông tin nêu rõ tại phần chi tiết sản phẩm). Khách hàng cần thanh toán cho đối tác vận chuyển và kiểm tra hàng ngay sau đó. Nếu phát sinh lỗi sản phẩm do việc sản xuất, Quý khách vui lòng liên hệ hotline 1900.633.376 để được hỗ trợ hoặc xem chi tiết tại chính sách đổi trả hàng.</p>
+
+						<h2 id="menu_12">12. Tôi nên làm thế nào nếu hàng hóa nhận được không đúng như mô tả?</h2>
+						<p>Nếu sản phẩm quý khách nhận được không đúng như mô tả, quý khách cần thông báo ngay cho Shop VnExpress thông qua hotline 1900.633.376 hoặc email shop@vnexpress.net trong vòng 24 giờ kể từ thời điểm nhận hàng để chúng tôi có thể kịp thời hỗ trợ xử lý.</p>
+
+						<h2 id="menu_13">13. Khi đặt hàng, làm thế nào để kiểm tra phí vận chuyển?</h2>
+						<p>Phí giao hàng sẽ được thông báo chính xác đến quý khách trong quá trình xác nhận đơn hàng từ Shop VnExpress.</p>
+						<br>
+
+
+					</article>
+
+				</section>
+				<!-- End col-page-primary -->
+
+				<!-- Start col-page-left -->
+				<div class="nav-link-bottom">
+					<ul class="nav-static ul-circle">
+						<li class="item-nav-static"><a class="link-static" href="m.gioi-thieu.html" title="Giới thiệu Shop VnExpress">Giới thiệu Shop VnExpress</a></li>
+						<li class="item-nav-static"><a class="link-static" href="m.quy-che-hoat-dong.html" title="Quy chế hoạt động">Quy chế hoạt động</a></li>
+						<li class="item-nav-static"><a class="link-static" href="m.chinh-sach-bao-mat.html" title="Chính sách bảo mật">Chính sách bảo mật</a></li>
+						<li class="item-nav-static"><a class="link-static active" href="m.chinh-sach-giao-hang.html" title="Chính sách giao hàng">Chính sách giao hàng</a></li>
+						<li class="item-nav-static"><a class="link-static" href="m.chinh-sach-thanh-toan.html" title="Chính sách thanh toán">Chính sách thanh toán</a></li>
+						<li class="item-nav-static"><a class="link-static" href="m.chinh-sach-bao-hanh.html" title="Chính sách bảo hành">Chính sách bảo hành</a></li>
+						<li class="item-nav-static"><a class="link-static" href="m.chinh-sach-doi-tra.html" title="Chính sách đổi trả">Chính sách đổi trả</a></li>
+						<li class="item-nav-static"><a class="link-static" href="m.giai-quyet-tranh-chap.html" title="Giải quyết tranh chấp">Giải quyết tranh chấp</a></li>
+					</ul>
+				</div>
+
+				<div class="nav-link-bottom">
+					<ul class="nav-static ul-circle">
+						<li class="item-nav-static"><a class="link-static" href="m.hop-tac-ban-hang.html" title="Tư vấn hợp tác bán hàng">Tư vấn hợp tác bán hàng</a></li>
+						<li class="item-nav-static"><a class="link-static" href="m.lien-he-hop-tac.html" title="Liên hệ hợp tác">Liên hệ hợp tác</a></li>
+						<li class="item-nav-static"><a class="link-static" href="https://vnexpress.net/lien-he-quang-cao" title="Liên hệ quảng cáo">Liên hệ quảng cáo</a></li>
+					</ul>
+				</div>
+
+				<div class="nav-link-bottom">
+					<ul class="nav-static ul-circle">
+						<li class="item-nav-static"><a class="link-static" href="m.Q-A.html" title="Câu hỏi thường gặp">Câu hỏi thường gặp</a></li>
+						<li class="item-nav-static"><a class="link-static" href="m.Q-A-form-support.html" title="Gửi yêu cầu hỗ trợ">Gửi yêu cầu hỗ trợ</a></li>
+					</ul>
+				</div>
+				<!-- End col-page-left -->
+
+	</div>
+	<!--#container_landing @tuanla60-->
+
+	<footer class="box clearfix">
+		<div class="box footer-mobile">
+			<ul class="box list-item">
+
+				<li class="box item">
+					<a href="#" title="" class="icon-img">
+						<span class="fal fa-box-check"></span>
+					</a>
+					<a href="#" title="" class="box title-item"><pre>Sản phẩm</pre> <pre>chính hãng</pre></a>
+				</li>
+				<li class="box item">
+					<a href="#" title="" class="icon-img">
+						<span class="fal fa-credit-card"></span>
+					</a>
+					<a href="#" title="" class="box title-item"><pre>Thanh toán</pre> <pre>tiện lợi</pre></a>
+				</li>
+				<li class="box item">
+					<a href="#" title="" class="icon-img">
+						<span class="fal fa-shipping-fast"></span>
+					</a>
+					<a href="#" title="" class="box title-item"><pre>Giao hàng</pre> <pre>nhanh chóng</pre></a>
+				</li>
+				<li class="box item">
+					<a href="#" title="" class="icon-img">
+						<span class="fal fa-headset"></span>
+					</a>
+					<a href="#" title="" class="box title-item"><pre>Hỗ trợ 24/7</pre></a>
+				</li>
+
+			</ul>
+		</div>
+	</footer>
+	
+	<span class="back-to-top-badge back-to-top-small"><i class="fal fa-angle-up"></i>Lên đầu trang</span>
+	
+	<script src="theme/frontend/js/swiper.min.js" defer></script>
+	<script src="theme/frontend/js/script-mb.js" defer></script>
+	<!-- <script src="theme/frontend/js/fontawesome.js" defer></script> -->
+
+</body>
+</html>

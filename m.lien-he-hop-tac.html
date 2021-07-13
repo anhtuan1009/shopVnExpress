@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<base href="" />
+	<title>Shop Vnexpress version 2</title>
+	<meta name="robots" content="index, follow">
+	<meta name="description" content="">
+	<link rel="shortcut icon" href="https://s.vnecdn.net/shop/i/v3/manifest/favicon-32x32.png">
+	<link type="text/css" rel="stylesheet" href="theme/frontend/css/normalize.min.css" />
+	<link type="text/css" rel="stylesheet" href="theme/frontend/css/bootstrap.min.css" />
+	<link type="text/css" rel="stylesheet" href="theme/frontend/css/animate.css" />
+	<link type="text/css" rel="stylesheet" href="theme/frontend/css/swiper.min.css" />
+	<link type="text/css" rel="stylesheet" href="theme/frontend/css/style-mb.css" />
+	<link type="text/css" rel="stylesheet" href="theme/frontend/css/fontawesomepro531.css" />
+	<link type="text/css" rel="stylesheet" href="theme/frontend/jquery-ui-1.12.1.custom/jquery-ui.min.css">
+	<script src="theme/frontend/js/jquery-2.2.1.min.js"></script>
+	<script src="theme/frontend/js/bootstrap.min.js"></script>
+	<script src="theme/frontend/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+</head>
+<body class="view_mb" itemscope itemtype="http://schema.org/WebPage">
+	<header class="header">
+		<div class="btn-nav-menu-option-2">
+			<div class="nav-page" aria-label="breadcrumb">
+				<a href="m.chinh-sach-quy-che-hoat-dong.html" title="Shop VnExpress" class="btn-return">
+					<span class="fal fa-long-arrow-left"></span>
+				</a>
+				<a href="m.chinh-sach-quy-che-hoat-dong.html" title="" class="title-page-curent" aria-current="page">Liên hệ hợp tác</a>
+			</div>
+			<div class="toggle-btn" data-toggle="modal" data-target="#showNavSideMenu">
+				<span class="fal fa-bars"></span>
+			</div>
+			<div class="toggle-btn-search" onclick="showSearch();">
+				<span class="fal fa-search"></span>
+			</div>
+			<div class="toggle-btn-cart">
+				<span class="fal fa-shopping-cart"><i class="number_qty">18</i></span>
+			</div>
+		  
+		</div>
+
+	</header>
+
+	<!-- Start popup search -->
+	<div class="popup-search fadeInLeft" id="popup-search">
+		<div class="box box_search_top">
+			<div class="btn-close-search" onclick="showSearch()">
+				<span class="fal fa-times"></span>
+			</div>
+			<form name="search" action="m.search.html" method="post" class="box form-search">
+				<input type="search" name="q" placeholder="Nhập tên sản phẩm cần tìm..." required class="input-search">
+				<button type="submit" class="btn-search">
+					<span class="fal fa-search"></span>
+				</button>
+				<ul class="wrap-show-result search_load" style="display: block;">
+					<li class="item search_item" data-type="text" data-search="điện thoại ">
+						<div class="title">điện thoại </div>
+					</li>
+					<li class="item search_item_product" data-type="product" data-url="m.product-detail.html">
+						<a href="m.product-detail.html">
+							<img src="theme/frontend/images/dien-thoai.jpg" alt="">
+							<div class="warp">
+								<div class="title">Điện thoại Nokia 8110 vàng</div>
+								<div class="price">1.680.000đ</div>
+							</div>
+						</a>
+					</li>
+					<li class="item search_item_product" data-type="product" data-url="m.product-detail.html">
+						<a href="m.product-detail.html">
+							<img src="theme/frontend/images/dien-thoai.jpg" alt="">
+							<div class="warp">
+								<div class="title">Điện thoại Nokia 8110 Black</div>
+								<div class="price">1.680.000đ</div>
+							</div>
+						</a>
+					</li>
+					<li class="item search_item_product" data-type="product" data-url="m.product-detail.html">
+						<a href="m.product-detail.html">
+							<img src="theme/frontend/images/dien-thoai.jpg" alt="">
+							<div class="warp">
+								<div class="title">Điện thoại Nokia 1 (Red)</div>
+								<div class="price">1.800.000đ</div>
+							</div>
+						</a>
+					</li>
+					<li class="item search_item_product" data-type="product" data-url="m.product-detail.html">
+						<a href="m.product-detail.html">
+							<img src="theme/frontend/images/dien-thoai.jpg" alt="">
+							<div class="warp">
+								<div class="title">Túi điện thoại Verchini màu đen 007234</div>
+								<div class="price">99.000đ</div>
+							</div>
+						</a>
+					</li>
+					<li class="item search_item_trend"><span class="bold">Từ khóa hot</span></li>
+					<li class="item search_item_trend" data-keyword="Ví nữ hàng hiệu Venuco Madrid">
+						<div class="title">Ví nữ hàng hiệu Venuco Madrid</div>
+					</li>
+					<li class="item search_item_trend" data-keyword="Balo/ túi đeo chéo thời trang Haras">
+						<div class="title">Balo/ túi đeo chéo thời trang Haras</div>
+					</li>
+					<li class="item search_item_trend" data-keyword="Đầm/váy thời trang nữ">
+						<div class="title">Đầm/váy thời trang nữ</div>
+					</li>
+					<li class="item search_item_trend" data-keyword="Đồng hồ nam">
+						<div class="title">Đồng hồ nam</div>
+					</li>
+					<li class="item search_item_history"><span class="bold">Lịch sử tìm kiếm</span><a class="clear" href="javascript:" aria-hidden="true" title="Xóa lịch sử tìm kiếm">Xóa</a></li>
+					<li class="item search_item_history" data-keyword="Đồng hồ nam">
+						<div class="title">Đồng hồ nam</div>
+					</li>
+					<li class="item search_item_history" data-keyword="Đồng hồ nữ">
+						<div class="title">Đồng hồ nữ</div>
+					</li>
+					<li class="item search_item_history" data-type="text" data-search="">
+						<div class="title">Điện thoại</div>
+					</li>
+				</ul>
+			</form>
+		</div>
+		<div class="bg-popup-search" onclick="showSearch()"></div>
+	</div>
+	<!-- End popup search -->
+
+	<!-- Start popup menu -->
+	<div id="showNavSideMenu" class="modal fade modal-nav-side-menu" role="dialog">
+		<div class="modal-dialog">
+
+			<nav class="nav-side-menu divFadeInLeft" id="nav-side-menu">
+				<span class="btn-close-nav" data-dismiss="modal">
+					<svg viewBox="0 0 40 40"><path d="M10,10 L30,30 M30,10 L10,30" /></svg>
+				</span>
+				<div class="box-user">
+					<div class="no-login" style="display: none;">
+						<span class="btn-sign-up" data-toggle="modal" data-target="#popup_signup">Đăng ký</span>
+						<span class="btn-sign-in" data-toggle="modal" data-target="#popup_signin">Đăng nhập</span>
+					</div>
+					<div class="logged">
+						<div class="img-user">
+							<a href="m.user.html" class="box" title="Tài khoản">
+								<img src="theme/frontend/images/logo_vne.jpg" alt="Ảnh đại diện" class="responsive">
+							</a>
+						</div>
+						<div class="user-info">
+							<a href="m.user.html" rel="nofollow" title="Đinh Thị Phương Anh" class="user-name">Đinh Thị Phương Anh</a>
+							<div class="user-address">
+								<p class="text">
+									<span class="fal fa-map-marker-alt"></span>
+									Đường Mỗ Lao - Phường Mỗ Lao - Quận Hà Đông - Hà Nội
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="menu-list">
+					<div class="group-menu">
+						<a href="m.index.html" title="Trang chủ" class="item-menu">
+							<span class="ic-menu fal fa-home"></span> TRANG CHỦ
+						</a>
+						<a href="m.category.html" title="" class="item-menu item-menu-cate">
+							<span class="ic-menu fas fa-th"></span> DANH MỤC NGÀNH HÀNG
+						</a>
+					</div>
+
+					<div class="group-menu">
+						<a href="m.user-notification.html" title="" class="item-menu">
+							<span class="ic-menu fal fa-bell"></span> Thông báo (<i>22</i>)
+						</a>
+						<a href="m.user-checking-order.html" title="" class="item-menu">
+							<span class="ic-menu fal fa-file-check"></span> Kiểm tra đơn hàng
+						</a>
+						<a href="m.Q-A.html" title="" class="item-menu">
+							<span class="ic-menu fal fa-life-ring"></span> Hỗ trợ khách hàng
+						</a>
+					</div>
+
+					<div class="group-menu">
+						<span class="title-group">Khuyến mãi</span>
+						<a href="m.gift.html" title="" class="item-menu">
+							<span class="ic-menu fal fa-gift"></span> Ưu đãi quà tặng
+						</a>
+						<a href="m.brand.html" title="" class="item-menu">
+							<span class="ic-menu fal fa-medal"></span> Thương hiệu nổi bật
+						</a>
+					</div>
+
+					<div class="group-menu">
+						<span class="title-group">ĐỐI TÁC BÁN HÀNG</span>
+						<a href="m.chinh-sach-quy-che-hoat-dong.html" title="" class="item-menu">
+							<span class="ic-menu fal fa-briefcase"></span> Quy chế & Điều khoản
+						</a>
+						<a href="m.hop-tac-ban-hang.html" title="" class="item-menu">
+							<span class="ic-menu fal fa-handshake"></span> Hợp tác bán hàng
+						</a>
+					</div>
+
+					<div class="group-menu">
+						<span class="title-group">HỖ TRỢ VÀ CÀI ĐẶT</span>
+						<a href="https://vnexpress.net" title="" class="item-menu">
+							<span class="ic-menu icon_bao_vne"></span> Đọc báo VNExpress
+						</a>
+						<a href="tel:1900633376" title="" class="item-menu">
+							<span class="ic-menu fal fa-phone"></span> Hotline : <strong>19001900</strong>
+						</a>
+						<a href="#" title="" class="item-menu" data-toggle="modal" data-target="#popup_signout">
+							<span class="ic-menu fal fa-sign-out"></span> Đăng xuất
+						</a>
+					</div>
+				</div>
+			</nav>
+		</div>
+	</div>
+	<!-- End popup menu -->
+
+	<div class="view_mobile m-wrapper-content-page-static">
+
+				<!-- Start col-page-primary -->
+				<section class="main-content">
+
+					<article class="box box-content clearfix">
+						<h1 class="title">LIÊN HỆ HỢP TÁC</h1>
+
+						<p align="center">Cảm ơn quý đối tác đã tin tưởng và lựa chọn đồng hành cùng Shop VnExpress. Quý khách vui lòng điền đầy đủ thông tin để tạo tài khoản đăng nhập trang bán hàng Seller Center</p>
+						<br>
+						<div class="form_lienhe_hoptac_02">
+							<form action="" method="post" id="form_cooperate" onsubmit="showWarningRegister();return false;">
+								<div class="form_label">
+						        	<!-- Text input-->
+									<div class="form_group clearfix">
+										<label class="col-md-4 control-label">Tên gian hàng (*) 
+											<span class="txt-note">Lưu ý : Tên gian hàng có thể đổi trước khi hoạt động chính thức</span>
+										</label>  
+										<div class="col-md-8">
+											<input name="store" type="text" placeholder="SunHouse official" class="form-control check-success" value="SunHouse official" required>
+
+											<input name="store" type="text" placeholder="SunHouse official" class="form-control input-err" value="shop.vnexpress.net/retail/">
+											<span class="help-block">Không chứa tên miền hoặc ký tự đặc biệt</span>
+											<div class="input_store_error err">Lỗi abcd</div>
+										</div>
+									</div>
+									<div class="form_group clearfix">
+										<label class="col-md-4 control-label">Email (*):
+											<span class="txt-note">Lưu ý : Email không thể thay đổi</span>
+										</label>  
+										<div class="col-md-8">
+											<input type="email" name="email" value="sunhouse@gm_.vn" placeholder="Sử dụng để đăng nhập Seller Center" class="form-control check-error" required>
+											<span class="help-block">Email này để nhận sao kê và các thông báo quan trọng khác.</span>
+											<div class="input_email_error err">Email không hợp lệ</div>
+										</div>
+									</div>
+									<div class="form_group clearfix">
+										<label class="col-md-4 control-label">Mật khẩu (*):
+										</label>  
+										<div class="col-md-8">
+											<input type="password" name="password" value="" placeholder="Sử dụng để đăng nhập Seller Center" class="form-control" required>
+											<div class="input_password_error err"></div>
+										</div>
+									</div>
+									<div class="form_group clearfix">
+										<label class="col-md-4 control-label">Tên công ty / hộ kinh doanh (*):
+										</label>  
+										<div class="col-md-8">
+											<input type="text" name="company" value="" placeholder="Công ty Cổ Phần Cao Su Sài Gòn KYMDAN" class="form-control" required>
+											<div class="input_company_error err"></div>
+										</div>
+									</div>
+									<div class="form_group clearfix">
+										<label class="col-md-4 control-label">Họ tên người liên hệ (*):
+										</label>  
+										<div class="col-md-8">
+											<input type="text" name="username" value="" placeholder="Nguyễn Văn A" class="form-control" required>
+											<div class="input_username_error err"></div>
+										</div>
+									</div>
+									<div class="form_group clearfix">
+										<label class="col-md-4 control-label">Điện thoại liên hệ (*):
+										</label>  
+										<div class="col-md-8">
+											<input type="text" name="phone" value="" placeholder="" class="form-control" required>
+						                    <div class="input_phone_error err"></div>
+										</div>
+									</div>
+									<div class="form_group clearfix">
+										<label class="col-md-4 control-label">Mã số thuế (*):
+										</label>  
+										<div class="col-md-8">
+											<input type="text" name="tax-code" value="" placeholder="Nhập mã số thuế trên giấy phép kinh doanh" class="form-control">
+											<div class="input_tax_code_error err"></div>
+										</div>
+									</div>
+
+									<div class="form_group clearfix">
+										<label class="col-md-4 control-label">Địa chỉ kho (*):
+										</label>  
+										<div class="col-xs-6 col-sm-6 col-md-4" style="padding-right:0;">
+											<select id="" name="business-areas" class="form-control">
+												<option value="0">Tỉnh / Thành phố</option>
+												<option value="1">Hà Nội</option>
+												<option value="2">Hồ Chí Minh</option>
+											</select>
+											<div class=" err"></div>
+										</div>
+										<div class="col-xs-6 col-sm-6 col-md-4">
+											<select id="" name="business-areas" class="form-control">
+												<option value="0">Quận / Huyện</option>
+												<option value="1">Cầu Giấy</option>
+												<option value="2">Hai Bà Trưng</option>
+											</select>
+											<div class=" err"></div>
+										</div>
+										<div class="col-md-8 col-md-offset-4" style="padding-top:10px;clear:both;">
+											<input type="text" name="" value="" placeholder="Đường phố (VD : Số 17, đường Phố Huế)" class="form-control">
+											<div class="input_company_error err"></div>
+										</div>
+									</div>
+									<div class="form_group clearfix">
+										<label class="col-md-4 control-label">Ngành hàng đăng ký (*):
+										</label>  
+										<div class="col-md-8">
+											<select id="" name="business-areas" class="form-control">
+												<option value="0">Chọn ngành hàng</option>
+												<option value="1">Điện tử & Công nghệ</option>
+												<option value="2">Gia dụng</option>
+												<option value="3">Nội thất</option>
+												<option value="4">Thời trang</option>
+												<option value="5">Trang sức</option>
+											</select>
+											<div class="input_type_error err"></div>
+										</div>
+									</div>
+									<div class="form_group clearfix">
+										<label class="col-md-4 control-label">Giấy tờ kinh doanh (*):
+											<span class="txt-note">Vui lòng cung cấp <strong>“Giấy đăng ký kinh doanh”</strong> ; <strong>“Giấy đăng ký thương hiệu/Chứng nhận phân phối”</strong>.</span>
+										</label>  
+										<div class="col-md-8">
+											<div class="list-items-upload">
+												<div class="items-upload">
+													<img src="https://via.placeholder.com/70" alt="">
+													<div class="sf-close"></div>
+												</div>
+												<div class="items-upload">
+													<img src="https://via.placeholder.com/70" alt="">
+													<div class="sf-close"></div>
+												</div>
+												<div class="items-upload">
+													<img src="https://via.placeholder.com/70" alt="">
+													<div class="sf-close"></div>
+												</div>
+												<div class="items-upload">
+													<img src="https://via.placeholder.com/70" alt="">
+													<div class="sf-close"></div>
+												</div>
+												<div class="items-upload">
+													<img src="https://via.placeholder.com/70" alt="">
+													<div class="sf-close"></div>
+												</div>
+												<lable class="items-upload" for="fileupload">
+													<span class="fal fa-plus"></span>
+													<p>Thêm ảnh</p>
+													<input id="fileupload" name="fileupload" class="input-file" type="file" accept="image/x-png,image/gif,image/jpeg">
+												</lable>
+											</div>
+
+											<span class="help-block">Tối đa 10 ảnh</span>
+											<div class=" err"></div>
+										</div>
+									</div>
+
+									<div class="form_group clearfix">
+										<div class="col-md-12">
+											<div class="input-group thoa-thuan-dich-vu">
+												<span>
+													<input type="checkbox" name="" id="dongy" required>
+												</span>
+												<label class="txt-label" for="dongy">Tôi đồng ý với <a href="" target="_blank" title="Thỏa thuận dịch vụ">Thỏa thuận dịch vụ</a> của Shop VnExpress và xác nhận rằng thông tin tôi cung cấp hoàn toàn chính xác</label>
+											</div>
+										</div>
+									</div>
+
+									<div class="form_group check_code clearfix" id="captcha_check" style="display: none;">
+										<label class="col-md-4 control-label">Mã xác nhận (*):
+										</label>  
+										<div class="col-md-8">
+												<div class="input-inline">
+													<div class="box-image-captcha">
+														<img src="theme/frontend/images/captcha_code.png" id="image_captcha" style="width:60px;" class="image-captcha">
+													</div>
+													<input type="hidden" name="captcha_code" id="txt_captcha">
+													<a href="javascript:;" onclick="eCommerce.captcha('image_captcha', 'txt_captcha');" class="btn-refresh-capcha">
+														<img class="btn-refresh" src="theme/frontend/images/icon-refreh.png" alt="Đổi captcha">
+													</a>
+													<input type="text" name="captcha" placeholder="Nhập mã xác nhận" class="inset-captcha">
+												</div>
+												<div class="input_captcha_error err"></div>
+												<div class="clear"></div>
+										</div>
+									</div>
+									<div class="form_group clearfix">
+										<button type="submit" id="button_register" class="btn-submit my_btn">ĐĂNG KÝ GIAN HÀNG</button>
+										<button type="submit" id="button_register" class="btn-submit my_btn check-success">ĐĂNG KÝ GIAN HÀNG</button>
+									</div>
+								</div>
+							</form>
+						</div>
+
+					</article>
+
+				</section>
+				<!-- End col-page-primary -->
+
+				<!-- Start col-page-left -->
+				<div class="nav-link-bottom">
+					<ul class="nav-static ul-circle">
+						<li class="item-nav-static"><a class="link-static" href="m.gioi-thieu.html" title="Giới thiệu Shop VnExpress">Giới thiệu Shop VnExpress</a></li>
+						<li class="item-nav-static"><a class="link-static" href="m.quy-che-hoat-dong.html" title="Quy chế hoạt động">Quy chế hoạt động</a></li>
+						<li class="item-nav-static"><a class="link-static" href="m.chinh-sach-bao-mat.html" title="Chính sách bảo mật">Chính sách bảo mật</a></li>
+						<li class="item-nav-static"><a class="link-static" href="m.chinh-sach-giao-hang.html" title="Chính sách giao hàng">Chính sách giao hàng</a></li>
+						<li class="item-nav-static"><a class="link-static" href="m.chinh-sach-thanh-toan.html" title="Chính sách thanh toán">Chính sách thanh toán</a></li>
+						<li class="item-nav-static"><a class="link-static" href="m.chinh-sach-bao-hanh.html" title="Chính sách bảo hành">Chính sách bảo hành</a></li>
+						<li class="item-nav-static"><a class="link-static" href="m.chinh-sach-doi-tra.html" title="Chính sách đổi trả">Chính sách đổi trả</a></li>
+						<li class="item-nav-static"><a class="link-static" href="m.giai-quyet-tranh-chap.html" title="Giải quyết tranh chấp">Giải quyết tranh chấp</a></li>
+					</ul>
+				</div>
+
+				<div class="nav-link-bottom">
+					<ul class="nav-static ul-circle">
+						<li class="item-nav-static"><a class="link-static" href="m.hop-tac-ban-hang.html" title="Tư vấn hợp tác bán hàng">Tư vấn hợp tác bán hàng</a></li>
+						<li class="item-nav-static"><a class="link-static active" href="m.lien-he-hop-tac.html" title="Liên hệ hợp tác">Liên hệ hợp tác</a></li>
+						<li class="item-nav-static"><a class="link-static" href="https://vnexpress.net/lien-he-quang-cao" title="Liên hệ quảng cáo">Liên hệ quảng cáo</a></li>
+					</ul>
+				</div>
+
+				<div class="nav-link-bottom">
+					<ul class="nav-static ul-circle">
+						<li class="item-nav-static"><a class="link-static" href="m.Q-A.html" title="Câu hỏi thường gặp">Câu hỏi thường gặp</a></li>
+						<li class="item-nav-static"><a class="link-static" href="m.Q-A-form-support.html" title="Gửi yêu cầu hỗ trợ">Gửi yêu cầu hỗ trợ</a></li>
+					</ul>
+				</div>
+				<!-- End col-page-left -->
+
+	</div>
+	<!--#container_landing @tuanla60-->
+
+	<footer class="box clearfix">
+		<div class="box footer-mobile">
+			<ul class="box list-item">
+
+				<li class="box item">
+					<a href="#" title="" class="icon-img">
+						<span class="fal fa-box-check"></span>
+					</a>
+					<a href="#" title="" class="box title-item"><pre>Sản phẩm</pre> <pre>chính hãng</pre></a>
+				</li>
+				<li class="box item">
+					<a href="#" title="" class="icon-img">
+						<span class="fal fa-credit-card"></span>
+					</a>
+					<a href="#" title="" class="box title-item"><pre>Thanh toán</pre> <pre>tiện lợi</pre></a>
+				</li>
+				<li class="box item">
+					<a href="#" title="" class="icon-img">
+						<span class="fal fa-shipping-fast"></span>
+					</a>
+					<a href="#" title="" class="box title-item"><pre>Giao hàng</pre> <pre>nhanh chóng</pre></a>
+				</li>
+				<li class="box item">
+					<a href="#" title="" class="icon-img">
+						<span class="fal fa-headset"></span>
+					</a>
+					<a href="#" title="" class="box title-item"><pre>Hỗ trợ 24/7</pre></a>
+				</li>
+
+			</ul>
+		</div>
+	</footer>
+	
+	<span class="back-to-top-badge back-to-top-small"><i class="fal fa-angle-up"></i>Lên đầu trang</span>
+
+
+
+
+	<div class="mb-wrap-popup-group" id="mb_wrap_popup_group">
+
+		<!-- Start box_popup_warning_register -->
+		<div class="box-popup-warning-register" id="box_popup_warning_register">
+			<div class="box-inner-popup divFadeInScale">
+				<div class="box-wrap-preview">
+					<div class="box-content-popup">
+						<p style="font-size:20px;margin-bottom:10px;">ĐĂNG KÝ THÀNH CÔNG</p>
+						<p>Cảm ơn quý đối tác đã tin tưởng và lựa chọn đồng hành cùng Shop VnExpress. Chúng tôi sẽ kiểm duyệt thông tin trong vòng <strong>2 - 5 ngày</strong>. Quý đối tác lưu ý kiểm tra email trong khoảng thời gian này để cập nhật thông báo mới nhất từ Shop VnExpress.</p>
+					</div>
+				</div>
+
+				<div class="btn-close-warning" data-dismiss="modal">x</div>
+			</div>
+		</div>
+		<!-- End box_popup_warning_register -->
+
+	</div>
+	
+	<script src="theme/frontend/js/swiper.min.js" defer></script>
+	<script src="theme/frontend/js/script-mb.js" defer></script>
+	<!-- <script src="theme/frontend/js/fontawesome.js" defer></script> -->
+	<script>
+		function showWarningRegister() {
+			$('#box_popup_warning_register').modal('show');
+		};
+	</script>
+
+</body>
+</html>

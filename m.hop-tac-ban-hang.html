@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<base href="" />
+	<title>Shop Vnexpress version 2</title>
+	<meta name="robots" content="index, follow">
+	<meta name="description" content="">
+	<link rel="shortcut icon" href="https://s.vnecdn.net/shop/i/v3/manifest/favicon-32x32.png">
+	<link type="text/css" rel="stylesheet" href="theme/frontend/css/normalize.min.css" />
+	<link type="text/css" rel="stylesheet" href="theme/frontend/css/bootstrap.min.css" />
+	<link type="text/css" rel="stylesheet" href="theme/frontend/css/animate.css" />
+	<link type="text/css" rel="stylesheet" href="theme/frontend/css/swiper.min.css" />
+	<link type="text/css" rel="stylesheet" href="theme/frontend/css/style-mb.css" />
+	<link type="text/css" rel="stylesheet" href="theme/frontend/css/fontawesomepro531.css" />
+	<link type="text/css" rel="stylesheet" href="theme/frontend/jquery-ui-1.12.1.custom/jquery-ui.min.css">
+	<script src="theme/frontend/js/jquery-2.2.1.min.js"></script>
+	<script src="theme/frontend/js/bootstrap.min.js"></script>
+	<script src="theme/frontend/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+</head>
+<body class="view_mb" itemscope itemtype="http://schema.org/WebPage">
+	<header class="header">
+		<div class="btn-nav-menu-option-2">
+			<div class="nav-page" aria-label="breadcrumb">
+				<a href="m.chinh-sach-quy-che-hoat-dong.html" title="Shop VnExpress" class="btn-return">
+					<span class="fal fa-long-arrow-left"></span>
+				</a>
+				<a href="m.chinh-sach-quy-che-hoat-dong.html" title="" class="title-page-curent" aria-current="page">Hợp tác bán hàng</a>
+			</div>
+			<div class="toggle-btn" data-toggle="modal" data-target="#showNavSideMenu">
+				<span class="fal fa-bars"></span>
+			</div>
+			<div class="toggle-btn-search" onclick="showSearch();">
+				<span class="fal fa-search"></span>
+			</div>
+			<div class="toggle-btn-cart">
+				<span class="fal fa-shopping-cart"><i class="number_qty">18</i></span>
+			</div>
+		  
+		</div>
+
+	</header>
+
+	<!-- Start popup search -->
+	<div class="popup-search fadeInLeft" id="popup-search">
+		<div class="box box_search_top">
+			<div class="btn-close-search" onclick="showSearch()">
+				<span class="fal fa-times"></span>
+			</div>
+			<form name="search" action="m.search.html" method="post" class="box form-search">
+				<input type="search" name="q" placeholder="Nhập tên sản phẩm cần tìm..." required class="input-search">
+				<button type="submit" class="btn-search">
+					<span class="fal fa-search"></span>
+				</button>
+				<ul class="wrap-show-result search_load" style="display: block;">
+					<li class="item search_item" data-type="text" data-search="điện thoại ">
+						<div class="title">điện thoại </div>
+					</li>
+					<li class="item search_item_product" data-type="product" data-url="m.product-detail.html">
+						<a href="m.product-detail.html">
+							<img src="theme/frontend/images/dien-thoai.jpg" alt="">
+							<div class="warp">
+								<div class="title">Điện thoại Nokia 8110 vàng</div>
+								<div class="price">1.680.000đ</div>
+							</div>
+						</a>
+					</li>
+					<li class="item search_item_product" data-type="product" data-url="m.product-detail.html">
+						<a href="m.product-detail.html">
+							<img src="theme/frontend/images/dien-thoai.jpg" alt="">
+							<div class="warp">
+								<div class="title">Điện thoại Nokia 8110 Black</div>
+								<div class="price">1.680.000đ</div>
+							</div>
+						</a>
+					</li>
+					<li class="item search_item_product" data-type="product" data-url="m.product-detail.html">
+						<a href="m.product-detail.html">
+							<img src="theme/frontend/images/dien-thoai.jpg" alt="">
+							<div class="warp">
+								<div class="title">Điện thoại Nokia 1 (Red)</div>
+								<div class="price">1.800.000đ</div>
+							</div>
+						</a>
+					</li>
+					<li class="item search_item_product" data-type="product" data-url="m.product-detail.html">
+						<a href="m.product-detail.html">
+							<img src="theme/frontend/images/dien-thoai.jpg" alt="">
+							<div class="warp">
+								<div class="title">Túi điện thoại Verchini màu đen 007234</div>
+								<div class="price">99.000đ</div>
+							</div>
+						</a>
+					</li>
+					<li class="item search_item_trend"><span class="bold">Từ khóa hot</span></li>
+					<li class="item search_item_trend" data-keyword="Ví nữ hàng hiệu Venuco Madrid">
+						<div class="title">Ví nữ hàng hiệu Venuco Madrid</div>
+					</li>
+					<li class="item search_item_trend" data-keyword="Balo/ túi đeo chéo thời trang Haras">
+						<div class="title">Balo/ túi đeo chéo thời trang Haras</div>
+					</li>
+					<li class="item search_item_trend" data-keyword="Đầm/váy thời trang nữ">
+						<div class="title">Đầm/váy thời trang nữ</div>
+					</li>
+					<li class="item search_item_trend" data-keyword="Đồng hồ nam">
+						<div class="title">Đồng hồ nam</div>
+					</li>
+					<li class="item search_item_history"><span class="bold">Lịch sử tìm kiếm</span><a class="clear" href="javascript:" aria-hidden="true" title="Xóa lịch sử tìm kiếm">Xóa</a></li>
+					<li class="item search_item_history" data-keyword="Đồng hồ nam">
+						<div class="title">Đồng hồ nam</div>
+					</li>
+					<li class="item search_item_history" data-keyword="Đồng hồ nữ">
+						<div class="title">Đồng hồ nữ</div>
+					</li>
+					<li class="item search_item_history" data-type="text" data-search="">
+						<div class="title">Điện thoại</div>
+					</li>
+				</ul>
+			</form>
+		</div>
+		<div class="bg-popup-search" onclick="showSearch()"></div>
+	</div>
+	<!-- End popup search -->
+
+	<!-- Start popup menu -->
+	<div id="showNavSideMenu" class="modal fade modal-nav-side-menu" role="dialog">
+		<div class="modal-dialog">
+
+			<nav class="nav-side-menu divFadeInLeft" id="nav-side-menu">
+				<span class="btn-close-nav" data-dismiss="modal">
+					<svg viewBox="0 0 40 40"><path d="M10,10 L30,30 M30,10 L10,30" /></svg>
+				</span>
+				<div class="box-user">
+					<div class="no-login" style="display: none;">
+						<span class="btn-sign-up" data-toggle="modal" data-target="#popup_signup">Đăng ký</span>
+						<span class="btn-sign-in" data-toggle="modal" data-target="#popup_signin">Đăng nhập</span>
+					</div>
+					<div class="logged">
+						<div class="img-user">
+							<a href="m.user.html" class="box" title="Tài khoản">
+								<img src="theme/frontend/images/logo_vne.jpg" alt="Ảnh đại diện" class="responsive">
+							</a>
+						</div>
+						<div class="user-info">
+							<a href="m.user.html" rel="nofollow" title="Đinh Thị Phương Anh" class="user-name">Đinh Thị Phương Anh</a>
+							<div class="user-address">
+								<p class="text">
+									<span class="fal fa-map-marker-alt"></span>
+									Đường Mỗ Lao - Phường Mỗ Lao - Quận Hà Đông - Hà Nội
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="menu-list">
+					<div class="group-menu">
+						<a href="m.index.html" title="Trang chủ" class="item-menu">
+							<span class="ic-menu fal fa-home"></span> TRANG CHỦ
+						</a>
+						<a href="m.category.html" title="" class="item-menu item-menu-cate">
+							<span class="ic-menu fas fa-th"></span> DANH MỤC NGÀNH HÀNG
+						</a>
+					</div>
+
+					<div class="group-menu">
+						<a href="m.user-notification.html" title="" class="item-menu">
+							<span class="ic-menu fal fa-bell"></span> Thông báo (<i>22</i>)
+						</a>
+						<a href="m.user-checking-order.html" title="" class="item-menu">
+							<span class="ic-menu fal fa-file-check"></span> Kiểm tra đơn hàng
+						</a>
+						<a href="m.Q-A.html" title="" class="item-menu">
+							<span class="ic-menu fal fa-life-ring"></span> Hỗ trợ khách hàng
+						</a>
+					</div>
+
+					<div class="group-menu">
+						<span class="title-group">Khuyến mãi</span>
+						<a href="m.gift.html" title="" class="item-menu">
+							<span class="ic-menu fal fa-gift"></span> Ưu đãi quà tặng
+						</a>
+						<a href="m.brand.html" title="" class="item-menu">
+							<span class="ic-menu fal fa-medal"></span> Thương hiệu nổi bật
+						</a>
+					</div>
+
+					<div class="group-menu">
+						<span class="title-group">ĐỐI TÁC BÁN HÀNG</span>
+						<a href="m.chinh-sach-quy-che-hoat-dong.html" title="" class="item-menu">
+							<span class="ic-menu fal fa-briefcase"></span> Quy chế & Điều khoản
+						</a>
+						<a href="m.hop-tac-ban-hang.html" title="" class="item-menu">
+							<span class="ic-menu fal fa-handshake"></span> Hợp tác bán hàng
+						</a>
+					</div>
+
+					<div class="group-menu">
+						<span class="title-group">HỖ TRỢ VÀ CÀI ĐẶT</span>
+						<a href="https://vnexpress.net" title="" class="item-menu">
+							<span class="ic-menu icon_bao_vne"></span> Đọc báo VNExpress
+						</a>
+						<a href="tel:1900633376" title="" class="item-menu">
+							<span class="ic-menu fal fa-phone"></span> Hotline : <strong>19001900</strong>
+						</a>
+						<a href="#" title="" class="item-menu" data-toggle="modal" data-target="#popup_signout">
+							<span class="ic-menu fal fa-sign-out"></span> Đăng xuất
+						</a>
+					</div>
+				</div>
+			</nav>
+		</div>
+	</div>
+	<!-- End popup menu -->
+
+	<div class="view_mobile m-wrapper-content-page-static">
+
+				<!-- Start col-page-primary -->
+				<section class="main-content">
+
+					<article class="box box-content clearfix">
+						<h1 class="title">Chính sách hợp tác bán hàng cùng Shop Vnexpress</h1>
+
+						<p>Với mục tiêu trở thành cầu nối giữa doanh nghiệp và người tiêu dùng, hợp tác cùng những nhà cung ứng chuyên nghiệp, uy tín để tạo kênh mua sắm trực tuyến lành mạnh, hiện đại, đảm bảo chất lượng sản phẩm/ dịch vụ với mức giá ưu đãi cho người tiêu dùng, tập đoàn FPT Online cho ra đời chuyên trang Thương mại điện tử Shop.vnexpress.net.</p>
+						<p>Đây là trang thông tin bán hàng về sản phẩm, dịch vụ được chọn lọc từ báo VnExpress để giới thiệu cho cộng đồng độc giả thông qua hệ thống trang tin của FPT Online (VnExpress.net; NgoiSao.net; Sohoa.net...)</p>
+
+						<h2 id="menu_1">Các doanh nghiệp tham gia hợp tác cần thỏa mãn tiêu chí sau:</h2>
+						<p>1. Là doanh nghiệp/ nhà cung ứng trong và ngoài nước có đầy đủ tư cách pháp nhân đã đăng ký kinh doanh với cơ quan nhà nước.</p>
+						<p>2. Nếu doanh nghiệp cung cấp sản phẩm hữu hình cần đạt tiêu chí về chất lượng chính hãng hoặc có nguồn gốc xuất xứ rõ ràng kèm theo chứng từ hàng hóa đầy đủ./p>
+						<p>3. Nếu sản phẩm là dịch vụ thì cần cung cấp những dịch vụ hữu ích và có lợi cho người tiêu dùng. Những mô hình dịch vụ đa cấp sẽ không được phép kinh doanh tại Shop VnExpress.</p>
+
+						<h2 id="menu_2">Quyền lợi khi tham gia hợp tác bán hàng tại shop.vnexpress.net như sau:</h2>
+						<p>1. Miễn phí đăng tải sản phẩm, doanh nghiệp/ nhà cung ứng chỉ phải trả một khoản hoa hồng khi có đơn hàng phát sinh (% hoa hồng sẽ được quy định theo từng ngành hàng) và áp dụng trên mức giá bán niêm yết trên trang.</p>
+						<p>2. Được hỗ trợ về công nghệ, công cụ quản lý bán, chăm sóc khách hàng. Ngoài ra, việc giao nhận hàng hóa, xử lý đơn hàng sẽ được thỏa thuận giữa doanh nghiệp & Shop VnExpress để đem đến dịch vụ bán hàng tốt nhất cho khách hàng.</p>
+						<p>3. Tùy chọn hợp tác thêm gói truyền thông cùng Shop VnExpress với mức ưu đãi hấp dẫn nhằm giúp doanh nghiệp/ nhà cung ứng đẩy mạnh quảng bá thương hiệu đến cộng đồng độc giả của báo VnExpress. Đội ngũ nhân viên tư vấn của Shop VnExpress sẽ hướng dẫn để doanh nghiệp/ nhà cung ứng đạt được hiệu quả.</p>
+						<p>4. Quý doanh nghiệp tham gia bán hàng sẽ được lựa chọn hình thức vận hành bởi FPT Online.</p>
+
+						<h2 id="menu_3">Quy trình xét duyệt để trở thành doanh nghiệp hợp tác bán hàng cùng Shop Vnexpress như sau:</h2>
+						<p></p>
+						<ul style="padding: 0; list-style-position: inside; ">
+						    <li><strong>Bước 1: </strong>Doanh nghiệp/ nhà cung ứng tham gia đăng ký bán hàng tại shop.vnexpress.net <a href="https://shop.vnexpress.net/page/lien-he-hop-tac.html" title="Liên hệ hợp tác">tại đây</a> hoặc liên hệ hotline: <strong>1900.633.376</strong>.</li>
+						    <li><strong>Bước 2: </strong>Đội ngũ tư vấn của shop.vnexpress.net sẽ xét duyệt thông tin và liên hệ với doanh nghiệp/ nhà cung ứng trong thời gian 5 - 7 ngày làm việc nếu hồ sơ đăng ký được duyệt.</li>
+						    <li><strong>Bước 3: </strong>Quý doanh nghiệp/ nhà cung ứng cần cung cấp giấy phép kinh doanh và các yêu cầu xác minh về sản phẩm/ dịch vụ khi có yêu cầu từ bộ phận tư vấn của Shop VnExpress.</li>
+						</ul>
+
+						<a class="btn btn-contact-cooperate" href="m.lien-he-hop-tac.html" title="Đăng ký bán hàng">Đăng ký bán hàng</a>
+
+					</article>
+
+				</section>
+				<!-- End col-page-primary -->
+
+				<!-- Start col-page-left -->
+				<div class="nav-link-bottom">
+					<ul class="nav-static ul-circle">
+						<li class="item-nav-static"><a class="link-static" href="m.gioi-thieu.html" title="Giới thiệu Shop VnExpress">Giới thiệu Shop VnExpress</a></li>
+						<li class="item-nav-static"><a class="link-static" href="m.quy-che-hoat-dong.html" title="Quy chế hoạt động">Quy chế hoạt động</a></li>
+						<li class="item-nav-static"><a class="link-static" href="m.chinh-sach-bao-mat.html" title="Chính sách bảo mật">Chính sách bảo mật</a></li>
+						<li class="item-nav-static"><a class="link-static" href="m.chinh-sach-giao-hang.html" title="Chính sách giao hàng">Chính sách giao hàng</a></li>
+						<li class="item-nav-static"><a class="link-static" href="m.chinh-sach-thanh-toan.html" title="Chính sách thanh toán">Chính sách thanh toán</a></li>
+						<li class="item-nav-static"><a class="link-static" href="m.chinh-sach-bao-hanh.html" title="Chính sách bảo hành">Chính sách bảo hành</a></li>
+						<li class="item-nav-static"><a class="link-static" href="m.chinh-sach-doi-tra.html" title="Chính sách đổi trả">Chính sách đổi trả</a></li>
+						<li class="item-nav-static"><a class="link-static" href="m.giai-quyet-tranh-chap.html" title="Giải quyết tranh chấp">Giải quyết tranh chấp</a></li>
+					</ul>
+				</div>
+
+				<div class="nav-link-bottom">
+					<ul class="nav-static ul-circle">
+						<li class="item-nav-static"><a class="link-static active" href="m.hop-tac-ban-hang.html" title="Tư vấn hợp tác bán hàng">Tư vấn hợp tác bán hàng</a></li>
+						<li class="item-nav-static"><a class="link-static" href="m.lien-he-hop-tac.html" title="Liên hệ hợp tác">Liên hệ hợp tác</a></li>
+						<li class="item-nav-static"><a class="link-static" href="https://vnexpress.net/lien-he-quang-cao" title="Liên hệ quảng cáo">Liên hệ quảng cáo</a></li>
+					</ul>
+				</div>
+
+				<div class="nav-link-bottom">
+					<ul class="nav-static ul-circle">
+						<li class="item-nav-static"><a class="link-static" href="m.Q-A.html" title="Câu hỏi thường gặp">Câu hỏi thường gặp</a></li>
+						<li class="item-nav-static"><a class="link-static" href="m.Q-A-form-support.html" title="Gửi yêu cầu hỗ trợ">Gửi yêu cầu hỗ trợ</a></li>
+					</ul>
+				</div>
+				<!-- End col-page-left -->
+
+	</div>
+	<!--#container_landing @tuanla60-->
+
+	<footer class="box clearfix">
+		<div class="box footer-mobile">
+			<ul class="box list-item">
+
+				<li class="box item">
+					<a href="#" title="" class="icon-img">
+						<span class="fal fa-box-check"></span>
+					</a>
+					<a href="#" title="" class="box title-item"><pre>Sản phẩm</pre> <pre>chính hãng</pre></a>
+				</li>
+				<li class="box item">
+					<a href="#" title="" class="icon-img">
+						<span class="fal fa-credit-card"></span>
+					</a>
+					<a href="#" title="" class="box title-item"><pre>Thanh toán</pre> <pre>tiện lợi</pre></a>
+				</li>
+				<li class="box item">
+					<a href="#" title="" class="icon-img">
+						<span class="fal fa-shipping-fast"></span>
+					</a>
+					<a href="#" title="" class="box title-item"><pre>Giao hàng</pre> <pre>nhanh chóng</pre></a>
+				</li>
+				<li class="box item">
+					<a href="#" title="" class="icon-img">
+						<span class="fal fa-headset"></span>
+					</a>
+					<a href="#" title="" class="box title-item"><pre>Hỗ trợ 24/7</pre></a>
+				</li>
+
+			</ul>
+		</div>
+	</footer>
+	
+	<span class="back-to-top-badge back-to-top-small"><i class="fal fa-angle-up"></i>Lên đầu trang</span>
+	
+	<script src="theme/frontend/js/swiper.min.js" defer></script>
+	<script src="theme/frontend/js/script-mb.js" defer></script>
+	<!-- <script src="theme/frontend/js/fontawesome.js" defer></script> -->
+
+</body>
+</html>

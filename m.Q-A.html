@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<base href="" />
+	<title>Shop Vnexpress version 2</title>
+	<meta name="robots" content="index, follow">
+	<meta name="description" content="">
+	<link rel="shortcut icon" href="https://s.vnecdn.net/shop/i/v3/manifest/favicon-32x32.png">
+	<link type="text/css" rel="stylesheet" href="theme/frontend/css/normalize.min.css" />
+	<link type="text/css" rel="stylesheet" href="theme/frontend/css/bootstrap.min.css" />
+	<link type="text/css" rel="stylesheet" href="theme/frontend/css/animate.css" />
+	<link type="text/css" rel="stylesheet" href="theme/frontend/css/swiper.min.css" />
+	<link type="text/css" rel="stylesheet" href="theme/frontend/css/style-mb.css" />
+	<link type="text/css" rel="stylesheet" href="theme/frontend/css/fontawesomepro531.css" />
+	<link type="text/css" rel="stylesheet" href="theme/frontend/jquery-ui-1.12.1.custom/jquery-ui.min.css">
+	<script src="theme/frontend/js/jquery-2.2.1.min.js"></script>
+	<script src="theme/frontend/js/bootstrap.min.js"></script>
+	<script src="theme/frontend/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+</head>
+<body class="view_mb" itemscope itemtype="http://schema.org/WebPage">
+	<header class="header">
+		<div class="btn-nav-menu-option-2">
+			<div class="nav-page" aria-label="breadcrumb">
+				<a href="m.index.html" title="Shop VnExpress" class="btn-return">
+					<span class="fal fa-long-arrow-left"></span>
+				</a>
+				<a href="m.index.html" title="" class="title-page-curent" aria-current="page">HỎI ĐÁP</a>
+			</div>
+			<div class="toggle-btn" data-toggle="modal" data-target="#showNavSideMenu">
+				<span class="fal fa-bars"></span>
+			</div>
+			<div class="toggle-btn-search" onclick="showSearch();">
+				<span class="fal fa-search"></span>
+			</div>
+			<div class="toggle-btn-cart">
+				<span class="fal fa-shopping-cart"><i class="number_qty">18</i></span>
+			</div>
+		  
+		</div>
+
+	</header>
+
+	<!-- Start popup search -->
+	<div class="popup-search fadeInLeft" id="popup-search">
+		<div class="box box_search_top">
+			<div class="btn-close-search" onclick="showSearch()">
+				<span class="fal fa-times"></span>
+			</div>
+			<form name="search" action="m.search.html" method="post" class="box form-search">
+				<input type="search" name="q" placeholder="Nhập tên sản phẩm cần tìm..." required class="input-search">
+				<button type="submit" class="btn-search">
+					<span class="fal fa-search"></span>
+				</button>
+				<ul class="wrap-show-result search_load" style="display: block;">
+					<li class="item search_item" data-type="text" data-search="điện thoại ">
+						<div class="title">điện thoại </div>
+					</li>
+					<li class="item search_item_product" data-type="product" data-url="m.product-detail.html">
+						<a href="m.product-detail.html">
+							<img src="theme/frontend/images/dien-thoai.jpg" alt="">
+							<div class="warp">
+								<div class="title">Điện thoại Nokia 8110 vàng</div>
+								<div class="price">1.680.000đ</div>
+							</div>
+						</a>
+					</li>
+					<li class="item search_item_product" data-type="product" data-url="m.product-detail.html">
+						<a href="m.product-detail.html">
+							<img src="theme/frontend/images/dien-thoai.jpg" alt="">
+							<div class="warp">
+								<div class="title">Điện thoại Nokia 8110 Black</div>
+								<div class="price">1.680.000đ</div>
+							</div>
+						</a>
+					</li>
+					<li class="item search_item_product" data-type="product" data-url="m.product-detail.html">
+						<a href="m.product-detail.html">
+							<img src="theme/frontend/images/dien-thoai.jpg" alt="">
+							<div class="warp">
+								<div class="title">Điện thoại Nokia 1 (Red)</div>
+								<div class="price">1.800.000đ</div>
+							</div>
+						</a>
+					</li>
+					<li class="item search_item_product" data-type="product" data-url="m.product-detail.html">
+						<a href="m.product-detail.html">
+							<img src="theme/frontend/images/dien-thoai.jpg" alt="">
+							<div class="warp">
+								<div class="title">Túi điện thoại Verchini màu đen 007234</div>
+								<div class="price">99.000đ</div>
+							</div>
+						</a>
+					</li>
+					<li class="item search_item_trend"><span class="bold">Từ khóa hot</span></li>
+					<li class="item search_item_trend" data-keyword="Ví nữ hàng hiệu Venuco Madrid">
+						<div class="title">Ví nữ hàng hiệu Venuco Madrid</div>
+					</li>
+					<li class="item search_item_trend" data-keyword="Balo/ túi đeo chéo thời trang Haras">
+						<div class="title">Balo/ túi đeo chéo thời trang Haras</div>
+					</li>
+					<li class="item search_item_trend" data-keyword="Đầm/váy thời trang nữ">
+						<div class="title">Đầm/váy thời trang nữ</div>
+					</li>
+					<li class="item search_item_trend" data-keyword="Đồng hồ nam">
+						<div class="title">Đồng hồ nam</div>
+					</li>
+					<li class="item search_item_history"><span class="bold">Lịch sử tìm kiếm</span><a class="clear" href="javascript:" aria-hidden="true" title="Xóa lịch sử tìm kiếm">Xóa</a></li>
+					<li class="item search_item_history" data-keyword="Đồng hồ nam">
+						<div class="title">Đồng hồ nam</div>
+					</li>
+					<li class="item search_item_history" data-keyword="Đồng hồ nữ">
+						<div class="title">Đồng hồ nữ</div>
+					</li>
+					<li class="item search_item_history" data-type="text" data-search="">
+						<div class="title">Điện thoại</div>
+					</li>
+				</ul>
+			</form>
+		</div>
+		<div class="bg-popup-search" onclick="showSearch()"></div>
+	</div>
+	<!-- End popup search -->
+
+	<!-- Start popup menu -->
+	<div id="showNavSideMenu" class="modal fade modal-nav-side-menu" role="dialog">
+		<div class="modal-dialog">
+
+			<nav class="nav-side-menu divFadeInLeft" id="nav-side-menu">
+				<span class="btn-close-nav" data-dismiss="modal">
+					<svg viewBox="0 0 40 40"><path d="M10,10 L30,30 M30,10 L10,30" /></svg>
+				</span>
+				<div class="box-user">
+					<div class="no-login" style="display: none;">
+						<span class="btn-sign-up" data-toggle="modal" data-target="#popup_signup">Đăng ký</span>
+						<span class="btn-sign-in" data-toggle="modal" data-target="#popup_signin">Đăng nhập</span>
+					</div>
+					<div class="logged">
+						<div class="img-user">
+							<a href="m.user.html" class="box" title="Tài khoản">
+								<img src="theme/frontend/images/logo_vne.jpg" alt="Ảnh đại diện" class="responsive">
+							</a>
+						</div>
+						<div class="user-info">
+							<a href="m.user.html" rel="nofollow" title="Đinh Thị Phương Anh" class="user-name">Đinh Thị Phương Anh</a>
+							<div class="user-address">
+								<p class="text">
+									<span class="fal fa-map-marker-alt"></span>
+									Đường Mỗ Lao - Phường Mỗ Lao - Quận Hà Đông - Hà Nội
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="menu-list">
+					<div class="group-menu">
+						<a href="m.index.html" title="Trang chủ" class="item-menu">
+							<span class="ic-menu fal fa-home"></span> TRANG CHỦ
+						</a>
+						<a href="m.category.html" title="" class="item-menu item-menu-cate">
+							<span class="ic-menu fas fa-th"></span> DANH MỤC NGÀNH HÀNG
+						</a>
+					</div>
+
+					<div class="group-menu">
+						<a href="m.user-notification.html" title="" class="item-menu">
+							<span class="ic-menu fal fa-bell"></span> Thông báo (<i>22</i>)
+						</a>
+						<a href="m.user-checking-order.html" title="" class="item-menu">
+							<span class="ic-menu fal fa-file-check"></span> Kiểm tra đơn hàng
+						</a>
+						<a href="m.Q-A.html" title="" class="item-menu">
+							<span class="ic-menu fal fa-life-ring"></span> Hỗ trợ khách hàng
+						</a>
+					</div>
+
+					<div class="group-menu">
+						<span class="title-group">Khuyến mãi</span>
+						<a href="m.gift.html" title="" class="item-menu">
+							<span class="ic-menu fal fa-gift"></span> Ưu đãi quà tặng
+						</a>
+						<a href="m.brand.html" title="" class="item-menu">
+							<span class="ic-menu fal fa-medal"></span> Thương hiệu nổi bật
+						</a>
+					</div>
+
+					<div class="group-menu">
+						<span class="title-group">ĐỐI TÁC BÁN HÀNG</span>
+						<a href="m.chinh-sach-quy-che-hoat-dong.html" title="" class="item-menu">
+							<span class="ic-menu fal fa-briefcase"></span> Quy chế & Điều khoản
+						</a>
+						<a href="m.hop-tac-ban-hang.html" title="" class="item-menu">
+							<span class="ic-menu fal fa-handshake"></span> Hợp tác bán hàng
+						</a>
+					</div>
+
+					<div class="group-menu">
+						<span class="title-group">HỖ TRỢ VÀ CÀI ĐẶT</span>
+						<a href="https://vnexpress.net" title="" class="item-menu">
+							<span class="ic-menu icon_bao_vne"></span> Đọc báo VNExpress
+						</a>
+						<a href="tel:1900633376" title="" class="item-menu">
+							<span class="ic-menu fal fa-phone"></span> Hotline : <strong>19001900</strong>
+						</a>
+						<a href="#" title="" class="item-menu" data-toggle="modal" data-target="#popup_signout">
+							<span class="ic-menu fal fa-sign-out"></span> Đăng xuất
+						</a>
+					</div>
+				</div>
+			</nav>
+		</div>
+	</div>
+	<!-- End popup menu -->
+
+	<div class="view_mobile m-wrapper-content-page-static">
+
+			<div class="page-question-answer clearfix">
+				<h1 class="title-seo-onpage hidden">ShopVnExpress - Trợ giúp</h1>
+				<div class="page-cover clearfix">
+					<div class="row-1 clearfix">
+						<div class="box-title-page">
+							<h2 class="title-page">BẠN ĐANG GẶP VẤN ĐỀ GÌ ?</h2>
+						</div>
+						<div class="wrap-form-search">
+							<form action="" method="post" class="form-search-qa">
+								<input id="" name="" type="search" placeholder="Tìm kiếm theo câu hỏi,.." class="input-search-pa" required>
+								<button id="" name="" class="btn btn-primary btn-search-qa">Tìm kiếm</button>
+							</form>
+						</div>
+					</div>
+					<div class="row-2 clearfix">
+						<h2 class="title-row">Vấn đề thường gặp</h2>
+						<div class="list-question">
+							<a class="item-question" href="m.Q-A-detail.html" title="Thêm sản phẩm vào giỏ hàng như thế nào?"> <i class="fas fa-circle"></i> Thêm sản phẩm vào giỏ hàng như thế nào?</a>
+							<a class="item-question" href="m.Q-A-detail.html" title=""> <i class="fas fa-circle"></i> Cách đặt nhiều sản phẩm vào cùng 1 đơn hàng?</a>
+							<a class="item-question" href="m.Q-A-detail.html" title=""> <i class="fas fa-circle"></i> Tôi có thể đặt hàng qua điện thoại không?</a>
+							<a class="item-question" href="m.Q-A-detail.html" title=""> <i class="fas fa-circle"></i> Thêm sản phẩm vào giỏ hàng như thế nào ?</a>
+							<a class="item-question" href="m.Q-A-detail.html" title=""> <i class="fas fa-circle"></i> Cách đặt nhiều sản phẩm vào cùng 1 đơn hàng?</a>
+							<a class="item-question" href="m.Q-A-detail.html" title=""> <i class="fas fa-circle"></i> Tôi có thể đặt hàng qua điện thoại không?</a>
+							<a class="item-question" href="m.Q-A-detail.html" title=""> <i class="fas fa-circle"></i> Thêm sản phẩm vào giỏ hàng như thế nào?</a>
+							<a class="item-question" href="m.Q-A-detail.html" title=""> <i class="fas fa-circle"></i> Cách đặt nhiều sản phẩm vào cùng 1 đơn hàng?</a>
+							<a class="item-question" href="m.Q-A-detail.html" title=""> <i class="fas fa-circle"></i> Tôi có thể đặt hàng qua điện thoại không?</a>
+							<a class="item-question" href="m.Q-A-detail.html" title=""> <i class="fas fa-circle"></i> Thêm sản phẩm vào giỏ hàng như thế nào ?</a>
+							<a class="item-question" href="m.Q-A-detail.html" title=""> <i class="fas fa-circle"></i> Cách đặt nhiều sản phẩm vào cùng 1 đơn hàng?</a>
+							<a class="item-question" href="m.Q-A-detail.html" title=""> <i class="fas fa-circle"></i> Tôi có thể đặt hàng qua điện thoại không?</a>
+						</div>
+					</div>
+					<div class="row-3 clearfix">
+						<h2 class="title-row">Chủ đề</h2>
+						<div class="list-topic">
+							<a class="item-topic" href="m.Q-A-topic.html" title="Đặt hàng">
+								<span class="wrapper-content">
+									<span class="_name">Đặt hàng</span>
+								</span>
+							</a>
+							<a class="item-topic" href="m.Q-A-topic.html" title="Đặt hàng">
+								<span class="wrapper-content">
+									<span class="_name">Thanh toán</span>
+								</span>
+							</a>
+								<a class="item-topic" href="m.Q-A-topic.html" title="Đặt hàng">
+								<span class="wrapper-content">
+									<span class="_name">Giao nhận đơn hàng</span>
+								</span>
+							</a>
+							<a class="item-topic" href="m.Q-A-topic.html" title="Đặt hàng">
+								<span class="wrapper-content">
+									<span class="_name">Bảo hành đổi trả, hoàn tiền</span>
+								</span>
+							</a>
+
+						</div>
+					</div>
+					<div class="row-4 clearfix">
+						<h2 class="title-row">BẠN VẪN CẦN HỖ TRỢ ?</h2>
+						<div class="text-description">
+							<p>Nhắn tin ngay với chúng tôi để được trợ giúp.</p>
+							<p>Thời gian phản hồi : T2 - T7 Sáng (8h - 12h) ; Chiều (13h30 - 18h00)</p>
+							<div class="group-btn">
+								<a href="#" class="btn-chat" title="Trò chuyện ngay"><span class="fal fa-comments icon-btn"></span> Trò chuyện ngay</a>
+								<a href="#" class="btn-chat" title="Kết nối với Messages"><span class="fab fa-facebook-messenger icon-btn"></span> Kết nối với Messages</a>
+							</div>
+							<p>Hoặc <a href="m.Q-A-form-support.html" title="" class="go-form-request">"Gửi yêu cầu hỗ trợ"</a></p>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+	</div>
+	<!--#container_landing @tuanla60-->
+
+	<footer class="box clearfix">
+		<div class="box footer-mobile">
+			<ul class="box list-item">
+
+				<li class="box item">
+					<a href="#" title="" class="icon-img">
+						<span class="fal fa-box-check"></span>
+					</a>
+					<a href="#" title="" class="box title-item"><pre>Sản phẩm</pre> <pre>chính hãng</pre></a>
+				</li>
+				<li class="box item">
+					<a href="#" title="" class="icon-img">
+						<span class="fal fa-credit-card"></span>
+					</a>
+					<a href="#" title="" class="box title-item"><pre>Thanh toán</pre> <pre>tiện lợi</pre></a>
+				</li>
+				<li class="box item">
+					<a href="#" title="" class="icon-img">
+						<span class="fal fa-shipping-fast"></span>
+					</a>
+					<a href="#" title="" class="box title-item"><pre>Giao hàng</pre> <pre>nhanh chóng</pre></a>
+				</li>
+				<li class="box item">
+					<a href="#" title="" class="icon-img">
+						<span class="fal fa-headset"></span>
+					</a>
+					<a href="#" title="" class="box title-item"><pre>Hỗ trợ 24/7</pre></a>
+				</li>
+
+			</ul>
+		</div>
+	</footer>
+	
+	<span class="back-to-top-badge back-to-top-small"><i class="fal fa-angle-up"></i>Lên đầu trang</span>
+
+	<script src="theme/frontend/js/swiper.min.js" defer></script>
+	<script src="theme/frontend/js/script-mb.js" defer></script>
+	<!-- <script src="theme/frontend/js/fontawesome.js" defer></script> -->
+
+</body>
+</html>
