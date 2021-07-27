@@ -116,6 +116,11 @@
   background-size: initial;
 }
 
+.box-image .grab-6h {
+  top: 4px;
+  right: 4px;
+}
+
 .gift-label {
   position: absolute;
   top: 45px;
@@ -180,6 +185,38 @@
 
 .procate-home .wrapper-pro-cate .slide-pro-cate .item-product .item-product-inner .box-image .icon-tra-gop-0 {
   left: 10px;
+}
+
+.tag-wholesale {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.tag-wholesale .attr-wholesale {
+  display: inline-block;
+  max-width: 100%;
+  height: 20px;
+  font-size: 12px;
+  line-height: 20px;
+  padding: 0 12px;
+  margin: 0;
+  background: #D4A706;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .tuanla60-version-20210113 {
@@ -7391,6 +7428,31 @@ img:not([src]) {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  cursor: pointer;
+}
+.view_pc .product-detail .box-label-wholesale .label-wholesale {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: bold;
+}
+.view_pc .product-detail .box-label-wholesale .label-wholesale .label-value {
+  max-width: 100%;
+  height: 18px;
+  padding: 3px 4px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  margin-left: 5px;
+  border: 1px solid #D4A706;
+  background: #D4A706;
+  border-radius: 10px;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: bold;
 }
 .view_pc .product-detail .wrap-action-product {
   position: relative;
@@ -15635,6 +15697,30 @@ img:not([src]) {
 }
 .view_pc .wrap-orders table.table-order tbody tr td .group-action a:hover {
   color: #d42027;
+}
+.view_pc .wrap-orders table.table-order tbody tr td .tag-combo-cart {
+  -webkit-align-self: self-start;
+      -ms-flex-item-align: self-start;
+              -ms-grid-row-align: self-start;
+          align-self: self-start;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  max-width: 100%;
+  height: 20px;
+  padding: 0 4px;
+  margin-left: 0;
+  margin-top: 20px;
+  margin-bottom: 4px;
+  border: 1px solid #076DB6;
+  border-radius: 3px;
+  font-size: 13px;
+  line-height: 20px;
+  color: #076DB6;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .view_pc .wrap-orders table.table-order tbody tr td .group-attach-sales {
   position: relative;
@@ -26513,4 +26599,12 @@ img:not([src]) {
     background-position: top 5px center;
   }
 }
+
+/*!---------------------------------
+@Template Name: ShopVnE
+@URL: https://shop.vnexpress.net
+@File: Default Styles
+@Update time: 2021-07-27-09
+@Feedback: tuanla60@fpt.com.vn
+----------------------------------- */
 /*# sourceMappingURL=style-pc.css.map */
