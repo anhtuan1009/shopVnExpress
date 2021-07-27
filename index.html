@@ -3396,6 +3396,7 @@
 				<a class="box btn" href="javascript:;" data-toggle="modal" data-target="#popup_welcome">Popup Welcome Back</a>
 				<a class="box btn" href="javascript:;" data-toggle="modal" data-target="#popup_discount_code">Popup Discount Code</a>
 				<a class="box btn" href="javascript:;" id="btnTour">HighLight Cart</a>
+				<a class="box btn" href="javascript:;" data-toggle="modal" data-target="#popup_shipping_covid">Popup shipping Covid</a>
 			</section>
 
 		</div>
@@ -3724,6 +3725,33 @@
 		</div>
 		<!-- End box-popup-discount-code -->
 
+		<!-- Start box-popup-shipping-notice -->
+		<div class="notice-bottom-left visible">
+			<div class="notice-content">
+				<span class="bold">Thông báo:</span> Vì tình hình dịch Covid-19 đang diễn ra phức tạp, đơn hàng của quý khách có thể giao chậm hơn dự kiến, mong Quý khách thông cảm!
+			</div>
+			<span class="fal fa-times btn-close"></span>
+		</div>
+		<!-- End box-popup-shipping-notice -->
+
+		<!-- Start box-popup-shipping-notice option-2 -->
+		<div class="box-popup-notify" id="popup_shipping_covid">
+			<div class="box-inner-popup divFadeInScale">
+				<div class="box-wrap-preview">
+					<div class="header-popup">
+						<p>Thông báo</p>
+					</div>
+					<div class="box-content-popup">
+						<p>Vì tình hình dịch Covid-19 đang diễn ra phức tạp, đơn hàng của quý khách có thể giao chậm hơn dự kiến, mong Quý khách thông cảm!</p>
+						<p><span class="yes">Đã hiểu</span> </p>
+					</div>
+				</div>
+
+				<div class="btn-close-warning" data-dismiss="modal">x</div>
+			</div>
+		</div>
+		<!-- End box-popup-shipping-notice option-2 -->
+
 	</div>
 	<!-- End #wrap-popup-group - Group popup page - Globe -->
 
@@ -3787,6 +3815,12 @@
 				// Start the tour
 				tour.start(true);
 				tour.restart();
+			});
+
+			$('body .notice-bottom-left .btn-close').on("click", function(f){
+				$(this).parent(".notice-bottom-left").remove();
+				f.stopPropagation();
+				f.preventDefault();
 			});
 		})
 	</script>
