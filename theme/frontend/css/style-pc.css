@@ -26600,6 +26600,98 @@ img:not([src]) {
   }
 }
 
+.notice-bottom-left {
+  position: fixed;
+  z-index: 9;
+  overflow: hidden;
+  max-width: 100%;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  font-size: 12px;
+  line-height: 1.4;
+  background: #F4FAFC;
+  color: #4F4F4F;
+  border: 0.15px solid #BDBDBD;
+  border-radius: 3;
+  -webkit-transition: all 250ms ease;
+  transition: all 250ms ease;
+  -webkit-box-shadow: 0px 0px 10px rgba(6, 6, 6, 0.05);
+          box-shadow: 0px 0px 10px rgba(6, 6, 6, 0.05);
+}
+@media (min-width: 580px) {
+  .notice-bottom-left {
+    width: 358px;
+    left: 22px;
+    bottom: 12px;
+    font-size: 14px;
+  }
+}
+.notice-bottom-left:hover {
+  background: #F4FAFC;
+  -webkit-box-shadow: 0px 0px 10px rgba(6, 6, 6, 0.2);
+          box-shadow: 0px 0px 10px rgba(6, 6, 6, 0.2);
+}
+.notice-bottom-left:hover .btn-close {
+  opacity: 0.8;
+}
+.notice-bottom-left:hover .btn-close:hover {
+  opacity: 1;
+}
+.notice-bottom-left .notice-content {
+  padding: 15px 30px 15px 10px;
+}
+@media (min-width: 580px) {
+  .notice-bottom-left .notice-content {
+    padding: 15px 30px 15px 15px;
+  }
+}
+.notice-bottom-left img {
+  max-width: 100%;
+}
+.notice-bottom-left .btn-close {
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  top: 0;
+  right: 0;
+  width: 30px;
+  height: 100%;
+  line-height: 100%;
+  font-size: 16px;
+  text-align: center;
+  background: #D5D5D5;
+  color: #242424;
+  border-radius: 0;
+  cursor: pointer;
+  opacity: 0.5;
+}
+@media (min-width: 580px) {
+  .notice-bottom-left .btn-close {
+    display: block;
+    top: 5px;
+    right: 7px;
+    width: 22px;
+    height: 22px;
+    line-height: 22px;
+    border-radius: 50%;
+  }
+}
+.notice-bottom-left.visible {
+  -webkit-transition: all 250ms ease;
+  transition: all 250ms ease;
+}
+
 /*!---------------------------------
 @Template Name: ShopVnE
 @URL: https://shop.vnexpress.net
