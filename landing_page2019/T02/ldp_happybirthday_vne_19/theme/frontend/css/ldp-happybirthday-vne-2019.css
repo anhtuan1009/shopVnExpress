@@ -1,0 +1,2890 @@
+#ldp_happybirthday_vne_2019 {
+  position: relative;
+  display: block;
+  width: 100%;
+  font: 14px/22px Arial, Helvetica, sans-serif;
+  font: 14px Roboto;
+  line-height: 1.8;
+  color: #333;
+  overflow: hidden;
+  background-color: #79193c;
+  background-image: url("../images/bg_decorate.png"), -webkit-linear-gradient(#19000d, #220715, #2d0c1a, #380e1f, #440f24, #4f1129, #5a122e, #661433, #74173a, #821b41, #901e47, #9f224e);
+  background-image: url("../images/bg_decorate.png"), -o-linear-gradient(#19000d, #220715, #2d0c1a, #380e1f, #440f24, #4f1129, #5a122e, #661433, #74173a, #821b41, #901e47, #9f224e);
+  background-image: url("../images/bg_decorate.png"), linear-gradient(#19000d, #220715, #2d0c1a, #380e1f, #440f24, #4f1129, #5a122e, #661433, #74173a, #821b41, #901e47, #9f224e);
+  background-repeat: repeat-y;
+  background-size: 100% auto, auto auto;
+  background-position: 0 325px, top left; }
+  #ldp_happybirthday_vne_2019 * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; }
+  #ldp_happybirthday_vne_2019 .ldp-title-box {
+    position: relative;
+    display: block;
+    height: auto;
+    padding: 0;
+    margin: 0 auto 20px;
+    text-align: center;
+    border: 0; }
+    #ldp_happybirthday_vne_2019 .ldp-title-box .box-inner {
+      position: relative;
+      display: inline-block;
+      width: auto;
+      min-width: 368px;
+      padding: 2px;
+      height: 48px;
+      line-height: 48px;
+      border-radius: 48px;
+      margin: 0 auto;
+      background-color: #21201c;
+      background-image: -webkit-linear-gradient(bottom, #f5ac46, #f6bb57, #f7ca69, #f9d77c, #fbe590, #fbe793, #fae896, #faea99, #f7e08b, #f4d77e, #f1cd71, #eec364);
+      background-image: -o-linear-gradient(bottom, #f5ac46, #f6bb57, #f7ca69, #f9d77c, #fbe590, #fbe793, #fae896, #faea99, #f7e08b, #f4d77e, #f1cd71, #eec364);
+      background-image: linear-gradient(to top, #f5ac46, #f6bb57, #f7ca69, #f9d77c, #fbe590, #fbe793, #fae896, #faea99, #f7e08b, #f4d77e, #f1cd71, #eec364);
+      box-shadow: 0 2px 3px 0px #292522; }
+    #ldp_happybirthday_vne_2019 .ldp-title-box .ldp-title-name {
+      position: relative;
+      display: block;
+      width: 100%;
+      height: 100%;
+      height: 44px;
+      line-height: 44px;
+      border-radius: 44px;
+      margin: 0 auto;
+      color: #fada80;
+      font-family: 'Roboto-Bold';
+      font-size: 21px;
+      text-shadow: none;
+      text-transform: uppercase;
+      z-index: 1;
+      text-align: center;
+      background-image: -webkit-linear-gradient(bottom, #22211d, #262420, #2b2724, #2f2a28, #332d2c, #342e2d, #342f2d, #35302e, #322e2b, #2e2d29, #2a2b27, #272926);
+      background-image: -o-linear-gradient(bottom, #22211d, #262420, #2b2724, #2f2a28, #332d2c, #342e2d, #342f2d, #35302e, #322e2b, #2e2d29, #2a2b27, #272926);
+      background-image: linear-gradient(to top, #22211d, #262420, #2b2724, #2f2a28, #332d2c, #342e2d, #342f2d, #35302e, #322e2b, #2e2d29, #2a2b27, #272926); }
+      #ldp_happybirthday_vne_2019 .ldp-title-box .ldp-title-name span {
+        position: relative;
+        color: #fada80;
+        background: -webkit-linear-gradient(#f5ac46, #ffda75, #eec364);
+        background: -o-linear-gradient(#f5ac46, #ffda75, #eec364);
+        background: linear-gradient(#f5ac46, #ffda75, #eec364);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent; }
+    #ldp_happybirthday_vne_2019 .ldp-title-box img {
+      width: auto;
+      max-width: 100%;
+      margin: 0 auto; }
+  #ldp_happybirthday_vne_2019 .ldp-baner-top {
+    z-index: 0;
+    margin-bottom: 0;
+    cursor: pointer; }
+    #ldp_happybirthday_vne_2019 .ldp-baner-top .alert {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+      z-index: 9;
+      background: #00000073;
+      width: 100%;
+      height: 100%; }
+      #ldp_happybirthday_vne_2019 .ldp-baner-top .alert .box-inner {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 540px;
+        height: 95px;
+        max-width: 95%;
+        max-height: 95%;
+        padding: 20px 15px;
+        background: #ff2b65;
+        border: 3px solid #fff;
+        border-radius: 3px;
+        text-align: center;
+        color: #fff;
+        background-image: -webkit-linear-gradient(bottom left, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+        background-image: -o-linear-gradient(bottom left, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+        background-image: linear-gradient(to top left, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+        background-size: 40px 40px;
+        -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+        box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+        -webkit-transition: width .6s ease;
+        transition: width .6s ease;
+        -webkit-animation: progress-bar-stripes 2s linear infinite;
+        animation: progress-bar-stripes 2s linear infinite; }
+        #ldp_happybirthday_vne_2019 .ldp-baner-top .alert .box-inner p {
+          font-size: 18px; }
+        #ldp_happybirthday_vne_2019 .ldp-baner-top .alert .box-inner strong {
+          font-family: "Roboto-Medium";
+          font-weight: 500; }
+  #ldp_happybirthday_vne_2019 .ldp-menu-fixed {
+    position: fixed !important;
+    z-index: 9;
+    top: 0;
+    width: 100%;
+    margin: auto;
+    background: #19000d;
+    border-bottom: .1px solid #333; }
+  #ldp_happybirthday_vne_2019 .space-ldp-nav-top-fixed {
+    position: relative;
+    display: none;
+    width: 100%;
+    clear: both;
+    margin-bottom: 30px;
+    height: 52px; }
+    #ldp_happybirthday_vne_2019 .space-ldp-nav-top-fixed.show {
+      display: block; }
+  #ldp_happybirthday_vne_2019 .ldp-nav-top {
+    position: relative;
+    display: block;
+    width: 100%;
+    clear: both;
+    margin-bottom: 30px;
+    background: #1e0311; }
+    #ldp_happybirthday_vne_2019 .ldp-nav-top .col-left {
+      position: absolute;
+      display: block;
+      float: left;
+      top: 0; }
+      #ldp_happybirthday_vne_2019 .ldp-nav-top .col-left .title-menu {
+        font-size: 18px;
+        position: relative;
+        display: block;
+        color: #fff;
+        padding: 12px 0;
+        margin: 0; }
+    #ldp_happybirthday_vne_2019 .ldp-nav-top .list-item-menu {
+      position: relative;
+      display: block;
+      width: auto;
+      clear: both;
+      float: right; }
+      #ldp_happybirthday_vne_2019 .ldp-nav-top .list-item-menu .item-menu {
+        position: relative;
+        display: block;
+        float: left;
+        width: auto;
+        font-size: 16px; }
+        #ldp_happybirthday_vne_2019 .ldp-nav-top .list-item-menu .item-menu.active .link-menu {
+          color: #fada80; }
+        #ldp_happybirthday_vne_2019 .ldp-nav-top .list-item-menu .item-menu .link-menu {
+          position: relative;
+          display: block;
+          color: #fff;
+          padding: 12px 8px; }
+        #ldp_happybirthday_vne_2019 .ldp-nav-top .list-item-menu .item-menu .drop_menu_hover {
+          display: none;
+          position: absolute;
+          top: 100%;
+          right: 0;
+          width: 240px;
+          z-index: 3;
+          background: #fefefe;
+          border-radius: 5px;
+          overflow: hidden;
+          box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.3); }
+          #ldp_happybirthday_vne_2019 .ldp-nav-top .list-item-menu .item-menu .drop_menu_hover > a {
+            position: relative;
+            display: block;
+            clear: both;
+            width: 100%;
+            padding: 5px 10px;
+            color: #242424; }
+            #ldp_happybirthday_vne_2019 .ldp-nav-top .list-item-menu .item-menu .drop_menu_hover > a:hover {
+              background: #dddddd; }
+        #ldp_happybirthday_vne_2019 .ldp-nav-top .list-item-menu .item-menu:hover .drop_menu_hover {
+          display: block; }
+    #ldp_happybirthday_vne_2019 .ldp-nav-top.ldp-nav-top-mb .list-item-menu {
+      position: relative;
+      display: block;
+      float: none;
+      top: 0;
+      right: 0;
+      height: 55px;
+      line-height: 50px;
+      padding: 0 10px 5px;
+      margin: 0 auto;
+      text-align: center;
+      cursor: pointer;
+      max-width: 100%;
+      overflow-x: auto;
+      overflow-x: overlay;
+      overflow-y: hidden;
+      -webkit-overflow-scrolling: touch;
+      overflow-scrolling: touch;
+      white-space: nowrap; }
+      #ldp_happybirthday_vne_2019 .ldp-nav-top.ldp-nav-top-mb .list-item-menu .item-menu {
+        position: relative;
+        display: inline-block;
+        float: none;
+        width: auto;
+        min-width: 80px;
+        height: 50px;
+        font-size: 14px;
+        vertical-align: top; }
+        #ldp_happybirthday_vne_2019 .ldp-nav-top.ldp-nav-top-mb .list-item-menu .item-menu.active .link-menu {
+          color: #fada80; }
+          #ldp_happybirthday_vne_2019 .ldp-nav-top.ldp-nav-top-mb .list-item-menu .item-menu.active .link-menu pre {
+            color: #fada80; }
+        #ldp_happybirthday_vne_2019 .ldp-nav-top.ldp-nav-top-mb .list-item-menu .item-menu .link-menu {
+          position: relative;
+          display: block;
+          padding: 7px 7px;
+          line-height: 40px;
+          height: 50px;
+          font-size: 14px;
+          color: #fff; }
+          #ldp_happybirthday_vne_2019 .ldp-nav-top.ldp-nav-top-mb .list-item-menu .item-menu .link-menu pre {
+            word-break: break-all;
+            word-wrap: break-word;
+            line-height: 18px;
+            margin: 0;
+            font-size: 14px;
+            font-family: "Roboto-Medium";
+            overflow: visible;
+            background: none;
+            border: 0;
+            border-radius: 0;
+            padding: 0;
+            color: #fff;
+            text-align: center; }
+        #ldp_happybirthday_vne_2019 .ldp-nav-top.ldp-nav-top-mb .list-item-menu .item-menu .drop_menu_hover {
+          display: none;
+          position: absolute;
+          top: 100%;
+          right: 0;
+          width: 240px;
+          z-index: 3;
+          background: #fefefe;
+          border-radius: 5px;
+          overflow: hidden; }
+          #ldp_happybirthday_vne_2019 .ldp-nav-top.ldp-nav-top-mb .list-item-menu .item-menu .drop_menu_hover > a {
+            position: relative;
+            display: block;
+            clear: both;
+            width: 100%;
+            padding: 5px 10px;
+            color: #242424; }
+            #ldp_happybirthday_vne_2019 .ldp-nav-top.ldp-nav-top-mb .list-item-menu .item-menu .drop_menu_hover > a:hover {
+              background: #dddddd; }
+        #ldp_happybirthday_vne_2019 .ldp-nav-top.ldp-nav-top-mb .list-item-menu .item-menu:hover .drop_menu_hover {
+          display: block; }
+  #ldp_happybirthday_vne_2019 .ldp-flash-sale {
+    position: relative;
+    display: block;
+    padding-top: 10px;
+    margin-bottom: 60px; }
+    #ldp_happybirthday_vne_2019 .ldp-flash-sale .ldp-title-flashsale {
+      position: relative;
+      display: block;
+      width: 100%;
+      text-align: center;
+      margin-bottom: -40px;
+      z-index: 2; }
+      #ldp_happybirthday_vne_2019 .ldp-flash-sale .ldp-title-flashsale .box-inner {
+        position: relative;
+        display: block;
+        width: 402px;
+        height: 116px;
+        margin: 0 auto;
+        background: url("../images/bg-title-flashsale.png");
+        background-repeat: no-repeat;
+        background-position: center center;
+        text-transform: uppercase; }
+        #ldp_happybirthday_vne_2019 .ldp-flash-sale .ldp-title-flashsale .box-inner .ldp-title-name {
+          position: relative;
+          display: inline-block;
+          clear: both;
+          margin: 0;
+          line-height: 26px;
+          font-size: 20px;
+          color: #ffff92;
+          margin-bottom: 21px;
+          font-family: "Roboto-Medium"; }
+        #ldp_happybirthday_vne_2019 .ldp-flash-sale .ldp-title-flashsale .box-inner .wrap-time-counter-down {
+          position: relative;
+          display: block;
+          clear: both; }
+          #ldp_happybirthday_vne_2019 .ldp-flash-sale .ldp-title-flashsale .box-inner .wrap-time-counter-down .timer {
+            position: relative;
+            clear: both;
+            color: #fff; }
+            #ldp_happybirthday_vne_2019 .ldp-flash-sale .ldp-title-flashsale .box-inner .wrap-time-counter-down .timer .attr-time {
+              position: relative;
+              display: inline-block;
+              width: 40px;
+              height: 45px;
+              margin-right: 10px;
+              background: red;
+              border-radius: 4px;
+              overflow: hidden;
+              text-align: center;
+              background: rgba(214, 15, 84, 0.3); }
+              #ldp_happybirthday_vne_2019 .ldp-flash-sale .ldp-title-flashsale .box-inner .wrap-time-counter-down .timer .attr-time:last-child {
+                margin-right: 0; }
+              #ldp_happybirthday_vne_2019 .ldp-flash-sale .ldp-title-flashsale .box-inner .wrap-time-counter-down .timer .attr-time .time-value {
+                position: relative;
+                display: block;
+                width: 100%;
+                height: 30px;
+                line-height: 38px;
+                font-size: 18px; }
+              #ldp_happybirthday_vne_2019 .ldp-flash-sale .ldp-title-flashsale .box-inner .wrap-time-counter-down .timer .attr-time .time-text {
+                position: relative;
+                display: block;
+                width: 100%;
+                height: 15px;
+                line-height: 15px;
+                font-size: 9px; }
+    #ldp_happybirthday_vne_2019 .ldp-flash-sale .box-menu-flashsale {
+      position: relative;
+      display: block;
+      width: 100%;
+      z-index: 1; }
+      #ldp_happybirthday_vne_2019 .ldp-flash-sale .box-menu-flashsale .box-inner {
+        position: relative;
+        display: -webkit-box;
+        width: auto; }
+        #ldp_happybirthday_vne_2019 .ldp-flash-sale .box-menu-flashsale .box-inner .list-menu-slide {
+          position: relative;
+          display: -webkit-inline-box;
+          display: -webkit-box;
+          top: 0;
+          right: 0;
+          height: 50px;
+          line-height: 50px;
+          padding: 4px 10px 0;
+          margin: 0 auto;
+          text-align: center;
+          cursor: pointer;
+          max-width: 100%;
+          overflow-x: auto;
+          overflow-x: overlay;
+          overflow-y: hidden;
+          -webkit-overflow-scrolling: touch;
+          overflow-scrolling: touch;
+          white-space: nowrap; }
+          #ldp_happybirthday_vne_2019 .ldp-flash-sale .box-menu-flashsale .box-inner .list-menu-slide::-webkit-scrollbar {
+            width: 5px;
+            height: 3px;
+            background-color: #d9d9d9;
+            border-radius: 2.5px;
+            -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3); }
+          #ldp_happybirthday_vne_2019 .ldp-flash-sale .box-menu-flashsale .box-inner .list-menu-slide::-webkit-scrollbar-track {
+            width: 5px;
+            height: 3px;
+            background-color: #d9d9d9;
+            border-radius: 2.5px;
+            -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3); }
+          #ldp_happybirthday_vne_2019 .ldp-flash-sale .box-menu-flashsale .box-inner .list-menu-slide::-webkit-scrollbar-thumb {
+            background-color: #e6083f;
+            border-radius: 2.5px; }
+          #ldp_happybirthday_vne_2019 .ldp-flash-sale .box-menu-flashsale .box-inner .list-menu-slide::-webkit-scrollbar, #ldp_happybirthday_vne_2019 .ldp-flash-sale .box-menu-flashsale .box-inner .list-menu-slide::-webkit-scrollbar-track, #ldp_happybirthday_vne_2019 .ldp-flash-sale .box-menu-flashsale .box-inner .list-menu-slide::-webkit-scrollbar-thumb {
+            visibility: hidden; }
+          #ldp_happybirthday_vne_2019 .ldp-flash-sale .box-menu-flashsale .box-inner .list-menu-slide:hover::-webkit-scrollbar, #ldp_happybirthday_vne_2019 .ldp-flash-sale .box-menu-flashsale .box-inner .list-menu-slide:hover::-webkit-scrollbar-track, #ldp_happybirthday_vne_2019 .ldp-flash-sale .box-menu-flashsale .box-inner .list-menu-slide:hover::-webkit-scrollbar-thumb, #ldp_happybirthday_vne_2019 .ldp-flash-sale .box-menu-flashsale .box-inner .list-menu-slide:focus::-webkit-scrollbar, #ldp_happybirthday_vne_2019 .ldp-flash-sale .box-menu-flashsale .box-inner .list-menu-slide:focus::-webkit-scrollbar-track, #ldp_happybirthday_vne_2019 .ldp-flash-sale .box-menu-flashsale .box-inner .list-menu-slide:focus::-webkit-scrollbar-thumb {
+            visibility: visible; }
+          #ldp_happybirthday_vne_2019 .ldp-flash-sale .box-menu-flashsale .box-inner .list-menu-slide.list-menu-slide-mb {
+            height: 48px;
+            line-height: 48px; }
+            #ldp_happybirthday_vne_2019 .ldp-flash-sale .box-menu-flashsale .box-inner .list-menu-slide.list-menu-slide-mb .item-menu-slide {
+              height: 46px;
+              position: relative;
+              display: block;
+              clear: both;
+              text-align: center;
+              line-height: 18px;
+              font-size: 16px;
+              padding: 5px 16px 0; }
+              #ldp_happybirthday_vne_2019 .ldp-flash-sale .box-menu-flashsale .box-inner .list-menu-slide.list-menu-slide-mb .item-menu-slide span {
+                font-size: 16px;
+                position: relative;
+                display: block;
+                clear: both; }
+          #ldp_happybirthday_vne_2019 .ldp-flash-sale .box-menu-flashsale .box-inner .list-menu-slide .item-menu-slide {
+            position: relative;
+            display: block;
+            width: auto;
+            min-width: 100px;
+            font-size: 20px;
+            height: 50px;
+            line-height: 50px;
+            color: #ffe6b3;
+            padding: 0 30px;
+            border-radius: 10px 10px 0 0;
+            font-family: "Roboto";
+            background: #5e122f; }
+            #ldp_happybirthday_vne_2019 .ldp-flash-sale .box-menu-flashsale .box-inner .list-menu-slide .item-menu-slide.active {
+              color: #fd332e;
+              background: #ebebeb;
+              font-family: "Roboto-Bold";
+              box-shadow: 1px -1px 3px 1px #222; }
+              #ldp_happybirthday_vne_2019 .ldp-flash-sale .box-menu-flashsale .box-inner .list-menu-slide .item-menu-slide.active:after {
+                content: "";
+                position: absolute;
+                display: block;
+                z-index: 2;
+                width: 0;
+                height: 0;
+                border-left: 10px solid transparent;
+                border-right: 10px solid transparent;
+                border-top: 10px solid #f0e1b0;
+                left: 0;
+                right: 0;
+                top: 100%;
+                margin: 0 auto; }
+            #ldp_happybirthday_vne_2019 .ldp-flash-sale .box-menu-flashsale .box-inner .list-menu-slide .item-menu-slide:not(:first-child) {
+              margin-left: 10px; }
+    #ldp_happybirthday_vne_2019 .ldp-flash-sale .ldp-wrapper-pro-cate {
+      position: relative;
+      display: block;
+      padding: 15px 15px 20px;
+      background: url("../images/bg_flashsale.png");
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      padding: 80px 40px 40px; }
+      #ldp_happybirthday_vne_2019 .ldp-flash-sale .ldp-wrapper-pro-cate .background-box {
+        position: relative;
+        display: block;
+        width: 100%;
+        margin: 0;
+        overflow: hidden;
+        background: #ebebeb;
+        border-radius: 6px;
+        height: 470px; }
+      #ldp_happybirthday_vne_2019 .ldp-flash-sale .ldp-wrapper-pro-cate .list-pro {
+        position: relative;
+        display: block;
+        width: 100%;
+        padding: 40px;
+        margin: 0;
+        overflow: hidden; }
+        #ldp_happybirthday_vne_2019 .ldp-flash-sale .ldp-wrapper-pro-cate .list-pro .item-pro {
+          position: relative;
+          display: block;
+          max-width: 260px;
+          margin: 0 auto;
+          float: none;
+          padding: 10px;
+          vertical-align: top;
+          overflow: hidden;
+          background: #fff; }
+          #ldp_happybirthday_vne_2019 .ldp-flash-sale .ldp-wrapper-pro-cate .list-pro .item-pro .box-inner {
+            position: relative;
+            display: block;
+            padding: 0; }
+            #ldp_happybirthday_vne_2019 .ldp-flash-sale .ldp-wrapper-pro-cate .list-pro .item-pro .box-inner .box-image .sale-label {
+              position: absolute;
+              display: inline-block;
+              top: 2px;
+              left: -30px;
+              width: 80px;
+              height: 18px;
+              line-height: 18px;
+              font-size: 13px;
+              color: #fff;
+              text-align: center;
+              background: #fd332e;
+              vertical-align: middle;
+              transform: rotateZ(-45deg);
+              text-transform: uppercase; }
+            #ldp_happybirthday_vne_2019 .ldp-flash-sale .ldp-wrapper-pro-cate .list-pro .item-pro .box-inner .box-image .gift-label {
+              position: absolute;
+              top: 30px;
+              right: 10px;
+              display: inline-block;
+              height: 32px;
+              width: 32px;
+              line-height: 32px;
+              font-size: 11px;
+              color: #d32027;
+              text-align: center;
+              border-radius: 50%;
+              vertical-align: middle; }
+              #ldp_happybirthday_vne_2019 .ldp-flash-sale .ldp-wrapper-pro-cate .list-pro .item-pro .box-inner .box-image .gift-label:after {
+                content: "\f06b";
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                margin: 0 auto;
+                text-transform: uppercase;
+                color: #d52329;
+                font-size: 20px;
+                font-family: 'Font Awesome 5 Pro';
+                font-weight: 700; }
+            #ldp_happybirthday_vne_2019 .ldp-flash-sale .ldp-wrapper-pro-cate .list-pro .item-pro .box-inner .box-image .freeship-label {
+              position: absolute;
+              top: 0;
+              right: 10px;
+              display: inline-block;
+              height: 32px;
+              width: 32px;
+              line-height: 32px;
+              font-size: 10px;
+              color: #d52329;
+              text-align: center;
+              border-radius: 50%;
+              vertical-align: middle; }
+              #ldp_happybirthday_vne_2019 .ldp-flash-sale .ldp-wrapper-pro-cate .list-pro .item-pro .box-inner .box-image .freeship-label:after {
+                content: "";
+                position: absolute;
+                top: 6px;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                margin: 0 auto;
+                text-transform: uppercase;
+                color: #d52329;
+                font-size: 9px;
+                line-height: 10px;
+                background: url("../images/FreeShip.png");
+                background-repeat: no-repeat;
+                background-position: center center;
+                background-size: initial; }
+            #ldp_happybirthday_vne_2019 .ldp-flash-sale .ldp-wrapper-pro-cate .list-pro .item-pro .box-inner .box-image .icon-tra-gop-0 {
+              position: absolute;
+              bottom: 0;
+              left: 0;
+              display: inline-block;
+              width: 65px;
+              height: 24px;
+              line-height: 24px;
+              font-size: 0;
+              vertical-align: middle;
+              background: url("../images/icon_tra_gop_0.png"); }
+            #ldp_happybirthday_vne_2019 .ldp-flash-sale .ldp-wrapper-pro-cate .list-pro .item-pro .box-inner .box-image .btn-favorite {
+              position: absolute;
+              top: 0;
+              left: 0;
+              background: rgba(204, 204, 204, 0.5);
+              display: inline-block;
+              width: 40px;
+              height: 40px;
+              line-height: 40px;
+              font-size: 14px;
+              text-align: center;
+              color: #d52329;
+              z-index: 2;
+              cursor: pointer;
+              transition: none; }
+              #ldp_happybirthday_vne_2019 .ldp-flash-sale .ldp-wrapper-pro-cate .list-pro .item-pro .box-inner .box-image .btn-favorite:hover {
+                color: #242424; }
+            #ldp_happybirthday_vne_2019 .ldp-flash-sale .ldp-wrapper-pro-cate .list-pro .item-pro .box-inner .box-image .btn-buy-now {
+              position: absolute;
+              display: block;
+              bottom: 0;
+              width: 100%;
+              height: 0;
+              line-height: 30px;
+              padding: 0;
+              margin: 0;
+              background: #d52329;
+              color: #fff;
+              vertical-align: middle;
+              text-align: center;
+              transform-origin: bottom;
+              transition: height 0.25s ease;
+              z-index: -2;
+              font-size: inherit;
+              font-weight: inherit;
+              -ms-touch-action: manipulation;
+              touch-action: manipulation;
+              cursor: pointer;
+              -webkit-user-select: none;
+              -moz-user-select: none;
+              -ms-user-select: none;
+              user-select: none;
+              background-image: none;
+              border: 0 solid transparent;
+              border-radius: 0;
+              overflow: hidden; }
+              #ldp_happybirthday_vne_2019 .ldp-flash-sale .ldp-wrapper-pro-cate .list-pro .item-pro .box-inner .box-image .btn-buy-now span, #ldp_happybirthday_vne_2019 .ldp-flash-sale .ldp-wrapper-pro-cate .list-pro .item-pro .box-inner .box-image .btn-buy-now .fal {
+                position: relative;
+                display: inline-block;
+                display: -webkit-inline-box;
+                width: 20px;
+                height: 30px;
+                line-height: 30px;
+                text-align: center;
+                font-size: 18px;
+                margin-right: 0;
+                vertical-align: middle; }
+              #ldp_happybirthday_vne_2019 .ldp-flash-sale .ldp-wrapper-pro-cate .list-pro .item-pro .box-inner .box-image .btn-buy-now.add_to_cart_disable {
+                background: #8b8b8b;
+                cursor: default; }
+            #ldp_happybirthday_vne_2019 .ldp-flash-sale .ldp-wrapper-pro-cate .list-pro .item-pro .box-inner .box-image .tooltip {
+              transition: none; }
+            #ldp_happybirthday_vne_2019 .ldp-flash-sale .ldp-wrapper-pro-cate .list-pro .item-pro .box-inner .box-image img {
+              max-height: 290px; }
+            #ldp_happybirthday_vne_2019 .ldp-flash-sale .ldp-wrapper-pro-cate .list-pro .item-pro .box-inner .title-asl {
+              position: relative;
+              display: block;
+              width: 100%;
+              bottom: 0;
+              background: rgba(255, 255, 255, 0.8);
+              padding: 0; }
+              #ldp_happybirthday_vne_2019 .ldp-flash-sale .ldp-wrapper-pro-cate .list-pro .item-pro .box-inner .title-asl .title-post-item {
+                position: relative;
+                display: block;
+                display: -webkit-box;
+                padding: 5px 0;
+                margin: 3px 0;
+                font-size: 14px;
+                color: #b67928;
+                line-height: 1.3;
+                height: 40px;
+                overflow: hidden;
+                -webkit-box-orient: vertical;
+                text-overflow: ellipsis;
+                -webkit-line-clamp: 2;
+                word-break: break-word; }
+                #ldp_happybirthday_vne_2019 .ldp-flash-sale .ldp-wrapper-pro-cate .list-pro .item-pro .box-inner .title-asl .title-post-item .icon-deal-hot {
+                  position: relative;
+                  padding: 0 5px;
+                  margin-right: 5px;
+                  background: #e83948;
+                  font-family: "Roboto-Light";
+                  font-size: 10px;
+                  color: #fff;
+                  border-radius: 3px;
+                  line-height: 10px;
+                  vertical-align: middle; }
+              #ldp_happybirthday_vne_2019 .ldp-flash-sale .ldp-wrapper-pro-cate .list-pro .item-pro .box-inner .title-asl .box-price {
+                position: relative;
+                display: block;
+                padding: 0;
+                line-height: 25px;
+                margin-bottom: 20px;
+                text-align: center; }
+                #ldp_happybirthday_vne_2019 .ldp-flash-sale .ldp-wrapper-pro-cate .list-pro .item-pro .box-inner .title-asl .box-price .price-sale {
+                  position: relative;
+                  display: block;
+                  width: 100%;
+                  margin-right: 0;
+                  font-size: 24px;
+                  line-height: 28px;
+                  font-family: 'Roboto-Bold';
+                  color: #fb2f2e; }
+                #ldp_happybirthday_vne_2019 .ldp-flash-sale .ldp-wrapper-pro-cate .list-pro .item-pro .box-inner .title-asl .box-price .price-old {
+                  position: relative;
+                  display: block;
+                  width: 100%;
+                  margin-right: 0;
+                  text-decoration: line-through;
+                  font-family: 'Roboto';
+                  color: #aaa;
+                  font-size: 13px;
+                  line-height: 15px; }
+                #ldp_happybirthday_vne_2019 .ldp-flash-sale .ldp-wrapper-pro-cate .list-pro .item-pro .box-inner .title-asl .box-price .percent-discount {
+                  position: relative;
+                  display: inline-block;
+                  float: none;
+                  color: #d52329;
+                  font-family: 'Roboto-Medium';
+                  font-size: 12px;
+                  display: none; }
+              #ldp_happybirthday_vne_2019 .ldp-flash-sale .ldp-wrapper-pro-cate .list-pro .item-pro .box-inner .title-asl .line-range {
+                position: relative;
+                display: block;
+                clear: both;
+                height: 14px;
+                background: #ffe6b3;
+                margin-bottom: 10px;
+                border-radius: 7px; }
+                #ldp_happybirthday_vne_2019 .ldp-flash-sale .ldp-wrapper-pro-cate .list-pro .item-pro .box-inner .title-asl .line-range .count-down {
+                  display: block;
+                  clear: both;
+                  margin-bottom: 0;
+                  color: #b67928;
+                  position: absolute;
+                  top: -24px;
+                  font-size: 10px;
+                  background: #fff;
+                  border: 1px solid #b67928;
+                  border-radius: 3px;
+                  padding: 0 5px;
+                  line-height: 16px;
+                  opacity: 0; }
+                  #ldp_happybirthday_vne_2019 .ldp-flash-sale .ldp-wrapper-pro-cate .list-pro .item-pro .box-inner .title-asl .line-range .count-down:after {
+                    content: "";
+                    position: absolute;
+                    display: block;
+                    top: 100%;
+                    left: 10px;
+                    right: 0;
+                    width: 0;
+                    height: 0;
+                    border-left: 6px solid transparent;
+                    border-right: 6px solid transparent;
+                    border-top: 4px solid #b67928;
+                    z-index: 3; }
+                #ldp_happybirthday_vne_2019 .ldp-flash-sale .ldp-wrapper-pro-cate .list-pro .item-pro .box-inner .title-asl .line-range .range-status {
+                  position: relative;
+                  display: block;
+                  height: 14px;
+                  background-color: #fbc822;
+                  background-image: -webkit-linear-gradient(bottom left, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+                  background-image: -o-linear-gradient(bottom left, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+                  background-image: linear-gradient(to top right, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+                  background-size: 40px 40px;
+                  border-radius: 7px;
+                  -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+                  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+                  -webkit-transition: width .6s ease;
+                  transition: width .6s ease;
+                  -webkit-animation: progress-bar-stripes 2s linear infinite;
+                  animation: progress-bar-stripes 2s linear infinite; }
+              #ldp_happybirthday_vne_2019 .ldp-flash-sale .ldp-wrapper-pro-cate .list-pro .item-pro .box-inner .title-asl .count-down-item-deal {
+                position: relative;
+                display: block;
+                clear: both;
+                overflow: hidden;
+                clear: both;
+                margin-bottom: 0;
+                color: #5b5b5b; }
+                #ldp_happybirthday_vne_2019 .ldp-flash-sale .ldp-wrapper-pro-cate .list-pro .item-pro .box-inner .title-asl .count-down-item-deal span {
+                  font-family: "Roboto-Medium";
+                  color: #242424; }
+              #ldp_happybirthday_vne_2019 .ldp-flash-sale .ldp-wrapper-pro-cate .list-pro .item-pro .box-inner .title-asl .btn-mua-ngay {
+                position: relative;
+                display: block;
+                clear: both;
+                width: 100%;
+                margin: 0 auto;
+                background: #fd332e;
+                border-radius: 4px;
+                color: #fff;
+                font-size: 14px;
+                text-align: center;
+                line-height: 32px;
+                text-transform: uppercase; }
+                #ldp_happybirthday_vne_2019 .ldp-flash-sale .ldp-wrapper-pro-cate .list-pro .item-pro .box-inner .title-asl .btn-mua-ngay.add_to_cart_disable {
+                  background: #8b8b8b;
+                  cursor: default; }
+            #ldp_happybirthday_vne_2019 .ldp-flash-sale .ldp-wrapper-pro-cate .list-pro .item-pro .box-inner:hover .box-image .btn-buy-now {
+              height: 30px;
+              z-index: 2; }
+            #ldp_happybirthday_vne_2019 .ldp-flash-sale .ldp-wrapper-pro-cate .list-pro .item-pro .box-inner:hover .title-asl .line-range .count-down {
+              display: block;
+              opacity: 1; }
+      #ldp_happybirthday_vne_2019 .ldp-flash-sale .ldp-wrapper-pro-cate:hover .swiper-button-next-flashsale3, #ldp_happybirthday_vne_2019 .ldp-flash-sale .ldp-wrapper-pro-cate:hover .swiper-button-prev-flashsale3,
+      #ldp_happybirthday_vne_2019 .ldp-flash-sale .ldp-wrapper-pro-cate:hover .swiper-button-next-flashsale2, #ldp_happybirthday_vne_2019 .ldp-flash-sale .ldp-wrapper-pro-cate:hover .swiper-button-prev-flashsale2,
+      #ldp_happybirthday_vne_2019 .ldp-flash-sale .ldp-wrapper-pro-cate:hover .swiper-button-next-flashsale1, #ldp_happybirthday_vne_2019 .ldp-flash-sale .ldp-wrapper-pro-cate:hover .swiper-button-prev-flashsale1,
+      #ldp_happybirthday_vne_2019 .ldp-flash-sale .ldp-wrapper-pro-cate:hover .swiper-button-next-flashsale, #ldp_happybirthday_vne_2019 .ldp-flash-sale .ldp-wrapper-pro-cate:hover .swiper-button-prev-flashsale {
+        background: #eee;
+        opacity: 1; }
+      #ldp_happybirthday_vne_2019 .ldp-flash-sale .ldp-wrapper-pro-cate .swiper-pagination-flashsale3,
+      #ldp_happybirthday_vne_2019 .ldp-flash-sale .ldp-wrapper-pro-cate .swiper-pagination-flashsale2,
+      #ldp_happybirthday_vne_2019 .ldp-flash-sale .ldp-wrapper-pro-cate .swiper-pagination-flashsale1,
+      #ldp_happybirthday_vne_2019 .ldp-flash-sale .ldp-wrapper-pro-cate .swiper-pagination-flashsale {
+        position: relative;
+        display: none;
+        left: 0;
+        right: 0;
+        bottom: 10px;
+        letter-spacing: 0;
+        margin: 0 auto;
+        text-align: center;
+        z-index: 2; }
+      #ldp_happybirthday_vne_2019 .ldp-flash-sale .ldp-wrapper-pro-cate .swiper-button-next-flashsale3, #ldp_happybirthday_vne_2019 .ldp-flash-sale .ldp-wrapper-pro-cate .swiper-button-prev-flashsale3,
+      #ldp_happybirthday_vne_2019 .ldp-flash-sale .ldp-wrapper-pro-cate .swiper-button-next-flashsale2, #ldp_happybirthday_vne_2019 .ldp-flash-sale .ldp-wrapper-pro-cate .swiper-button-prev-flashsale2,
+      #ldp_happybirthday_vne_2019 .ldp-flash-sale .ldp-wrapper-pro-cate .swiper-button-next-flashsale1, #ldp_happybirthday_vne_2019 .ldp-flash-sale .ldp-wrapper-pro-cate .swiper-button-prev-flashsale1,
+      #ldp_happybirthday_vne_2019 .ldp-flash-sale .ldp-wrapper-pro-cate .swiper-button-next-flashsale, #ldp_happybirthday_vne_2019 .ldp-flash-sale .ldp-wrapper-pro-cate .swiper-button-prev-flashsale {
+        position: absolute;
+        top: 50%;
+        width: 32px;
+        height: 40px;
+        margin-top: -20px;
+        z-index: 6;
+        cursor: pointer;
+        outline: none;
+        background: rgba(255, 255, 255, 0.7);
+        opacity: .7; }
+        #ldp_happybirthday_vne_2019 .ldp-flash-sale .ldp-wrapper-pro-cate .swiper-button-next-flashsale3:after, #ldp_happybirthday_vne_2019 .ldp-flash-sale .ldp-wrapper-pro-cate .swiper-button-prev-flashsale3:after,
+        #ldp_happybirthday_vne_2019 .ldp-flash-sale .ldp-wrapper-pro-cate .swiper-button-next-flashsale2:after, #ldp_happybirthday_vne_2019 .ldp-flash-sale .ldp-wrapper-pro-cate .swiper-button-prev-flashsale2:after,
+        #ldp_happybirthday_vne_2019 .ldp-flash-sale .ldp-wrapper-pro-cate .swiper-button-next-flashsale1:after, #ldp_happybirthday_vne_2019 .ldp-flash-sale .ldp-wrapper-pro-cate .swiper-button-prev-flashsale1:after,
+        #ldp_happybirthday_vne_2019 .ldp-flash-sale .ldp-wrapper-pro-cate .swiper-button-next-flashsale:after, #ldp_happybirthday_vne_2019 .ldp-flash-sale .ldp-wrapper-pro-cate .swiper-button-prev-flashsale:after {
+          content: "";
+          position: absolute;
+          display: block;
+          top: 0;
+          right: 0;
+          width: 35px;
+          height: 40px;
+          line-height: 40px;
+          text-align: center;
+          vertical-align: middle;
+          z-index: 2;
+          font-family: 'Font Awesome 5 Pro';
+          font-size: 30px;
+          font-weight: 300;
+          -moz-osx-font-smoothing: grayscale;
+          -webkit-font-smoothing: antialiased;
+          display: inline-block;
+          font-style: normal;
+          font-variant: normal;
+          text-rendering: auto; }
+      #ldp_happybirthday_vne_2019 .ldp-flash-sale .ldp-wrapper-pro-cate .swiper-button-prev-flashsale3,
+      #ldp_happybirthday_vne_2019 .ldp-flash-sale .ldp-wrapper-pro-cate .swiper-button-prev-flashsale2,
+      #ldp_happybirthday_vne_2019 .ldp-flash-sale .ldp-wrapper-pro-cate .swiper-button-prev-flashsale1,
+      #ldp_happybirthday_vne_2019 .ldp-flash-sale .ldp-wrapper-pro-cate .swiper-button-prev-flashsale {
+        left: 0;
+        right: auto;
+        background: #fff; }
+        #ldp_happybirthday_vne_2019 .ldp-flash-sale .ldp-wrapper-pro-cate .swiper-button-prev-flashsale3:after,
+        #ldp_happybirthday_vne_2019 .ldp-flash-sale .ldp-wrapper-pro-cate .swiper-button-prev-flashsale2:after,
+        #ldp_happybirthday_vne_2019 .ldp-flash-sale .ldp-wrapper-pro-cate .swiper-button-prev-flashsale1:after,
+        #ldp_happybirthday_vne_2019 .ldp-flash-sale .ldp-wrapper-pro-cate .swiper-button-prev-flashsale:after {
+          content: "\f104"; }
+      #ldp_happybirthday_vne_2019 .ldp-flash-sale .ldp-wrapper-pro-cate .swiper-button-next-flashsale3,
+      #ldp_happybirthday_vne_2019 .ldp-flash-sale .ldp-wrapper-pro-cate .swiper-button-next-flashsale2,
+      #ldp_happybirthday_vne_2019 .ldp-flash-sale .ldp-wrapper-pro-cate .swiper-button-next-flashsale1,
+      #ldp_happybirthday_vne_2019 .ldp-flash-sale .ldp-wrapper-pro-cate .swiper-button-next-flashsale {
+        right: 0;
+        left: auto;
+        background: #fff;
+        background-repeat: no-repeat;
+        background-size: contain; }
+        #ldp_happybirthday_vne_2019 .ldp-flash-sale .ldp-wrapper-pro-cate .swiper-button-next-flashsale3:after,
+        #ldp_happybirthday_vne_2019 .ldp-flash-sale .ldp-wrapper-pro-cate .swiper-button-next-flashsale2:after,
+        #ldp_happybirthday_vne_2019 .ldp-flash-sale .ldp-wrapper-pro-cate .swiper-button-next-flashsale1:after,
+        #ldp_happybirthday_vne_2019 .ldp-flash-sale .ldp-wrapper-pro-cate .swiper-button-next-flashsale:after {
+          content: "\f105"; }
+  #ldp_happybirthday_vne_2019 .ldp-wrap-deal {
+    position: relative;
+    display: block;
+    padding-top: 30px;
+    background: #f6dce5; }
+    #ldp_happybirthday_vne_2019 .ldp-wrap-deal .box-title {
+      height: 40px;
+      background: white;
+      border-bottom: 1px solid #f0f0f0;
+      padding: 5px 15px; }
+      #ldp_happybirthday_vne_2019 .ldp-wrap-deal .box-title .title-section {
+        position: relative;
+        display: -webkit-inline-box;
+        color: #242424;
+        line-height: 32px;
+        font-size: 16px;
+        font-weight: initial;
+        font-family: Roboto;
+        text-transform: uppercase;
+        margin: 0px;
+        padding: 0px; }
+      #ldp_happybirthday_vne_2019 .ldp-wrap-deal .box-title .box-xem-them-opt-2 {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: fit-content;
+        height: 32px;
+        padding: 0;
+        text-align: center;
+        line-height: 32px;
+        cursor: pointer; }
+        #ldp_happybirthday_vne_2019 .ldp-wrap-deal .box-title .box-xem-them-opt-2 a {
+          float: left;
+          width: auto;
+          height: 32px;
+          line-height: 32px;
+          margin-left: 10px;
+          padding: 0 10px;
+          font-family: "Roboto";
+          font-size: 14px;
+          background: #ffffff;
+          color: #242424;
+          border-radius: 4px; }
+          #ldp_happybirthday_vne_2019 .ldp-wrap-deal .box-title .box-xem-them-opt-2 a span {
+            font-size: 16px;
+            height: 32px;
+            line-height: 32px;
+            position: relative;
+            display: block;
+            float: right; }
+    #ldp_happybirthday_vne_2019 .ldp-wrap-deal .wrap-content-deal {
+      background: #fff; }
+    #ldp_happybirthday_vne_2019 .ldp-wrap-deal .box-menu-slide {
+      position: relative;
+      display: block;
+      width: 100%;
+      background: #f6dce5; }
+      #ldp_happybirthday_vne_2019 .ldp-wrap-deal .box-menu-slide .box-inner {
+        position: relative;
+        display: -webkit-box;
+        width: auto; }
+        #ldp_happybirthday_vne_2019 .ldp-wrap-deal .box-menu-slide .box-inner .list-menu-slide {
+          position: relative;
+          display: -webkit-inline-box;
+          display: -webkit-box;
+          top: 0;
+          right: 0;
+          height: 50px;
+          line-height: 50px;
+          padding: 4px 10px 0;
+          margin: 0 auto;
+          text-align: center;
+          cursor: pointer;
+          max-width: 100%;
+          overflow-x: auto;
+          overflow-x: overlay;
+          overflow-y: hidden;
+          -webkit-overflow-scrolling: touch;
+          overflow-scrolling: touch;
+          white-space: nowrap; }
+          #ldp_happybirthday_vne_2019 .ldp-wrap-deal .box-menu-slide .box-inner .list-menu-slide::-webkit-scrollbar {
+            width: 5px;
+            height: 3px;
+            background-color: #d9d9d9;
+            border-radius: 2.5px;
+            -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3); }
+          #ldp_happybirthday_vne_2019 .ldp-wrap-deal .box-menu-slide .box-inner .list-menu-slide::-webkit-scrollbar-track {
+            width: 5px;
+            height: 3px;
+            background-color: #d9d9d9;
+            border-radius: 2.5px;
+            -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3); }
+          #ldp_happybirthday_vne_2019 .ldp-wrap-deal .box-menu-slide .box-inner .list-menu-slide::-webkit-scrollbar-thumb {
+            background-color: #e6083f;
+            border-radius: 2.5px; }
+          #ldp_happybirthday_vne_2019 .ldp-wrap-deal .box-menu-slide .box-inner .list-menu-slide::-webkit-scrollbar, #ldp_happybirthday_vne_2019 .ldp-wrap-deal .box-menu-slide .box-inner .list-menu-slide::-webkit-scrollbar-track, #ldp_happybirthday_vne_2019 .ldp-wrap-deal .box-menu-slide .box-inner .list-menu-slide::-webkit-scrollbar-thumb {
+            visibility: hidden; }
+          #ldp_happybirthday_vne_2019 .ldp-wrap-deal .box-menu-slide .box-inner .list-menu-slide:hover::-webkit-scrollbar, #ldp_happybirthday_vne_2019 .ldp-wrap-deal .box-menu-slide .box-inner .list-menu-slide:hover::-webkit-scrollbar-track, #ldp_happybirthday_vne_2019 .ldp-wrap-deal .box-menu-slide .box-inner .list-menu-slide:hover::-webkit-scrollbar-thumb, #ldp_happybirthday_vne_2019 .ldp-wrap-deal .box-menu-slide .box-inner .list-menu-slide:focus::-webkit-scrollbar, #ldp_happybirthday_vne_2019 .ldp-wrap-deal .box-menu-slide .box-inner .list-menu-slide:focus::-webkit-scrollbar-track, #ldp_happybirthday_vne_2019 .ldp-wrap-deal .box-menu-slide .box-inner .list-menu-slide:focus::-webkit-scrollbar-thumb {
+            visibility: visible; }
+          #ldp_happybirthday_vne_2019 .ldp-wrap-deal .box-menu-slide .box-inner .list-menu-slide .item-menu-slide {
+            position: relative;
+            display: block;
+            width: auto;
+            min-width: 100px;
+            font-size: 20px;
+            height: 50px;
+            line-height: 50px;
+            color: #565454;
+            padding: 0 30px;
+            border-radius: 10px 10px 0 0;
+            font-family: "Roboto";
+            background: #f7f7f7; }
+            #ldp_happybirthday_vne_2019 .ldp-wrap-deal .box-menu-slide .box-inner .list-menu-slide .item-menu-slide span {
+              font-size: 18px;
+              height: 32px;
+              line-height: 32px;
+              position: relative;
+              display: block;
+              float: right; }
+            #ldp_happybirthday_vne_2019 .ldp-wrap-deal .box-menu-slide .box-inner .list-menu-slide .item-menu-slide.active {
+              color: #fa504f;
+              background: #fff;
+              font-family: "Roboto-Bold";
+              box-shadow: 1px -1px 3px 1px #a8a8a8; }
+              #ldp_happybirthday_vne_2019 .ldp-wrap-deal .box-menu-slide .box-inner .list-menu-slide .item-menu-slide.active:after {
+                content: "";
+                position: absolute;
+                display: block;
+                z-index: 2;
+                width: 0;
+                height: 0;
+                border-left: 10px solid transparent;
+                border-right: 10px solid transparent;
+                border-top: 10px solid #f0e1b0;
+                left: 0;
+                right: 0;
+                top: 100%;
+                margin: 0 auto; }
+            #ldp_happybirthday_vne_2019 .ldp-wrap-deal .box-menu-slide .box-inner .list-menu-slide .item-menu-slide:not(:first-child) {
+              margin-left: 10px; }
+    #ldp_happybirthday_vne_2019 .ldp-wrap-deal .group-slide {
+      position: relative;
+      display: block;
+      clear: both;
+      width: 100%;
+      height: auto;
+      clear: both; }
+      #ldp_happybirthday_vne_2019 .ldp-wrap-deal .group-slide .item-group-slide {
+        position: relative;
+        display: block;
+        visibility: hidden;
+        opacity: 0;
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: -1; }
+        #ldp_happybirthday_vne_2019 .ldp-wrap-deal .group-slide .item-group-slide.active {
+          opacity: 1;
+          visibility: visible;
+          z-index: 3; }
+    #ldp_happybirthday_vne_2019 .ldp-wrap-deal .ldp-wrapper-pro-cate {
+      position: relative;
+      display: block;
+      padding: 30px 15px 20px; }
+      #ldp_happybirthday_vne_2019 .ldp-wrap-deal .ldp-wrapper-pro-cate .list-pro {
+        position: relative;
+        display: block;
+        width: 100%;
+        margin: 0;
+        overflow: hidden; }
+        #ldp_happybirthday_vne_2019 .ldp-wrap-deal .ldp-wrapper-pro-cate .list-pro .item-pro {
+          position: relative;
+          display: block;
+          max-width: 260px;
+          float: none;
+          padding: 0;
+          margin: 0 auto;
+          vertical-align: top;
+          overflow: hidden; }
+          #ldp_happybirthday_vne_2019 .ldp-wrap-deal .ldp-wrapper-pro-cate .list-pro .item-pro .box-inner {
+            position: relative;
+            display: block;
+            background: #f7f7f7;
+            padding: 5px; }
+            #ldp_happybirthday_vne_2019 .ldp-wrap-deal .ldp-wrapper-pro-cate .list-pro .item-pro .box-inner .box-image .sale-label {
+              position: absolute;
+              top: 10px;
+              left: 10px;
+              display: inline-block;
+              height: 32px;
+              width: 32px;
+              line-height: 32px;
+              font-size: 10px;
+              color: #d32027;
+              text-align: center;
+              background: #fff;
+              border: 1px solid #d32027;
+              border-radius: 50%;
+              vertical-align: middle; }
+            #ldp_happybirthday_vne_2019 .ldp-wrap-deal .ldp-wrapper-pro-cate .list-pro .item-pro .box-inner .box-image .gift-label {
+              position: absolute;
+              top: 30px;
+              right: 10px;
+              display: inline-block;
+              height: 32px;
+              width: 32px;
+              line-height: 32px;
+              font-size: 11px;
+              color: #d32027;
+              text-align: center;
+              border-radius: 50%;
+              vertical-align: middle; }
+              #ldp_happybirthday_vne_2019 .ldp-wrap-deal .ldp-wrapper-pro-cate .list-pro .item-pro .box-inner .box-image .gift-label:after {
+                content: "\f06b";
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                margin: 0 auto;
+                text-transform: uppercase;
+                color: #d52329;
+                font-size: 20px;
+                font-family: 'Font Awesome 5 Pro';
+                font-weight: 700; }
+            #ldp_happybirthday_vne_2019 .ldp-wrap-deal .ldp-wrapper-pro-cate .list-pro .item-pro .box-inner .box-image .freeship-label {
+              position: absolute;
+              top: 0;
+              right: 10px;
+              display: inline-block;
+              height: 32px;
+              width: 32px;
+              line-height: 32px;
+              font-size: 10px;
+              color: #d52329;
+              text-align: center;
+              border-radius: 50%;
+              vertical-align: middle; }
+              #ldp_happybirthday_vne_2019 .ldp-wrap-deal .ldp-wrapper-pro-cate .list-pro .item-pro .box-inner .box-image .freeship-label:after {
+                content: "";
+                position: absolute;
+                top: 6px;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                margin: 0 auto;
+                text-transform: uppercase;
+                color: #d52329;
+                font-size: 9px;
+                line-height: 10px;
+                background: url("../images/FreeShip.png");
+                background-repeat: no-repeat;
+                background-position: center center;
+                background-size: initial; }
+            #ldp_happybirthday_vne_2019 .ldp-wrap-deal .ldp-wrapper-pro-cate .list-pro .item-pro .box-inner .box-image .icon-tra-gop-0 {
+              position: absolute;
+              bottom: 0;
+              left: 0;
+              display: inline-block;
+              width: 65px;
+              height: 24px;
+              line-height: 24px;
+              font-size: 0;
+              vertical-align: middle;
+              background: url("../images/icon_tra_gop_0.png"); }
+            #ldp_happybirthday_vne_2019 .ldp-wrap-deal .ldp-wrapper-pro-cate .list-pro .item-pro .box-inner .box-image .btn-favorite {
+              position: absolute;
+              top: 0;
+              left: 0;
+              background: rgba(204, 204, 204, 0.5);
+              display: inline-block;
+              width: 40px;
+              height: 40px;
+              line-height: 40px;
+              font-size: 14px;
+              text-align: center;
+              color: #d52329;
+              z-index: 2;
+              cursor: pointer;
+              transition: none; }
+              #ldp_happybirthday_vne_2019 .ldp-wrap-deal .ldp-wrapper-pro-cate .list-pro .item-pro .box-inner .box-image .btn-favorite:hover {
+                color: #242424; }
+            #ldp_happybirthday_vne_2019 .ldp-wrap-deal .ldp-wrapper-pro-cate .list-pro .item-pro .box-inner .box-image .btn-buy-now {
+              position: absolute;
+              display: block;
+              bottom: 0;
+              width: 100%;
+              height: 0;
+              line-height: 30px;
+              padding: 0;
+              margin: 0;
+              background: #d52329;
+              color: #fff;
+              vertical-align: middle;
+              text-align: center;
+              transform-origin: bottom;
+              transition: height 0.25s ease;
+              z-index: -2;
+              font-size: inherit;
+              font-weight: inherit;
+              -ms-touch-action: manipulation;
+              touch-action: manipulation;
+              cursor: pointer;
+              -webkit-user-select: none;
+              -moz-user-select: none;
+              -ms-user-select: none;
+              user-select: none;
+              background-image: none;
+              border: 0 solid transparent;
+              border-radius: 0;
+              overflow: hidden; }
+              #ldp_happybirthday_vne_2019 .ldp-wrap-deal .ldp-wrapper-pro-cate .list-pro .item-pro .box-inner .box-image .btn-buy-now span, #ldp_happybirthday_vne_2019 .ldp-wrap-deal .ldp-wrapper-pro-cate .list-pro .item-pro .box-inner .box-image .btn-buy-now .fal {
+                position: relative;
+                display: inline-block;
+                display: -webkit-inline-box;
+                width: 20px;
+                height: 30px;
+                line-height: 30px;
+                text-align: center;
+                font-size: 18px;
+                margin-right: 0;
+                vertical-align: middle; }
+              #ldp_happybirthday_vne_2019 .ldp-wrap-deal .ldp-wrapper-pro-cate .list-pro .item-pro .box-inner .box-image .btn-buy-now.add_to_cart_disable {
+                background: #8b8b8b;
+                cursor: default; }
+            #ldp_happybirthday_vne_2019 .ldp-wrap-deal .ldp-wrapper-pro-cate .list-pro .item-pro .box-inner .box-image .tooltip {
+              transition: none; }
+            #ldp_happybirthday_vne_2019 .ldp-wrap-deal .ldp-wrapper-pro-cate .list-pro .item-pro .box-inner .box-image img {
+              max-height: 290px; }
+            #ldp_happybirthday_vne_2019 .ldp-wrap-deal .ldp-wrapper-pro-cate .list-pro .item-pro .box-inner .title-asl {
+              position: relative;
+              display: block;
+              width: 100%;
+              bottom: 0;
+              bottom: 0;
+              padding: 5px; }
+              #ldp_happybirthday_vne_2019 .ldp-wrap-deal .ldp-wrapper-pro-cate .list-pro .item-pro .box-inner .title-asl .title-post-item {
+                position: relative;
+                display: block;
+                display: -webkit-box;
+                padding-top: 3px;
+                margin: 3px 0;
+                font-size: 14px;
+                color: #242424;
+                line-height: 1.3;
+                height: 37px;
+                overflow: hidden;
+                -webkit-box-orient: vertical;
+                text-overflow: ellipsis;
+                -webkit-line-clamp: 2;
+                word-break: break-word; }
+                #ldp_happybirthday_vne_2019 .ldp-wrap-deal .ldp-wrapper-pro-cate .list-pro .item-pro .box-inner .title-asl .title-post-item .icon-deal-hot {
+                  position: relative;
+                  padding: 0 5px;
+                  margin-right: 5px;
+                  background: #e83948;
+                  font-family: "Roboto-Light";
+                  font-size: 10px;
+                  color: #fff;
+                  border-radius: 3px;
+                  line-height: 10px;
+                  vertical-align: middle; }
+              #ldp_happybirthday_vne_2019 .ldp-wrap-deal .ldp-wrapper-pro-cate .list-pro .item-pro .box-inner .title-asl .box-price {
+                position: relative;
+                display: block;
+                padding: 0;
+                height: 28px;
+                line-height: 25px;
+                margin-bottom: 5px; }
+                #ldp_happybirthday_vne_2019 .ldp-wrap-deal .ldp-wrapper-pro-cate .list-pro .item-pro .box-inner .title-asl .box-price .price-sale {
+                  position: relative;
+                  display: inline-block;
+                  float: left;
+                  width: 50%;
+                  margin-right: 0;
+                  font-size: 16px;
+                  font-family: 'Roboto-Bold';
+                  color: #d52329; }
+                #ldp_happybirthday_vne_2019 .ldp-wrap-deal .ldp-wrapper-pro-cate .list-pro .item-pro .box-inner .title-asl .box-price .price-old {
+                  position: relative;
+                  display: inline-block;
+                  float: none;
+                  width: 50%;
+                  margin-right: 0;
+                  text-decoration: line-through;
+                  font-family: 'Roboto-Light';
+                  color: #aaa;
+                  font-size: 12px;
+                  text-align: right; }
+                #ldp_happybirthday_vne_2019 .ldp-wrap-deal .ldp-wrapper-pro-cate .list-pro .item-pro .box-inner .title-asl .box-price .percent-discount {
+                  position: relative;
+                  display: inline-block;
+                  float: none;
+                  color: #d52329;
+                  font-family: 'Roboto-Medium';
+                  font-size: 12px;
+                  display: none; }
+              #ldp_happybirthday_vne_2019 .ldp-wrap-deal .ldp-wrapper-pro-cate .list-pro .item-pro .box-inner .title-asl .line-range {
+                position: relative;
+                display: block;
+                clear: both;
+                height: 10px;
+                background: #fddada;
+                margin-bottom: 0;
+                border-radius: 5px;
+                overflow: hidden; }
+                #ldp_happybirthday_vne_2019 .ldp-wrap-deal .ldp-wrapper-pro-cate .list-pro .item-pro .box-inner .title-asl .line-range .range-status {
+                  position: relative;
+                  display: block;
+                  min-width: 1px;
+                  height: 10px;
+                  background-color: #d52329;
+                  background-image: -webkit-linear-gradient(bottom left, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+                  background-image: -o-linear-gradient(bottom left, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+                  background-image: linear-gradient(to top right, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+                  background-size: 40px 40px;
+                  border-radius: 5px;
+                  -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+                  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+                  -webkit-transition: width .6s ease;
+                  transition: width .6s ease;
+                  -webkit-animation: progress-bar-stripes 2s linear infinite;
+                  animation: progress-bar-stripes 2s linear infinite; }
+              #ldp_happybirthday_vne_2019 .ldp-wrap-deal .ldp-wrapper-pro-cate .list-pro .item-pro .box-inner .title-asl .count-down-item-deal {
+                position: relative;
+                display: block;
+                clear: both;
+                overflow: hidden;
+                clear: both;
+                margin-bottom: 0;
+                color: #5b5b5b; }
+                #ldp_happybirthday_vne_2019 .ldp-wrap-deal .ldp-wrapper-pro-cate .list-pro .item-pro .box-inner .title-asl .count-down-item-deal span {
+                  font-family: "Roboto-Medium";
+                  color: #242424; }
+            #ldp_happybirthday_vne_2019 .ldp-wrap-deal .ldp-wrapper-pro-cate .list-pro .item-pro .box-inner:hover .box-image .btn-buy-now {
+              height: 30px;
+              z-index: 2; }
+      #ldp_happybirthday_vne_2019 .ldp-wrap-deal .ldp-wrapper-pro-cate:hover .swiper-button-next-deal-hot, #ldp_happybirthday_vne_2019 .ldp-wrap-deal .ldp-wrapper-pro-cate:hover .swiper-button-prev-deal-hot {
+        background: #eee;
+        opacity: 1; }
+      #ldp_happybirthday_vne_2019 .ldp-wrap-deal .ldp-wrapper-pro-cate .swiper-pagination-deal-hot {
+        position: relative;
+        display: none;
+        left: 0;
+        right: 0;
+        bottom: 10px;
+        letter-spacing: 0;
+        margin: 0 auto;
+        text-align: center;
+        z-index: 2; }
+      #ldp_happybirthday_vne_2019 .ldp-wrap-deal .ldp-wrapper-pro-cate .swiper-button-next-deal-hot, #ldp_happybirthday_vne_2019 .ldp-wrap-deal .ldp-wrapper-pro-cate .swiper-button-prev-deal-hot {
+        position: absolute;
+        top: 50%;
+        width: 32px;
+        height: 40px;
+        margin-top: -20px;
+        z-index: 6;
+        cursor: pointer;
+        outline: none;
+        background: rgba(255, 255, 255, 0.7);
+        opacity: .7; }
+        #ldp_happybirthday_vne_2019 .ldp-wrap-deal .ldp-wrapper-pro-cate .swiper-button-next-deal-hot:after, #ldp_happybirthday_vne_2019 .ldp-wrap-deal .ldp-wrapper-pro-cate .swiper-button-prev-deal-hot:after {
+          content: "";
+          position: absolute;
+          display: block;
+          top: 0;
+          right: 0;
+          width: 35px;
+          height: 40px;
+          line-height: 40px;
+          text-align: center;
+          vertical-align: middle;
+          z-index: 2;
+          font-family: 'Font Awesome 5 Pro';
+          font-size: 30px;
+          font-weight: 300;
+          -moz-osx-font-smoothing: grayscale;
+          -webkit-font-smoothing: antialiased;
+          display: inline-block;
+          font-style: normal;
+          font-variant: normal;
+          text-rendering: auto; }
+      #ldp_happybirthday_vne_2019 .ldp-wrap-deal .ldp-wrapper-pro-cate .swiper-button-prev-deal-hot {
+        left: 0;
+        right: auto;
+        background: #fff; }
+        #ldp_happybirthday_vne_2019 .ldp-wrap-deal .ldp-wrapper-pro-cate .swiper-button-prev-deal-hot:after {
+          content: "\f104"; }
+      #ldp_happybirthday_vne_2019 .ldp-wrap-deal .ldp-wrapper-pro-cate .swiper-button-next-deal-hot {
+        right: 0;
+        left: auto;
+        background: #fff;
+        background-repeat: no-repeat;
+        background-size: contain; }
+        #ldp_happybirthday_vne_2019 .ldp-wrap-deal .ldp-wrapper-pro-cate .swiper-button-next-deal-hot:after {
+          content: "\f105"; }
+  #ldp_happybirthday_vne_2019 .ldp-wrapper-code {
+    position: relative;
+    display: block;
+    clear: both;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin-bottom: 10px;
+    background: #f7f7f7; }
+    #ldp_happybirthday_vne_2019 .ldp-wrapper-code.m-ldp-wrapper-code .list-banner-code .item-banner-code {
+      width: 100%;
+      margin: 0 auto; }
+    #ldp_happybirthday_vne_2019 .ldp-wrapper-code.m-ldp-wrapper-code .swiper-pagination-ldb-slide-coupon {
+      position: relative;
+      display: block;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      letter-spacing: 0;
+      margin: 0 auto;
+      text-align: center;
+      z-index: 2; }
+    #ldp_happybirthday_vne_2019 .ldp-wrapper-code.m-ldp-wrapper-code .swiper-button-next-ldb-slide-coupon, #ldp_happybirthday_vne_2019 .ldp-wrapper-code.m-ldp-wrapper-code .swiper-button-prev-ldb-slide-coupon {
+      position: absolute;
+      display: none;
+      top: 50%;
+      width: 32px;
+      height: 40px;
+      margin-top: -20px;
+      z-index: 6;
+      cursor: pointer;
+      outline: none;
+      background: rgba(255, 255, 255, 0.7);
+      opacity: .7; }
+      #ldp_happybirthday_vne_2019 .ldp-wrapper-code.m-ldp-wrapper-code .swiper-button-next-ldb-slide-coupon:after, #ldp_happybirthday_vne_2019 .ldp-wrapper-code.m-ldp-wrapper-code .swiper-button-prev-ldb-slide-coupon:after {
+        content: "";
+        position: absolute;
+        display: block;
+        top: 0;
+        right: 0;
+        width: 35px;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        vertical-align: middle;
+        z-index: 2;
+        font-family: 'Font Awesome 5 Pro';
+        font-size: 30px;
+        font-weight: 300;
+        -moz-osx-font-smoothing: grayscale;
+        -webkit-font-smoothing: antialiased;
+        display: inline-block;
+        font-style: normal;
+        font-variant: normal;
+        text-rendering: auto; }
+    #ldp_happybirthday_vne_2019 .ldp-wrapper-code.m-ldp-wrapper-code .swiper-button-prev-ldb-slide-coupon {
+      left: 0;
+      right: auto;
+      background: #fff; }
+      #ldp_happybirthday_vne_2019 .ldp-wrapper-code.m-ldp-wrapper-code .swiper-button-prev-ldb-slide-coupon:after {
+        content: "\f104"; }
+    #ldp_happybirthday_vne_2019 .ldp-wrapper-code.m-ldp-wrapper-code .swiper-button-next-ldb-slide-coupon {
+      right: 0;
+      left: auto;
+      background: #fff;
+      background-repeat: no-repeat;
+      background-size: contain; }
+      #ldp_happybirthday_vne_2019 .ldp-wrapper-code.m-ldp-wrapper-code .swiper-button-next-ldb-slide-coupon:after {
+        content: "\f105"; }
+    #ldp_happybirthday_vne_2019 .ldp-wrapper-code .bg_code {
+      position: relative;
+      display: block;
+      width: 100%;
+      clear: both; }
+    #ldp_happybirthday_vne_2019 .ldp-wrapper-code .list-banner-code {
+      position: relative;
+      display: block;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      overflow: hidden; }
+      #ldp_happybirthday_vne_2019 .ldp-wrapper-code .list-banner-code .item-banner-code {
+        position: relative;
+        display: inline-block;
+        float: none;
+        width: calc(100% / 4 - 13px);
+        margin-right: 13px;
+        margin-bottom: 20px;
+        text-align: center;
+        vertical-align: top; }
+        #ldp_happybirthday_vne_2019 .ldp-wrapper-code .list-banner-code .item-banner-code:nth-child(4n) {
+          margin-right: 0; }
+        #ldp_happybirthday_vne_2019 .ldp-wrapper-code .list-banner-code .item-banner-code img {
+          width: initial;
+          max-width: 100%;
+          margin-left: auto;
+          margin-right: auto; }
+  #ldp_happybirthday_vne_2019 .box-trademark {
+    position: relative;
+    display: block;
+    padding-top: 30px;
+    margin-bottom: 0;
+    background: #f7f7f7; }
+    #ldp_happybirthday_vne_2019 .box-trademark .list-pro-trademark {
+      padding: 15px 25px 40px; }
+      #ldp_happybirthday_vne_2019 .box-trademark .list-pro-trademark .box-inner {
+        position: relative;
+        overflow: hidden; }
+        #ldp_happybirthday_vne_2019 .box-trademark .list-pro-trademark .box-inner .item-product {
+          position: relative;
+          display: block;
+          float: none;
+          width: auto;
+          padding: 3px 3px 0;
+          border-radius: 0;
+          text-align: left;
+          overflow: hidden;
+          vertical-align: top;
+          border-radius: 10px;
+          text-align: center;
+          background: #9f224e; }
+          #ldp_happybirthday_vne_2019 .box-trademark .list-pro-trademark .box-inner .item-product .inner-item {
+            position: relative;
+            display: block;
+            width: 100%; }
+            #ldp_happybirthday_vne_2019 .box-trademark .list-pro-trademark .box-inner .item-product .inner-item .box-logo-brand {
+              height: 40px;
+              background: #fff;
+              border-radius: 8px 8px 0 0;
+              overflow: hidden; }
+              #ldp_happybirthday_vne_2019 .box-trademark .list-pro-trademark .box-inner .item-product .inner-item .box-logo-brand a {
+                width: 100%;
+                height: 100%;
+                padding: 3px 3px; }
+              #ldp_happybirthday_vne_2019 .box-trademark .list-pro-trademark .box-inner .item-product .inner-item .box-logo-brand img {
+                max-height: 100%;
+                max-width: 100%;
+                width: auto;
+                height: auto; }
+            #ldp_happybirthday_vne_2019 .box-trademark .list-pro-trademark .box-inner .item-product .inner-item .box-image {
+              position: relative;
+              display: block;
+              width: 100%;
+              overflow: hidden;
+              background: #fff; }
+              #ldp_happybirthday_vne_2019 .box-trademark .list-pro-trademark .box-inner .item-product .inner-item .box-image:after {
+                content: "";
+                position: absolute;
+                left: 0;
+                right: 0;
+                display: block;
+                z-index: 2;
+                bottom: -38px;
+                width: 50px;
+                height: 50px;
+                border-radius: 50px;
+                overflow: hidden;
+                background: #9f224e;
+                margin: 0 auto; }
+              #ldp_happybirthday_vne_2019 .box-trademark .list-pro-trademark .box-inner .item-product .inner-item .box-image a {
+                position: relative;
+                width: 100%;
+                max-width: 160px;
+                max-height: 160px;
+                display: block;
+                margin: 0 auto; }
+            #ldp_happybirthday_vne_2019 .box-trademark .list-pro-trademark .box-inner .item-product .inner-item .box-info {
+              position: relative;
+              display: block;
+              width: 100%;
+              padding: 10px 4px;
+              color: #fbd291;
+              background: #9f224e; }
+              #ldp_happybirthday_vne_2019 .box-trademark .list-pro-trademark .box-inner .item-product .inner-item .box-info a {
+                color: #fbd291; }
+              #ldp_happybirthday_vne_2019 .box-trademark .list-pro-trademark .box-inner .item-product .inner-item .box-info .box-logo-brand {
+                position: absolute;
+                display: block;
+                width: 150px;
+                min-height: 50px;
+                line-height: 50px;
+                top: -30px;
+                left: 0;
+                right: 0;
+                margin: auto;
+                border: 2px solid #fbd291;
+                border-radius: 5px;
+                overflow: hidden; }
+                #ldp_happybirthday_vne_2019 .box-trademark .list-pro-trademark .box-inner .item-product .inner-item .box-info .box-logo-brand img {
+                  width: initial;
+                  height: initial;
+                  max-width: 100%;
+                  max-height: 100%; }
+              #ldp_happybirthday_vne_2019 .box-trademark .list-pro-trademark .box-inner .item-product .inner-item .box-info .title-post-item {
+                position: relative;
+                display: block;
+                line-height: 30px;
+                font-family: "Roboto-Bold";
+                text-transform: uppercase;
+                font-size: 14px;
+                color: #fff; }
+              #ldp_happybirthday_vne_2019 .box-trademark .list-pro-trademark .box-inner .item-product .inner-item .box-info .box-btn-readmore {
+                position: relative;
+                display: block;
+                margin-top: 5px;
+                margin-bottom: 15px; }
+                #ldp_happybirthday_vne_2019 .box-trademark .list-pro-trademark .box-inner .item-product .inner-item .box-info .box-btn-readmore .btn-readmore {
+                  position: relative;
+                  display: block;
+                  width: 120px;
+                  height: 25px;
+                  margin: 0 auto;
+                  background: #db0909;
+                  color: #faf8c9;
+                  line-height: 25px;
+                  text-align: center;
+                  font-size: 14px;
+                  font-family: "FtraBk";
+                  background: url(../images/bg-readmore.png);
+                  background-size: auto;
+                  background-position: center;
+                  background-repeat: no-repeat; }
+      #ldp_happybirthday_vne_2019 .box-trademark .list-pro-trademark:hover .swiper-button-next-slide-brand, #ldp_happybirthday_vne_2019 .box-trademark .list-pro-trademark:hover .swiper-button-prev-slide-brand {
+        background: #eee;
+        opacity: 1; }
+      #ldp_happybirthday_vne_2019 .box-trademark .list-pro-trademark .swiper-pagination-ldb-slide-brand {
+        position: relative;
+        display: none;
+        left: 0;
+        right: 0;
+        bottom: 10px;
+        letter-spacing: 0;
+        margin: 0 auto;
+        text-align: center;
+        z-index: 2; }
+      #ldp_happybirthday_vne_2019 .box-trademark .list-pro-trademark .swiper-button-next-ldb-slide-brand3, #ldp_happybirthday_vne_2019 .box-trademark .list-pro-trademark .swiper-button-prev-ldb-slide-brand3,
+      #ldp_happybirthday_vne_2019 .box-trademark .list-pro-trademark .swiper-button-next-ldb-slide-brand2, #ldp_happybirthday_vne_2019 .box-trademark .list-pro-trademark .swiper-button-prev-ldb-slide-brand2,
+      #ldp_happybirthday_vne_2019 .box-trademark .list-pro-trademark .swiper-button-next-ldb-slide-brand1, #ldp_happybirthday_vne_2019 .box-trademark .list-pro-trademark .swiper-button-prev-ldb-slide-brand1,
+      #ldp_happybirthday_vne_2019 .box-trademark .list-pro-trademark .swiper-button-next-ldb-slide-brand, #ldp_happybirthday_vne_2019 .box-trademark .list-pro-trademark .swiper-button-prev-ldb-slide-brand {
+        position: absolute;
+        top: 50%;
+        width: 32px;
+        height: 40px;
+        margin-top: -20px;
+        z-index: 6;
+        cursor: pointer;
+        outline: none;
+        background: rgba(255, 255, 255, 0.7);
+        opacity: .7; }
+        #ldp_happybirthday_vne_2019 .box-trademark .list-pro-trademark .swiper-button-next-ldb-slide-brand3:after, #ldp_happybirthday_vne_2019 .box-trademark .list-pro-trademark .swiper-button-prev-ldb-slide-brand3:after,
+        #ldp_happybirthday_vne_2019 .box-trademark .list-pro-trademark .swiper-button-next-ldb-slide-brand2:after, #ldp_happybirthday_vne_2019 .box-trademark .list-pro-trademark .swiper-button-prev-ldb-slide-brand2:after,
+        #ldp_happybirthday_vne_2019 .box-trademark .list-pro-trademark .swiper-button-next-ldb-slide-brand1:after, #ldp_happybirthday_vne_2019 .box-trademark .list-pro-trademark .swiper-button-prev-ldb-slide-brand1:after,
+        #ldp_happybirthday_vne_2019 .box-trademark .list-pro-trademark .swiper-button-next-ldb-slide-brand:after, #ldp_happybirthday_vne_2019 .box-trademark .list-pro-trademark .swiper-button-prev-ldb-slide-brand:after {
+          content: "";
+          position: absolute;
+          display: block;
+          top: 0;
+          right: 0;
+          width: 35px;
+          height: 40px;
+          line-height: 40px;
+          text-align: center;
+          vertical-align: middle;
+          z-index: 2;
+          font-family: 'Font Awesome 5 Pro';
+          font-size: 24px;
+          font-weight: 300;
+          -moz-osx-font-smoothing: grayscale;
+          -webkit-font-smoothing: antialiased;
+          display: inline-block;
+          font-style: normal;
+          font-variant: normal;
+          text-rendering: auto; }
+      #ldp_happybirthday_vne_2019 .box-trademark .list-pro-trademark .swiper-button-prev-ldb-slide-brand3,
+      #ldp_happybirthday_vne_2019 .box-trademark .list-pro-trademark .swiper-button-prev-ldb-slide-brand2,
+      #ldp_happybirthday_vne_2019 .box-trademark .list-pro-trademark .swiper-button-prev-ldb-slide-brand1,
+      #ldp_happybirthday_vne_2019 .box-trademark .list-pro-trademark .swiper-button-prev-ldb-slide-brand {
+        left: 0;
+        right: auto;
+        background: #fff; }
+        #ldp_happybirthday_vne_2019 .box-trademark .list-pro-trademark .swiper-button-prev-ldb-slide-brand3:after,
+        #ldp_happybirthday_vne_2019 .box-trademark .list-pro-trademark .swiper-button-prev-ldb-slide-brand2:after,
+        #ldp_happybirthday_vne_2019 .box-trademark .list-pro-trademark .swiper-button-prev-ldb-slide-brand1:after,
+        #ldp_happybirthday_vne_2019 .box-trademark .list-pro-trademark .swiper-button-prev-ldb-slide-brand:after {
+          content: "\f104"; }
+      #ldp_happybirthday_vne_2019 .box-trademark .list-pro-trademark .swiper-button-next-ldb-slide-brand3,
+      #ldp_happybirthday_vne_2019 .box-trademark .list-pro-trademark .swiper-button-next-ldb-slide-brand2,
+      #ldp_happybirthday_vne_2019 .box-trademark .list-pro-trademark .swiper-button-next-ldb-slide-brand1,
+      #ldp_happybirthday_vne_2019 .box-trademark .list-pro-trademark .swiper-button-next-ldb-slide-brand {
+        right: 0;
+        left: auto;
+        background: #fff;
+        background-repeat: no-repeat;
+        background-size: contain; }
+        #ldp_happybirthday_vne_2019 .box-trademark .list-pro-trademark .swiper-button-next-ldb-slide-brand3:after,
+        #ldp_happybirthday_vne_2019 .box-trademark .list-pro-trademark .swiper-button-next-ldb-slide-brand2:after,
+        #ldp_happybirthday_vne_2019 .box-trademark .list-pro-trademark .swiper-button-next-ldb-slide-brand1:after,
+        #ldp_happybirthday_vne_2019 .box-trademark .list-pro-trademark .swiper-button-next-ldb-slide-brand:after {
+          content: "\f105"; }
+  #ldp_happybirthday_vne_2019 .ldp-list-procate {
+    position: relative;
+    display: block;
+    clear: both;
+    padding-top: 20px;
+    margin-bottom: 30px; }
+    #ldp_happybirthday_vne_2019 .ldp-list-procate .box-title {
+      padding: 0 12px; }
+    #ldp_happybirthday_vne_2019 .ldp-list-procate .box-banner-vertical {
+      background: transparent; }
+    #ldp_happybirthday_vne_2019 .ldp-list-procate .ldp-wrapper-list {
+      position: relative;
+      display: block;
+      padding: 40px;
+      background: #fffdfe;
+      border: 2px solid #eec364;
+      border-radius: 30px; }
+      #ldp_happybirthday_vne_2019 .ldp-list-procate .ldp-wrapper-list.border0 {
+        border: 0;
+        padding: 20px 40px 40px; }
+      #ldp_happybirthday_vne_2019 .ldp-list-procate .ldp-wrapper-list .list-pro {
+        position: relative;
+        display: block;
+        padding: 0; }
+        #ldp_happybirthday_vne_2019 .ldp-list-procate .ldp-wrapper-list .list-pro .item-pro {
+          position: relative;
+          display: inline-block;
+          width: calc(100% / 5 - 10px);
+          float: none;
+          margin-right: 8px;
+          margin-bottom: 10px;
+          vertical-align: baseline; }
+          #ldp_happybirthday_vne_2019 .ldp-list-procate .ldp-wrapper-list .list-pro .item-pro:nth-child(5n) {
+            margin-right: 0; }
+          #ldp_happybirthday_vne_2019 .ldp-list-procate .ldp-wrapper-list .list-pro .item-pro * {
+            transition: all 0.6s ease; }
+          #ldp_happybirthday_vne_2019 .ldp-list-procate .ldp-wrapper-list .list-pro .item-pro .box-image {
+            position: relative;
+            display: block;
+            overflow: hidden; }
+            #ldp_happybirthday_vne_2019 .ldp-list-procate .ldp-wrapper-list .list-pro .item-pro .box-image .sale-label {
+              position: absolute;
+              top: 0;
+              right: 10px;
+              display: inline-block;
+              height: 32px;
+              width: 32px;
+              line-height: 32px;
+              font-size: 10px;
+              color: #d32027;
+              text-align: center;
+              background: #fff;
+              border: 1px solid #d32027;
+              border-radius: 50%;
+              vertical-align: middle;
+              display: none; }
+            #ldp_happybirthday_vne_2019 .ldp-list-procate .ldp-wrapper-list .list-pro .item-pro .box-image .gift-label {
+              position: absolute;
+              top: 30px;
+              right: 10px;
+              display: inline-block;
+              height: 32px;
+              width: 32px;
+              line-height: 32px;
+              font-size: 11px;
+              color: #d32027;
+              text-align: center;
+              border-radius: 50%;
+              vertical-align: middle; }
+              #ldp_happybirthday_vne_2019 .ldp-list-procate .ldp-wrapper-list .list-pro .item-pro .box-image .gift-label:after {
+                content: "\f06b";
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                margin: 0 auto;
+                text-transform: uppercase;
+                color: #d52329;
+                font-size: 20px;
+                font-family: 'Font Awesome 5 Pro';
+                font-weight: 700; }
+            #ldp_happybirthday_vne_2019 .ldp-list-procate .ldp-wrapper-list .list-pro .item-pro .box-image .freeship-label {
+              position: absolute;
+              top: 0;
+              right: 10px;
+              display: inline-block;
+              height: 32px;
+              width: 32px;
+              line-height: 32px;
+              font-size: 10px;
+              color: #d52329;
+              text-align: center;
+              border-radius: 50%;
+              vertical-align: middle; }
+              #ldp_happybirthday_vne_2019 .ldp-list-procate .ldp-wrapper-list .list-pro .item-pro .box-image .freeship-label:after {
+                content: "";
+                position: absolute;
+                top: 6px;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                margin: 0 auto;
+                text-transform: uppercase;
+                color: #d52329;
+                font-size: 9px;
+                line-height: 10px;
+                background: url("../images/FreeShip.png");
+                background-repeat: no-repeat;
+                background-position: center center;
+                background-size: initial; }
+            #ldp_happybirthday_vne_2019 .ldp-list-procate .ldp-wrapper-list .list-pro .item-pro .box-image .icon-tra-gop-0 {
+              position: absolute;
+              bottom: 0;
+              left: 0;
+              display: inline-block;
+              width: 65px;
+              height: 24px;
+              line-height: 24px;
+              font-size: 0;
+              vertical-align: middle;
+              background: url("../images/icon_tra_gop_0.png"); }
+            #ldp_happybirthday_vne_2019 .ldp-list-procate .ldp-wrapper-list .list-pro .item-pro .box-image .btn-favorite {
+              position: absolute;
+              top: 0;
+              left: 0;
+              background: rgba(204, 204, 204, 0.5);
+              display: inline-block;
+              width: 40px;
+              height: 40px;
+              line-height: 40px;
+              font-size: 14px;
+              text-align: center;
+              color: #d52329;
+              z-index: 2;
+              cursor: pointer;
+              transition: none; }
+              #ldp_happybirthday_vne_2019 .ldp-list-procate .ldp-wrapper-list .list-pro .item-pro .box-image .btn-favorite:hover {
+                color: #242424; }
+            #ldp_happybirthday_vne_2019 .ldp-list-procate .ldp-wrapper-list .list-pro .item-pro .box-image .btn-buy-now {
+              position: absolute;
+              display: block;
+              bottom: 0;
+              width: 100%;
+              height: 0;
+              line-height: 30px;
+              padding: 0;
+              margin: 0;
+              background: #d52329;
+              color: #fff;
+              vertical-align: middle;
+              text-align: center;
+              transform-origin: bottom;
+              transition: height 0.25s ease;
+              z-index: -2;
+              font-size: inherit;
+              font-weight: inherit;
+              -ms-touch-action: manipulation;
+              touch-action: manipulation;
+              cursor: pointer;
+              -webkit-user-select: none;
+              -moz-user-select: none;
+              -ms-user-select: none;
+              user-select: none;
+              background-image: none;
+              border: 0 solid transparent;
+              border-radius: 0;
+              overflow: hidden; }
+              #ldp_happybirthday_vne_2019 .ldp-list-procate .ldp-wrapper-list .list-pro .item-pro .box-image .btn-buy-now span, #ldp_happybirthday_vne_2019 .ldp-list-procate .ldp-wrapper-list .list-pro .item-pro .box-image .btn-buy-now .fal {
+                position: relative;
+                display: inline-block;
+                display: -webkit-inline-box;
+                width: 20px;
+                height: 30px;
+                line-height: 30px;
+                text-align: center;
+                font-size: 18px;
+                margin-right: 0;
+                vertical-align: middle; }
+              #ldp_happybirthday_vne_2019 .ldp-list-procate .ldp-wrapper-list .list-pro .item-pro .box-image .btn-buy-now.add_to_cart_disable {
+                background: #8b8b8b;
+                cursor: default; }
+            #ldp_happybirthday_vne_2019 .ldp-list-procate .ldp-wrapper-list .list-pro .item-pro .box-image .tooltip {
+              transition: none; }
+          #ldp_happybirthday_vne_2019 .ldp-list-procate .ldp-wrapper-list .list-pro .item-pro .box-title-item {
+            position: relative;
+            display: block;
+            display: grid;
+            width: 100%;
+            padding: 0; }
+            #ldp_happybirthday_vne_2019 .ldp-list-procate .ldp-wrapper-list .list-pro .item-pro .box-title-item .title-post-item {
+              position: relative;
+              display: block;
+              display: -webkit-box;
+              padding-top: 3px;
+              margin: 8px 0 0;
+              font-size: 14px;
+              color: #242424;
+              line-height: 1.3;
+              height: auto;
+              overflow: hidden;
+              font-family: "Roboto";
+              -webkit-box-orient: vertical;
+              text-overflow: ellipsis;
+              -webkit-line-clamp: 2;
+              word-break: break-word; }
+              #ldp_happybirthday_vne_2019 .ldp-list-procate .ldp-wrapper-list .list-pro .item-pro .box-title-item .title-post-item .icon-deal-hot {
+                position: relative;
+                padding: 0 5px;
+                margin-right: 5px;
+                background: #e83948;
+                font-family: "Roboto-Light";
+                font-size: 10px;
+                color: #fff;
+                border-radius: 3px;
+                line-height: 10px;
+                vertical-align: middle; }
+            #ldp_happybirthday_vne_2019 .ldp-list-procate .ldp-wrapper-list .list-pro .item-pro .box-title-item .box-price {
+              display: inline-block;
+              width: 100%;
+              overflow: hidden; }
+              #ldp_happybirthday_vne_2019 .ldp-list-procate .ldp-wrapper-list .list-pro .item-pro .box-title-item .box-price p {
+                font-size: 14px;
+                line-height: 14px;
+                font-family: "Roboto"; }
+              #ldp_happybirthday_vne_2019 .ldp-list-procate .ldp-wrapper-list .list-pro .item-pro .box-title-item .box-price .price-current,
+              #ldp_happybirthday_vne_2019 .ldp-list-procate .ldp-wrapper-list .list-pro .item-pro .box-title-item .box-price .price-sale {
+                float: left;
+                font-size: 13px;
+                color: #d52329;
+                font-family: "Roboto-Medium";
+                line-height: 25px; }
+              #ldp_happybirthday_vne_2019 .ldp-list-procate .ldp-wrapper-list .list-pro .item-pro .box-title-item .box-price .price-old {
+                padding-left: 8px;
+                float: left;
+                font-size: 12px;
+                color: #aaa;
+                text-decoration: line-through;
+                line-height: 26px; }
+              #ldp_happybirthday_vne_2019 .ldp-list-procate .ldp-wrapper-list .list-pro .item-pro .box-title-item .box-price .percent-discount {
+                position: relative;
+                display: block;
+                width: auto;
+                float: left;
+                font-size: 11px;
+                font-family: 'Roboto-Medium';
+                color: #d52329;
+                padding-left: 6px;
+                line-height: 25px; }
+            #ldp_happybirthday_vne_2019 .ldp-list-procate .ldp-wrapper-list .list-pro .item-pro .box-title-item .group-action {
+              position: relative;
+              display: block;
+              clear: both;
+              padding-top: 5px; }
+              #ldp_happybirthday_vne_2019 .ldp-list-procate .ldp-wrapper-list .list-pro .item-pro .box-title-item .group-action .btn-buynow {
+                position: relative;
+                display: block;
+                float: left;
+                padding: 5px 15px;
+                line-height: 20px;
+                text-align: center;
+                background: #d8232c;
+                color: #ffffff;
+                border-radius: 5px; }
+              #ldp_happybirthday_vne_2019 .ldp-list-procate .ldp-wrapper-list .list-pro .item-pro .box-title-item .group-action .remove-wishlist {
+                position: relative;
+                display: block;
+                float: right;
+                padding: 5px 15px;
+                line-height: 20px;
+                text-align: center;
+                background: #bababa;
+                color: #ffffff;
+                border-radius: 5px; }
+          #ldp_happybirthday_vne_2019 .ldp-list-procate .ldp-wrapper-list .list-pro .item-pro:hover .box-image img {
+            -webkit-transform: translateY(-10px);
+            -ms-transform: translateY(-10px);
+            -o-transform: translateY(-10px);
+            transform: translateY(-10px); }
+          #ldp_happybirthday_vne_2019 .ldp-list-procate .ldp-wrapper-list .list-pro .item-pro:hover .box-image .btn-buy-now {
+            display: block;
+            height: 30px;
+            z-index: 2; }
+    #ldp_happybirthday_vne_2019 .ldp-list-procate .ldp-box-readmore {
+      padding: 20px 0 0; }
+      #ldp_happybirthday_vne_2019 .ldp-list-procate .ldp-box-readmore .btn-readmore {
+        position: relative;
+        display: block;
+        width: 150px;
+        height: 30px;
+        line-height: 30px;
+        margin: auto;
+        color: #fff;
+        font-size: 14px;
+        font-family: "Roboto";
+        text-transform: inherit;
+        border-top: 1px solid transparent;
+        background: #d7224e;
+        border-radius: 4px;
+        text-transform: uppercase; }
+        #ldp_happybirthday_vne_2019 .ldp-list-procate .ldp-box-readmore .btn-readmore:focus {
+          border: 1px solid #db2b35;
+          outline: none;
+          color: #db2b35; }
+        #ldp_happybirthday_vne_2019 .ldp-list-procate .ldp-box-readmore .btn-readmore span {
+          position: relative; }
+  #ldp_happybirthday_vne_2019 .bg_100_sanpham_yeuthich {
+    background: #fffdfe;
+    margin: 0; }
+  #ldp_happybirthday_vne_2019 .box-filter {
+    position: relative;
+    display: block;
+    clear: both;
+    background: #fff;
+    overflow: hidden; }
+    #ldp_happybirthday_vne_2019 .box-filter form.form-tilter .list-option {
+      display: block;
+      width: 100%;
+      padding: 10px 0;
+      border-bottom: 1px solid #eaeaea; }
+      #ldp_happybirthday_vne_2019 .box-filter form.form-tilter .list-option .item-option {
+        display: block;
+        position: relative;
+        width: calc(100% / 5);
+        float: left;
+        padding-left: 20px;
+        text-align: left;
+        cursor: default;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        font-size: 16px;
+        color: #02785a; }
+        #ldp_happybirthday_vne_2019 .box-filter form.form-tilter .list-option .item-option input {
+          width: 15px;
+          height: 15px; }
+      #ldp_happybirthday_vne_2019 .box-filter form.form-tilter .list-option .item-option input {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+        width: 100%;
+        z-index: 2;
+        cursor: pointer; }
+      #ldp_happybirthday_vne_2019 .box-filter form.form-tilter .list-option .checkmark {
+        position: absolute;
+        top: 5px;
+        left: 0;
+        height: 15px;
+        width: 15px;
+        background-color: transparent;
+        border: 1px solid #02785a; }
+      #ldp_happybirthday_vne_2019 .box-filter form.form-tilter .list-option .item-option:hover input ~ .checkmark {
+        background-color: #fcb82a; }
+      #ldp_happybirthday_vne_2019 .box-filter form.form-tilter .list-option .item-option input:checked ~ .checkmark {
+        background-color: #fcb82a;
+        border: 1px solid #fcb82a; }
+      #ldp_happybirthday_vne_2019 .box-filter form.form-tilter .list-option .checkmark:after {
+        content: "";
+        position: absolute;
+        display: none; }
+      #ldp_happybirthday_vne_2019 .box-filter form.form-tilter .list-option .item-option input:checked ~ .checkmark:after {
+        display: block; }
+      #ldp_happybirthday_vne_2019 .box-filter form.form-tilter .list-option .item-option .checkmark:after {
+        left: 4px;
+        top: 0px;
+        width: 6px;
+        height: 10px;
+        border: solid white;
+        border-width: 0 3px 3px 0;
+        -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg); }
+      #ldp_happybirthday_vne_2019 .box-filter form.form-tilter .list-option .checkbox-inline + .checkbox-inline, #ldp_happybirthday_vne_2019 .box-filter form.form-tilter .list-option .radio-inline + .radio-inline {
+        margin-top: 0;
+        margin-left: 0;
+        padding-right: 10px; }
+  #ldp_happybirthday_vne_2019 .ldp-wrap-spin-wheel {
+    position: relative;
+    display: block;
+    clear: both;
+    width: 100%;
+    padding: 30px 0 0; }
+    #ldp_happybirthday_vne_2019 .ldp-wrap-spin-wheel .box-title-spin-wheel {
+      position: relative;
+      display: block;
+      clear: both;
+      width: 100%;
+      text-align: center;
+      margin-bottom: 20px; }
+      #ldp_happybirthday_vne_2019 .ldp-wrap-spin-wheel .box-title-spin-wheel .title-spin-wheel {
+        position: relative;
+        display: block;
+        margin: 0 auto;
+        font-family: "Roboto-Bold";
+        font-size: 30px;
+        line-height: 38px;
+        text-transform: uppercase;
+        color: #fada80;
+        background: -webkit-linear-gradient(#f5ac46, #ffda75, #eec364);
+        background: #eec364;
+        background: #eec364;
+        background: -moz-linear-gradient(top, #eec364 0%, #eec364 33%, #fff7ab 68%, #f5ac46 100%);
+        background: -webkit-gradient(left top, left bottom, color-stop(0%, #eec364), color-stop(33%, #eec364), color-stop(68%, #fff7ab), color-stop(100%, #f5ac46));
+        background: -webkit-linear-gradient(top, #eec364 0%, #eec364 33%, #fff7ab 68%, #f5ac46 100%);
+        background: -o-linear-gradient(top, #eec364 0%, #eec364 33%, #fff7ab 68%, #f5ac46 100%);
+        background: -ms-linear-gradient(top, #eec364 0%, #eec364 33%, #fff7ab 68%, #f5ac46 100%);
+        background: linear-gradient(to bottom, #eec364 0%, #eec364 33%, #fff7ab 68%, #f5ac46 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eec364', endColorstr='#f5ac46', GradientType=0 );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent; }
+      #ldp_happybirthday_vne_2019 .ldp-wrap-spin-wheel .box-title-spin-wheel .title-note {
+        position: relative;
+        display: block;
+        margin: 0 auto;
+        font-size: 18px;
+        line-height: 21px;
+        color: #fdf2a4;
+        background: -webkit-linear-gradient(#f5ac46, #ffda75, #eec364);
+        background: #eec364;
+        background: -moz-linear-gradient(top, #eec364 0%, #eec364 33%, #fff7ab 68%, #f5ac46 100%);
+        background: -webkit-gradient(left top, left bottom, color-stop(0%, #eec364), color-stop(33%, #eec364), color-stop(68%, #fff7ab), color-stop(100%, #f5ac46));
+        background: -webkit-linear-gradient(top, #eec364 0%, #eec364 33%, #fff7ab 68%, #f5ac46 100%);
+        background: -o-linear-gradient(top, #eec364 0%, #eec364 33%, #fff7ab 68%, #f5ac46 100%);
+        background: -ms-linear-gradient(top, #eec364 0%, #eec364 33%, #fff7ab 68%, #f5ac46 100%);
+        background: linear-gradient(to bottom, #eec364 0%, #eec364 33%, #fff7ab 68%, #f5ac46 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eec364', endColorstr='#f5ac46', GradientType=0 );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent; }
+        #ldp_happybirthday_vne_2019 .ldp-wrap-spin-wheel .box-title-spin-wheel .title-note strong {
+          font-weight: unset;
+          font-family: "Roboto-Bold"; }
+    #ldp_happybirthday_vne_2019 .ldp-wrap-spin-wheel .wrap-notification {
+      position: relative;
+      display: block;
+      width: calc(100% - 30px);
+      margin: 0 auto;
+      color: #fff;
+      background: #bd1f50;
+      border-radius: 2px;
+      box-shadow: 0 0 2px 1px #82163d;
+      overflow: hidden;
+      padding: 0 10px;
+      margin-bottom: 10px; }
+      #ldp_happybirthday_vne_2019 .ldp-wrap-spin-wheel .wrap-notification span {
+        position: relative;
+        display: inline-block;
+        height: 30px;
+        line-height: 30px;
+        margin-right: 200px;
+        font-size: 12px; }
+        #ldp_happybirthday_vne_2019 .ldp-wrap-spin-wheel .wrap-notification span:last-child {
+          margin-right: 0; }
+    #ldp_happybirthday_vne_2019 .ldp-wrap-spin-wheel .wrap-notification-2 {
+      position: relative;
+      display: block;
+      margin-bottom: 10px; }
+      #ldp_happybirthday_vne_2019 .ldp-wrap-spin-wheel .wrap-notification-2 span {
+        display: inline-block;
+        height: 30px;
+        line-height: 30px;
+        padding: 0 10px;
+        margin-right: 200px;
+        font-size: 12px;
+        color: #fff;
+        background: #bd1f50;
+        border-radius: 20px;
+        overflow: hidden;
+        box-shadow: 0 0 2px 1px #82163d; }
+        #ldp_happybirthday_vne_2019 .ldp-wrap-spin-wheel .wrap-notification-2 span:last-child {
+          margin-right: 0; }
+    #ldp_happybirthday_vne_2019 .ldp-wrap-spin-wheel .wrap-table-spin-wheel {
+      position: relative;
+      display: block;
+      width: 100%;
+      padding-bottom: 40px;
+      overflow: hidden;
+      overflow-x: auto;
+      text-align: center; }
+      #ldp_happybirthday_vne_2019 .ldp-wrap-spin-wheel .wrap-table-spin-wheel table {
+        min-width: 520px;
+        margin: 0 auto;
+        border: 0;
+        background: none; }
+        #ldp_happybirthday_vne_2019 .ldp-wrap-spin-wheel .wrap-table-spin-wheel table td.the_wheel {
+          position: relative;
+          display: block;
+          background-image: url("../images/wheel_back.png");
+          background-position: center;
+          background-repeat: no-repeat; }
+      #ldp_happybirthday_vne_2019 .ldp-wrap-spin-wheel .wrap-table-spin-wheel .power_controls {
+        position: relative;
+        display: block;
+        width: 520px;
+        height: 520px;
+        float: left;
+        z-index: 2; }
+        #ldp_happybirthday_vne_2019 .ldp-wrap-spin-wheel .wrap-table-spin-wheel .power_controls canvas {
+          position: relative;
+          display: block;
+          bottom: 0;
+          margin: 0 auto; }
+      #ldp_happybirthday_vne_2019 .ldp-wrap-spin-wheel .wrap-table-spin-wheel .btn-spin, #ldp_happybirthday_vne_2019 .ldp-wrap-spin-wheel .wrap-table-spin-wheel #spin_button {
+        position: absolute;
+        display: block;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        left: 0;
+        right: 0;
+        width: 90px;
+        height: 90px;
+        border-radius: 45px;
+        overflow: hidden;
+        z-index: 3;
+        cursor: pointer;
+        background: url("../images/btn-spin.png");
+        background-position: center center;
+        background-repeat: no-repeat; }
+      #ldp_happybirthday_vne_2019 .ldp-wrap-spin-wheel .wrap-table-spin-wheel #prizePointer {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 2px;
+        margin: 0 auto;
+        z-index: 3; }
+      #ldp_happybirthday_vne_2019 .ldp-wrap-spin-wheel .wrap-table-spin-wheel .clickable {
+        cursor: pointer; }
+      #ldp_happybirthday_vne_2019 .ldp-wrap-spin-wheel .wrap-table-spin-wheel .wrap-check-code {
+        position: relative;
+        display: block;
+        clear: both;
+        width: 100%;
+        margin: 0 auto;
+        text-align: center; }
+        #ldp_happybirthday_vne_2019 .ldp-wrap-spin-wheel .wrap-table-spin-wheel .wrap-check-code .txt-notification {
+          position: relative;
+          display: block;
+          margin-bottom: 10px;
+          font-size: 12px;
+          line-height: 20px;
+          color: #fff;
+          font-family: "Roboto"; }
+        #ldp_happybirthday_vne_2019 .ldp-wrap-spin-wheel .wrap-table-spin-wheel .wrap-check-code .wrap-frm {
+          position: relative;
+          display: block;
+          clear: both; }
+          #ldp_happybirthday_vne_2019 .ldp-wrap-spin-wheel .wrap-table-spin-wheel .wrap-check-code .wrap-frm .frm-check-code-spin {
+            position: relative;
+            display: block;
+            clear: both;
+            width: 275px;
+            margin: 0 auto;
+            background: #fff;
+            border-radius: 4px;
+            overflow: hidden; }
+          #ldp_happybirthday_vne_2019 .ldp-wrap-spin-wheel .wrap-table-spin-wheel .wrap-check-code .wrap-frm .input-code {
+            position: relative;
+            display: block;
+            float: left;
+            width: calc(100% - 85px);
+            height: 32px;
+            padding: 0 8px;
+            margin: 0;
+            font-size: 14px;
+            line-height: 32px;
+            background: #fff;
+            color: #19000d;
+            border: 0;
+            outline: 0;
+            box-shadow: none;
+            text-align: center;
+            text-transform: uppercase; }
+            #ldp_happybirthday_vne_2019 .ldp-wrap-spin-wheel .wrap-table-spin-wheel .wrap-check-code .wrap-frm .input-code::-webkit-input-placeholder {
+              color: #777;
+              text-transform: none; }
+            #ldp_happybirthday_vne_2019 .ldp-wrap-spin-wheel .wrap-table-spin-wheel .wrap-check-code .wrap-frm .input-code::-moz-placeholder {
+              color: #777;
+              text-transform: none; }
+            #ldp_happybirthday_vne_2019 .ldp-wrap-spin-wheel .wrap-table-spin-wheel .wrap-check-code .wrap-frm .input-code:-ms-input-placeholder {
+              color: #777;
+              text-transform: none; }
+            #ldp_happybirthday_vne_2019 .ldp-wrap-spin-wheel .wrap-table-spin-wheel .wrap-check-code .wrap-frm .input-code:-moz-placeholder {
+              color: #777;
+              text-transform: none; }
+          #ldp_happybirthday_vne_2019 .ldp-wrap-spin-wheel .wrap-table-spin-wheel .wrap-check-code .wrap-frm .btn-check-code {
+            position: relative;
+            display: block;
+            float: left;
+            width: 85px;
+            height: 32px;
+            line-height: 32px;
+            padding: 0;
+            margin: 0;
+            color: #555555;
+            background: #f6dce5;
+            font-size: 14px;
+            border: 0;
+            outline: 0;
+            box-shadow: none;
+            text-align: center; }
+            #ldp_happybirthday_vne_2019 .ldp-wrap-spin-wheel .wrap-table-spin-wheel .wrap-check-code .wrap-frm .btn-check-code:hover {
+              background: #f8e28e; }
+    #ldp_happybirthday_vne_2019 .ldp-wrap-spin-wheel .wrap-btn-gift {
+      position: relative;
+      display: block;
+      clear: both;
+      width: 100%;
+      text-align: center;
+      padding-top: 20px; }
+      #ldp_happybirthday_vne_2019 .ldp-wrap-spin-wheel .wrap-btn-gift .box-inner {
+        position: relative;
+        display: inline-block;
+        margin: 0 auto; }
+        #ldp_happybirthday_vne_2019 .ldp-wrap-spin-wheel .wrap-btn-gift .box-inner .item-btn {
+          position: relative;
+          display: block;
+          float: left;
+          min-width: 144px;
+          margin-right: 8px;
+          background: #f6dce5;
+          padding: 5px 10px;
+          color: #57565d;
+          border: 0;
+          border-radius: 4px;
+          outline: none;
+          box-shadow: none; }
+          #ldp_happybirthday_vne_2019 .ldp-wrap-spin-wheel .wrap-btn-gift .box-inner .item-btn:last-child {
+            margin-right: 0; }
+          #ldp_happybirthday_vne_2019 .ldp-wrap-spin-wheel .wrap-btn-gift .box-inner .item-btn:hover {
+            background: #f8e28e; }
+    #ldp_happybirthday_vne_2019 .ldp-wrap-spin-wheel .area-list-customer .wrap_table {
+      position: relative;
+      display: block;
+      clear: both;
+      width: 100%;
+      background: #f7f7f7;
+      padding: 10px 10px;
+      color: #555;
+      border-radius: 5px;
+      overflow: hidden;
+      margin: 0 auto; }
+      #ldp_happybirthday_vne_2019 .ldp-wrap-spin-wheel .area-list-customer .wrap_table .table-list-customer {
+        position: relative;
+        display: block;
+        clear: both;
+        width: 100%; }
+        #ldp_happybirthday_vne_2019 .ldp-wrap-spin-wheel .area-list-customer .wrap_table .table-list-customer .table-header {
+          position: relative;
+          display: block;
+          clear: both;
+          width: 100%;
+          padding: 10px 10px;
+          margin-bottom: 10px; }
+          #ldp_happybirthday_vne_2019 .ldp-wrap-spin-wheel .area-list-customer .wrap_table .table-list-customer .table-header h3 {
+            margin: 0;
+            font-size: 14px;
+            color: #414040;
+            text-transform: uppercase;
+            font-family: "Roboto-Bold"; }
+        #ldp_happybirthday_vne_2019 .ldp-wrap-spin-wheel .area-list-customer .wrap_table .table-list-customer .table-body {
+          position: relative;
+          display: block;
+          clear: both;
+          width: 100%; }
+          #ldp_happybirthday_vne_2019 .ldp-wrap-spin-wheel .area-list-customer .wrap_table .table-list-customer .table-body .wrap-title-td {
+            position: relative;
+            display: block;
+            width: 100%;
+            background: #fff;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+            margin-bottom: 8px; }
+            #ldp_happybirthday_vne_2019 .ldp-wrap-spin-wheel .area-list-customer .wrap_table .table-list-customer .table-body .wrap-title-td .col-item {
+              position: relative;
+              display: inline-block;
+              width: calc(100% / 3 - 8px);
+              vertical-align: top;
+              text-align: left;
+              padding: 5px 8px; }
+          #ldp_happybirthday_vne_2019 .ldp-wrap-spin-wheel .area-list-customer .wrap_table .table-list-customer .table-body .list-customer {
+            position: relative;
+            display: block;
+            width: 100%;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            max-height: 360px;
+            overflow: hidden;
+            overflow-y: auto; }
+            #ldp_happybirthday_vne_2019 .ldp-wrap-spin-wheel .area-list-customer .wrap_table .table-list-customer .table-body .list-customer::-webkit-scrollbar {
+              width: 5px;
+              height: 3px;
+              background-color: #d9d9d9;
+              border-radius: 2.5px;
+              -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3); }
+            #ldp_happybirthday_vne_2019 .ldp-wrap-spin-wheel .area-list-customer .wrap_table .table-list-customer .table-body .list-customer::-webkit-scrollbar-track {
+              width: 5px;
+              height: 3px;
+              background-color: #fefefe;
+              border-radius: 2.5px;
+              -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3); }
+            #ldp_happybirthday_vne_2019 .ldp-wrap-spin-wheel .area-list-customer .wrap_table .table-list-customer .table-body .list-customer::-webkit-scrollbar-thumb {
+              background-color: rgba(230, 8, 63, 0.5);
+              border-radius: 2.5px; }
+            #ldp_happybirthday_vne_2019 .ldp-wrap-spin-wheel .area-list-customer .wrap_table .table-list-customer .table-body .list-customer:hover::-webkit-scrollbar-thumb, #ldp_happybirthday_vne_2019 .ldp-wrap-spin-wheel .area-list-customer .wrap_table .table-list-customer .table-body .list-customer:focus::-webkit-scrollbar-thumb {
+              background-color: #9f224e; }
+            #ldp_happybirthday_vne_2019 .ldp-wrap-spin-wheel .area-list-customer .wrap_table .table-list-customer .table-body .list-customer:hover::-webkit-scrollbar-track, #ldp_happybirthday_vne_2019 .ldp-wrap-spin-wheel .area-list-customer .wrap_table .table-list-customer .table-body .list-customer:focus::-webkit-scrollbar-track {
+              background-color: #d9d9d9; }
+            #ldp_happybirthday_vne_2019 .ldp-wrap-spin-wheel .area-list-customer .wrap_table .table-list-customer .table-body .list-customer .item-list {
+              position: relative;
+              display: block;
+              clear: both;
+              width: 100%;
+              border-bottom: 1px dashed #b7b7b7; }
+              #ldp_happybirthday_vne_2019 .ldp-wrap-spin-wheel .area-list-customer .wrap_table .table-list-customer .table-body .list-customer .item-list:last-child {
+                border: 0; }
+              #ldp_happybirthday_vne_2019 .ldp-wrap-spin-wheel .area-list-customer .wrap_table .table-list-customer .table-body .list-customer .item-list .col-item {
+                position: relative;
+                display: inline-block;
+                width: calc(100% / 3 - 8px);
+                vertical-align: top;
+                text-align: left;
+                padding: 5px 8px;
+                line-height: 17px;
+                color: #555555;
+                font-family: "Roboto-Bold";
+                font-size: 12px; }
+  #ldp_happybirthday_vne_2019 .ldp-the-le-chuong-trinh {
+    position: relative;
+    display: block;
+    clear: both;
+    width: 100%;
+    background: #ffffff;
+    padding: 30px 0 40px;
+    border-bottom: 2px solid #f0f0f0;
+    color: #555; }
+    #ldp_happybirthday_vne_2019 .ldp-the-le-chuong-trinh .title-the-le {
+      position: relative;
+      display: block;
+      text-transform: uppercase;
+      text-align: center;
+      font-size: 30px;
+      margin: 0 0 20px;
+      color: #5f5f5f; }
+    #ldp_happybirthday_vne_2019 .ldp-the-le-chuong-trinh .content-the-le {
+      position: relative;
+      display: block;
+      width: 100%;
+      line-height: 30px; }
+      #ldp_happybirthday_vne_2019 .ldp-the-le-chuong-trinh .content-the-le p {
+        line-height: 24px; }
+
+.ldp-wrap-popups {
+  z-index: 99; }
+  .ldp-wrap-popups .close {
+    font-size: 30px; }
+  .ldp-wrap-popups .modal-header {
+    text-align: center; }
+  .ldp-wrap-popups .wrap-list-gift {
+    position: relative;
+    display: block;
+    clear: both;
+    width: 100%;
+    overflow: hidden;
+    overflow-y: auto; }
+    .ldp-wrap-popups .wrap-list-gift .item-gift {
+      position: relative;
+      display: inline-block;
+      float: none;
+      width: calc(100% / 5 - 10px);
+      margin-right: 9px;
+      margin-bottom: 10px;
+      vertical-align: top; }
+      .ldp-wrap-popups .wrap-list-gift .item-gift:nth-child(5n) {
+        margin-right: 0; }
+      .ldp-wrap-popups .wrap-list-gift .item-gift .inner-item {
+        position: relative;
+        display: block;
+        clear: both;
+        width: 100%; }
+        .ldp-wrap-popups .wrap-list-gift .item-gift .inner-item .box-img {
+          position: relative;
+          display: block;
+          clear: both;
+          width: 102px;
+          height: 102px;
+          background: #f9f9f9;
+          border: 1px solid #b4b4b4;
+          text-align: center;
+          overflow: hidden; }
+          .ldp-wrap-popups .wrap-list-gift .item-gift .inner-item .box-img img {
+            position: relative;
+            display: block;
+            margin: 0 auto; }
+        .ldp-wrap-popups .wrap-list-gift .item-gift .inner-item .box-info {
+          position: relative;
+          display: block;
+          clear: both;
+          width: 100%;
+          height: auto; }
+          .ldp-wrap-popups .wrap-list-gift .item-gift .inner-item .box-info .gift-name {
+            position: relative;
+            display: block;
+            clear: both;
+            width: 100%;
+            color: #434343;
+            font-size: 14px;
+            line-height: 16px;
+            padding: 5px 0; }
+          .ldp-wrap-popups .wrap-list-gift .item-gift .inner-item .box-info .gift-price {
+            position: relative;
+            display: block;
+            clear: both;
+            width: 100%;
+            color: #ed1a5a;
+            font-family: "Roboto-Bold";
+            text-transform: uppercase;
+            font-size: 14px;
+            line-height: 16px; }
+  .ldp-wrap-popups .modal-giaohangnhanh .modal-header {
+    text-align: center; }
+  .ldp-wrap-popups .modal-giaohangnhanh .wrap-giaohangnhanh {
+    position: relative;
+    display: block;
+    clear: both;
+    width: 100%;
+    overflow: hidden;
+    overflow-y: auto; }
+  .ldp-wrap-popups .modal-nhapmaduthuong .wrap-nhapmaduthuong {
+    position: relative;
+    display: block;
+    clear: both;
+    width: 100%;
+    overflow: hidden;
+    overflow-y: auto; }
+    .ldp-wrap-popups .modal-nhapmaduthuong .wrap-nhapmaduthuong .wrap-check-code {
+      position: relative;
+      display: block;
+      clear: both;
+      width: 100%;
+      padding: 30px 0 40px;
+      margin: 0 auto;
+      text-align: center; }
+      .ldp-wrap-popups .modal-nhapmaduthuong .wrap-nhapmaduthuong .wrap-check-code .txt-notification {
+        position: relative;
+        display: block;
+        margin-bottom: 10px;
+        font-size: 12px;
+        line-height: 20px;
+        color: #242424;
+        font-family: "Roboto"; }
+      .ldp-wrap-popups .modal-nhapmaduthuong .wrap-nhapmaduthuong .wrap-check-code .wrap-frm {
+        position: relative;
+        display: block;
+        clear: both; }
+        .ldp-wrap-popups .modal-nhapmaduthuong .wrap-nhapmaduthuong .wrap-check-code .wrap-frm .frm-check-code-spin {
+          position: relative;
+          display: block;
+          clear: both;
+          width: 275px;
+          margin: 0 auto;
+          background: #fff;
+          border-radius: 4px;
+          overflow: hidden;
+          border: 1px solid #e5e5e5; }
+        .ldp-wrap-popups .modal-nhapmaduthuong .wrap-nhapmaduthuong .wrap-check-code .wrap-frm .input-code {
+          position: relative;
+          display: block;
+          float: left;
+          width: calc(100% - 85px);
+          height: 38px;
+          padding: 0 8px;
+          margin: 0;
+          font-size: 14px;
+          line-height: 38px;
+          background: #fff;
+          color: #19000d;
+          border: 0;
+          outline: 0;
+          box-shadow: none;
+          text-align: center;
+          text-transform: uppercase; }
+          .ldp-wrap-popups .modal-nhapmaduthuong .wrap-nhapmaduthuong .wrap-check-code .wrap-frm .input-code::-webkit-input-placeholder {
+            color: #777;
+            text-transform: none; }
+          .ldp-wrap-popups .modal-nhapmaduthuong .wrap-nhapmaduthuong .wrap-check-code .wrap-frm .input-code::-moz-placeholder {
+            color: #777;
+            text-transform: none; }
+          .ldp-wrap-popups .modal-nhapmaduthuong .wrap-nhapmaduthuong .wrap-check-code .wrap-frm .input-code:-ms-input-placeholder {
+            color: #777;
+            text-transform: none; }
+          .ldp-wrap-popups .modal-nhapmaduthuong .wrap-nhapmaduthuong .wrap-check-code .wrap-frm .input-code:-moz-placeholder {
+            color: #777;
+            text-transform: none; }
+        .ldp-wrap-popups .modal-nhapmaduthuong .wrap-nhapmaduthuong .wrap-check-code .wrap-frm .btn-check-code {
+          position: relative;
+          display: block;
+          float: left;
+          width: 85px;
+          height: 38px;
+          line-height: 38px;
+          padding: 0;
+          margin: 0;
+          color: #fff;
+          background: #bc0f4e;
+          font-size: 14px;
+          border: 0;
+          outline: 0;
+          box-shadow: none;
+          text-align: center; }
+          .ldp-wrap-popups .modal-nhapmaduthuong .wrap-nhapmaduthuong .wrap-check-code .wrap-frm .btn-check-code:hover {
+            background: #b10a47; }
+        .ldp-wrap-popups .modal-nhapmaduthuong .wrap-nhapmaduthuong .wrap-check-code .wrap-frm .text-err {
+          position: relative;
+          display: block;
+          width: 100%;
+          text-align: center;
+          font-size: 13px;
+          color: #d52329; }
+  .ldp-wrap-popups .modal-ngaybatdauquay .wrap-ngaybatdauquay {
+    position: relative;
+    display: block;
+    clear: both;
+    width: 100%;
+    overflow: hidden;
+    overflow-y: auto; }
+    .ldp-wrap-popups .modal-ngaybatdauquay .wrap-ngaybatdauquay .btn-xemthele {
+      position: relative;
+      display: block;
+      width: 120px;
+      margin: 0 auto;
+      padding: 4px 15px;
+      border: 1px solid #fefefe;
+      border-radius: 4px;
+      background: #bc0f4e;
+      color: #fff;
+      text-align: center;
+      cursor: pointer;
+      margin-top: 10px; }
+  .ldp-wrap-popups .modal-trungthuong .modal-dialog {
+    width: 400px; }
+  .ldp-wrap-popups .modal-trungthuong .wrap-trungthuong {
+    position: relative;
+    display: block;
+    clear: both;
+    width: 100%;
+    overflow: hidden;
+    overflow-y: auto;
+    text-align: center; }
+    .ldp-wrap-popups .modal-trungthuong .wrap-trungthuong .box-image-gift {
+      position: relative;
+      display: block;
+      width: 100%;
+      text-align: center;
+      margin-bottom: 15px; }
+      .ldp-wrap-popups .modal-trungthuong .wrap-trungthuong .box-image-gift img {
+        max-width: 100%;
+        width: auto;
+        height: auto;
+        margin: 0 auto; }
+    .ldp-wrap-popups .modal-trungthuong .wrap-trungthuong .title-larger {
+      position: relative;
+      display: block;
+      width: 100%;
+      font-size: 18px;
+      color: #bc0f4e;
+      text-transform: uppercase;
+      font-family: "Roboto-Medium"; }
+    .ldp-wrap-popups .modal-trungthuong .wrap-trungthuong .giaithuong {
+      font-size: 18px;
+      padding: 10px 30px;
+      color: #393939;
+      background: #eaeaea;
+      border-radius: 30px;
+      margin-bottom: 20px; }
+
+@media (min-width: 768px) {
+  .ldp-wrap-popups .modal-dialog {
+    width: 600px;
+    margin: 60px auto 30px; } }
+@media (max-width: 1199px) {
+  #ldp_happybirthday_vne_2019 .ldp-list-procate .ldp-wrapper-list .list-pro .item-pro {
+    width: calc(100% / 4 - 10px); }
+    #ldp_happybirthday_vne_2019 .ldp-list-procate .ldp-wrapper-list .list-pro .item-pro:nth-child(5n) {
+      margin-right: 8px; }
+    #ldp_happybirthday_vne_2019 .ldp-list-procate .ldp-wrapper-list .list-pro .item-pro:nth-child(4n) {
+      margin-right: 0; } }
+@media (max-width: 991px) {
+  #ldp_happybirthday_vne_2019 {
+    background-image: -webkit-linear-gradient(#19000d, #220715, #2d0c1a, #380e1f, #440f24, #4f1129, #5a122e, #661433, #74173a, #821b41, #901e47, #9f224e);
+    background-image: -o-linear-gradient(#19000d, #220715, #2d0c1a, #380e1f, #440f24, #4f1129, #5a122e, #661433, #74173a, #821b41, #901e47, #9f224e);
+    background-image: linear-gradient(#19000d, #220715, #2d0c1a, #380e1f, #440f24, #4f1129, #5a122e, #661433, #74173a, #821b41, #901e47, #9f224e);
+    background-repeat: repeat-y;
+    background-size: auto auto;
+    background-position: top left; }
+    #ldp_happybirthday_vne_2019 .container {
+      width: 100%; }
+    #ldp_happybirthday_vne_2019 .ldp-wrapper-code .list-banner-code {
+      padding-left: 15px;
+      padding-right: 15px; }
+      #ldp_happybirthday_vne_2019 .ldp-wrapper-code .list-banner-code .item-banner-code {
+        width: calc(100% / 3 - 9px);
+        margin-right: 10px;
+        margin-bottom: 10px; }
+        #ldp_happybirthday_vne_2019 .ldp-wrapper-code .list-banner-code .item-banner-code:nth-child(4n) {
+          margin-right: 10px; }
+        #ldp_happybirthday_vne_2019 .ldp-wrapper-code .list-banner-code .item-banner-code:nth-child(3n) {
+          margin-right: 0; }
+    #ldp_happybirthday_vne_2019 .ldp-wrap-deal .ldp-wrapper-pro-cate .list-pro .item-pro .box-inner .title-asl .box-price .price-sale {
+      font-size: 14px; }
+    #ldp_happybirthday_vne_2019 .ldp-list-procate .ldp-wrapper-list .list-pro .item-pro {
+      width: calc(100% / 3 - 10px);
+      margin-right: 8px; }
+      #ldp_happybirthday_vne_2019 .ldp-list-procate .ldp-wrapper-list .list-pro .item-pro:nth-child(4n) {
+        margin-right: 8px; }
+      #ldp_happybirthday_vne_2019 .ldp-list-procate .ldp-wrapper-list .list-pro .item-pro:nth-child(3n) {
+        margin-right: 0; }
+    #ldp_happybirthday_vne_2019 .content-the-le {
+      padding: 0 15px; } }
+@media (max-width: 768px) {
+  #ldp_happybirthday_vne_2019 .ldp-flash-sale .ldp-title-flashsale {
+    margin-bottom: 0; }
+  #ldp_happybirthday_vne_2019 .ldp-flash-sale .box-menu-flashsale .box-inner .list-menu-slide {
+    height: 42px;
+    line-height: 42px;
+    padding: 4px 0 0; }
+    #ldp_happybirthday_vne_2019 .ldp-flash-sale .box-menu-flashsale .box-inner .list-menu-slide .item-menu-slide {
+      min-width: 90px;
+      font-size: 16px;
+      height: 38px;
+      line-height: 38px;
+      padding: 0 10px; }
+      #ldp_happybirthday_vne_2019 .ldp-flash-sale .box-menu-flashsale .box-inner .list-menu-slide .item-menu-slide:not(:first-child) {
+        margin-left: 6px; }
+  #ldp_happybirthday_vne_2019 .ldp-flash-sale .ldp-wrapper-pro-cate {
+    padding: 10px 0 0;
+    background: transparent; }
+    #ldp_happybirthday_vne_2019 .ldp-flash-sale .ldp-wrapper-pro-cate .background-box {
+      height: auto;
+      border-radius: 0; }
+    #ldp_happybirthday_vne_2019 .ldp-flash-sale .ldp-wrapper-pro-cate .list-pro {
+      padding: 25px;
+      border-radius: 0; }
+      #ldp_happybirthday_vne_2019 .ldp-flash-sale .ldp-wrapper-pro-cate .list-pro .item-pro .box-inner .title-asl .box-price {
+        margin-bottom: 24px; }
+        #ldp_happybirthday_vne_2019 .ldp-flash-sale .ldp-wrapper-pro-cate .list-pro .item-pro .box-inner .title-asl .box-price .price-sale {
+          font-size: 18px;
+          line-height: 24px; }
+      #ldp_happybirthday_vne_2019 .ldp-flash-sale .ldp-wrapper-pro-cate .list-pro .item-pro .box-inner .title-asl .line-range {
+        height: 10px;
+        border-radius: 5px; }
+        #ldp_happybirthday_vne_2019 .ldp-flash-sale .ldp-wrapper-pro-cate .list-pro .item-pro .box-inner .title-asl .line-range .range-status {
+          height: 10px;
+          border-radius: 5px; }
+        #ldp_happybirthday_vne_2019 .ldp-flash-sale .ldp-wrapper-pro-cate .list-pro .item-pro .box-inner .title-asl .line-range .count-down {
+          opacity: 1; }
+  #ldp_happybirthday_vne_2019 .ldp-list-procate .ldp-wrapper-list {
+    padding: 20px 15px;
+    border-radius: 15px; }
+    #ldp_happybirthday_vne_2019 .ldp-list-procate .ldp-wrapper-list.border0 {
+      padding: 20px 15px 30px; }
+  #ldp_happybirthday_vne_2019 .ldp-wrap-deal .box-menu-slide .box-inner .list-menu-slide {
+    height: 36px;
+    line-height: 36px; }
+    #ldp_happybirthday_vne_2019 .ldp-wrap-deal .box-menu-slide .box-inner .list-menu-slide .item-menu-slide {
+      min-width: 82px;
+      font-size: 16px;
+      height: 34px;
+      line-height: 36px;
+      padding: 0 10px;
+      border-radius: 10px 10px 0 0; }
+      #ldp_happybirthday_vne_2019 .ldp-wrap-deal .box-menu-slide .box-inner .list-menu-slide .item-menu-slide:not(:first-child) {
+        margin-left: 5px; }
+  #ldp_happybirthday_vne_2019 .ldp-the-le-chuong-trinh .title-the-le {
+    font-size: 18px; }
+  #ldp_happybirthday_vne_2019 .ldp-wrap-spin-wheel .box-title-spin-wheel .title-spin-wheel {
+    font-size: 24px; }
+  #ldp_happybirthday_vne_2019 .ldp-wrap-spin-wheel .box-title-spin-wheel .title-note {
+    font-size: 16px; } }
+@media (max-width: 680px) {
+  #ldp_happybirthday_vne_2019 .ldp-title-box .box-inner {
+    min-width: 300px;
+    height: 38px;
+    line-height: 38px;
+    border-radius: 38px; }
+  #ldp_happybirthday_vne_2019 .ldp-title-box .ldp-title-name {
+    height: 34px;
+    line-height: 34px;
+    border-radius: 34px;
+    font-size: 17px; }
+  #ldp_happybirthday_vne_2019 .ldp-list-procate .ldp-wrapper-list .list-pro .item-pro .box-title-item .box-price .price-current,
+  #ldp_happybirthday_vne_2019 .ldp-list-procate .ldp-wrapper-list .list-pro .item-pro .box-title-item .box-price .price-sale {
+    display: block;
+    width: 100%;
+    float: none;
+    font-size: 13px;
+    line-height: 25px;
+    clear: both; }
+  #ldp_happybirthday_vne_2019 .ldp-list-procate .ldp-wrapper-list .list-pro .item-pro .box-title-item .box-price .price-old {
+    padding-left: 0;
+    font-size: 12px;
+    line-height: 14px; }
+  #ldp_happybirthday_vne_2019 .ldp-list-procate .ldp-wrapper-list .list-pro .item-pro .box-title-item .box-price .percent-discount {
+    line-height: 14px; }
+  #ldp_happybirthday_vne_2019 .ldp-wrapper-code .list-banner-code {
+    padding-left: 10px;
+    padding-right: 10px; }
+    #ldp_happybirthday_vne_2019 .ldp-wrapper-code .list-banner-code .item-banner-code {
+      width: calc(100% / 2 - 5px);
+      margin-right: 6px;
+      margin-bottom: 6px; }
+      #ldp_happybirthday_vne_2019 .ldp-wrapper-code .list-banner-code .item-banner-code:nth-child(3n) {
+        margin-right: 6px; }
+      #ldp_happybirthday_vne_2019 .ldp-wrapper-code .list-banner-code .item-banner-code:nth-child(2n) {
+        margin-right: 0; } }
+@media (max-width: 630px) {
+  .ldp-wrap-popups .wrap-list-gift .item-gift {
+    width: calc(100% / 4 - 10px); }
+    .ldp-wrap-popups .wrap-list-gift .item-gift:nth-child(5n) {
+      margin-right: 9px; }
+    .ldp-wrap-popups .wrap-list-gift .item-gift:nth-child(4n) {
+      margin-right: 0; } }
+@media (max-width: 600px) {
+  #ldp_happybirthday_vne_2019 .ldp-wrap-spin-wheel .wrap-table-spin-wheel table {
+    min-width: 420px; }
+    #ldp_happybirthday_vne_2019 .ldp-wrap-spin-wheel .wrap-table-spin-wheel table td.the_wheel {
+      width: 420px;
+      height: 420px;
+      background-size: 385px 385px; }
+  #ldp_happybirthday_vne_2019 .ldp-wrap-spin-wheel .wrap-table-spin-wheel .power_controls {
+    width: 420px;
+    height: 420px; }
+    #ldp_happybirthday_vne_2019 .ldp-wrap-spin-wheel .wrap-table-spin-wheel .power_controls #canvas {
+      width: 420px;
+      height: 420px; } }
+@media (max-width: 500px) {
+  .ldp-wrap-popups .wrap-list-gift .item-gift {
+    width: calc(100% / 3 - 10px); }
+    .ldp-wrap-popups .wrap-list-gift .item-gift:nth-child(4n) {
+      margin-right: 9px; }
+    .ldp-wrap-popups .wrap-list-gift .item-gift:nth-child(3n) {
+      margin-right: 0; } }
+@media (max-width: 500px) {
+  #ldp_happybirthday_vne_2019 .ldp-list-procate .ldp-wrapper-list .list-pro .item-pro {
+    width: calc(100% / 2 - 6px);
+    margin-right: 8px; }
+    #ldp_happybirthday_vne_2019 .ldp-list-procate .ldp-wrapper-list .list-pro .item-pro:nth-child(3n) {
+      margin-right: 8px; }
+    #ldp_happybirthday_vne_2019 .ldp-list-procate .ldp-wrapper-list .list-pro .item-pro:nth-child(2n) {
+      margin-right: 0; } }
+@media (max-width: 430px) {
+  #ldp_happybirthday_vne_2019 .ldp-wrap-spin-wheel .wrap-table-spin-wheel table {
+    min-width: 360px; }
+    #ldp_happybirthday_vne_2019 .ldp-wrap-spin-wheel .wrap-table-spin-wheel table td.the_wheel {
+      width: 360px;
+      height: 360px;
+      background-size: 332px 332px; }
+  #ldp_happybirthday_vne_2019 .ldp-wrap-spin-wheel .wrap-table-spin-wheel .power_controls {
+    width: 360px;
+    height: 360px; }
+    #ldp_happybirthday_vne_2019 .ldp-wrap-spin-wheel .wrap-table-spin-wheel .power_controls #canvas {
+      width: 360px;
+      height: 360px; }
+  #ldp_happybirthday_vne_2019 .ldp-wrap-spin-wheel .wrap-table-spin-wheel .btn-spin,
+  #ldp_happybirthday_vne_2019 .ldp-wrap-spin-wheel .wrap-table-spin-wheel #spin_button {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    background-size: 100% 100%; }
+  #ldp_happybirthday_vne_2019 .ldp-wrap-spin-wheel .wrap-table-spin-wheel #prizePointer {
+    width: 22px; } }
+@media (max-width: 370px) {
+  #ldp_happybirthday_vne_2019 .ldp-wrap-spin-wheel .wrap-table-spin-wheel table {
+    min-width: 320px; }
+    #ldp_happybirthday_vne_2019 .ldp-wrap-spin-wheel .wrap-table-spin-wheel table td.the_wheel {
+      width: 320px;
+      height: 320px;
+      background-size: 294px 294px; }
+  #ldp_happybirthday_vne_2019 .ldp-wrap-spin-wheel .wrap-table-spin-wheel .power_controls {
+    width: 320px;
+    height: 320px; }
+    #ldp_happybirthday_vne_2019 .ldp-wrap-spin-wheel .wrap-table-spin-wheel .power_controls #canvas {
+      width: 320px;
+      height: 320px; }
+  #ldp_happybirthday_vne_2019 .ldp-wrap-spin-wheel .wrap-table-spin-wheel .btn-spin,
+  #ldp_happybirthday_vne_2019 .ldp-wrap-spin-wheel .wrap-table-spin-wheel #spin_button {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    background-size: 100% 100%; }
+  #ldp_happybirthday_vne_2019 .ldp-wrap-spin-wheel .wrap-table-spin-wheel #prizePointer {
+    width: 22px; } }
+@media (max-width: 420px) {
+  #ldp_happybirthday_vne_2019 .ldp-flash-sale .ldp-title-flashsale .box-inner {
+    width: 300px;
+    height: 90px;
+    background: url(../images/bg-title-flashsale.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-transform: uppercase;
+    background-size: 100% auto; }
+    #ldp_happybirthday_vne_2019 .ldp-flash-sale .ldp-title-flashsale .box-inner .ldp-title-name {
+      line-height: 26px;
+      font-size: 16px;
+      margin-bottom: 5px; }
+    #ldp_happybirthday_vne_2019 .ldp-flash-sale .ldp-title-flashsale .box-inner .wrap-time-counter-down .timer .attr-time {
+      height: 40px; }
+      #ldp_happybirthday_vne_2019 .ldp-flash-sale .ldp-title-flashsale .box-inner .wrap-time-counter-down .timer .attr-time .time-value {
+        height: 21px;
+        line-height: 24px;
+        font-size: 14px; }
+      #ldp_happybirthday_vne_2019 .ldp-flash-sale .ldp-title-flashsale .box-inner .wrap-time-counter-down .timer .attr-time .time-text {
+        height: 15px;
+        line-height: 15px;
+        font-size: 9px; }
+  #ldp_happybirthday_vne_2019 .ldp-wrap-deal .ldp-wrapper-pro-cate {
+    padding: 15px 15px 15px; }
+    #ldp_happybirthday_vne_2019 .ldp-wrap-deal .ldp-wrapper-pro-cate .list-pro .item-pro .box-inner .title-asl .box-price {
+      height: 34px; }
+      #ldp_happybirthday_vne_2019 .ldp-wrap-deal .ldp-wrapper-pro-cate .list-pro .item-pro .box-inner .title-asl .box-price .price-sale {
+        position: relative;
+        display: block;
+        width: 100%;
+        text-align: center;
+        line-height: 18px; }
+      #ldp_happybirthday_vne_2019 .ldp-wrap-deal .ldp-wrapper-pro-cate .list-pro .item-pro .box-inner .title-asl .box-price .price-old {
+        position: relative;
+        display: block;
+        width: 100%;
+        text-align: center;
+        line-height: 16px; } }
+@media (max-width: 400px) {
+  .ldp-wrap-popups .wrap-list-gift .item-gift {
+    width: calc(100% / 2 - 10px); }
+    .ldp-wrap-popups .wrap-list-gift .item-gift:nth-child(3n) {
+      margin-right: 9px; }
+    .ldp-wrap-popups .wrap-list-gift .item-gift:nth-child(2n) {
+      margin-right: 0; }
+    .ldp-wrap-popups .wrap-list-gift .item-gift .inner-item .box-img {
+      width: 100%;
+      height: auto; } }
